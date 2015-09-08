@@ -1,0 +1,4080 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>SCESubstations.kml</name>
+	<Style id="blueColor1">
+		<IconStyle>
+			<color>ffff5500</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/square.png</href>
+			</Icon>
+			<hotSpot x="0.3" y="0.9" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>99ff5500</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>99ff5500</color>
+		</PolyStyle>
+	</Style>
+	<Style id="blueColor2">
+		<IconStyle>
+			<color>99ff5500</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/square.png</href>
+			</Icon>
+			<hotSpot x="0.3" y="0.9" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LineStyle>
+			<color>99ff5500</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>99ff5500</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="subColor">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueColor1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueColor2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>SCE Substations</name>
+		<open>1</open>
+		<description>The SCE Substations layer contains the location of the SCE distribution substations and provides pertinent information on the substations that can be used for the development of generation projects.</description>
+		<Placemark>
+			<name>2260</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 14.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.25813,37.120758,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2557</name>
+			<description><![CDATA[Voltages: 115/33kV, 33/12kV<br/>Allocated Gen.: 12.0MVA, 0.0MVA<br/>Queued Gen.: 60.7MVA, 0.0MVA<br/><b>Max Available Capacity: 11.3MVA, 5.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.91264,37.648269,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2560</name>
+			<description><![CDATA[Voltage: 55/16kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 11.2MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.19203,38.058597,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2571</name>
+			<description><![CDATA[Voltage: 115/12kV<br/>Allocated Gen.: 0.2MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 4.8MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.67651,37.559376,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2582</name>
+			<description><![CDATA[Voltage: 55/12kV<br/>Allocated Gen.: 2.1MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 1.26MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.39873,37.615208,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2583</name>
+			<description><![CDATA[Voltage: 2.4/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 7.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.11206,37.804048,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2598</name>
+			<description><![CDATA[Voltage: 55/12kV<br/>Allocated Gen.: 1.1MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 19.4MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.45518,37.352914,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2610</name>
+			<description><![CDATA[Voltages: 16/12kV, 16/16kV<br/>Allocated Gen.: 0.0MVA, 0.0MVA<br/>Queued Gen.: 0.0MVA, 0.1MVA<br/><b>Max Available Capacity: 1.0MVA, 5.4MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.23154,38.253533,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2611</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 44.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.96466,37.636687,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2612</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 21.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.06062,37.664118,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5012</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 0.5MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 55.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.11046,34.037132,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5013</name>
+			<description><![CDATA[Voltages: 66/12kV, 66/16kV<br/>Allocated Gen.: 2.8MVA, 0.2MVA<br/>Queued Gen.: 0.0MVA, 0.0MVA<br/><b>Max Available Capacity: 75.6MVA, 44.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.98062,34.105019,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5014</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 2.7MVA<br/>Queued Gen.: 0.2MVA<br/><b>Max Available Capacity: 80.65MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.95035,34.008346,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5015</name>
+			<description><![CDATA[Voltages: 16/33kV, 66/16kV<br/>Allocated Gen.: 0.0MVA, 1.5MVA<br/>Queued Gen.: 0.0MVA, 0.0MVA<br/><b>Max Available Capacity: 14.0MVA, 26.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.18702,34.220836,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5021</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 6.3MVA<br/>Queued Gen.: 0.8MVA<br/><b>Max Available Capacity: 82.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.33217,33.869995,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5023</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 8.6MVA<br/>Queued Gen.: 0.1MVA<br/><b>Max Available Capacity: 73.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.37246,33.895666,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5033</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.8MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 55.45MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.24289,36.305507,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5035</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 17.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.08511,35.840787,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5040</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 7.0MVA<br/><b>Max Available Capacity: 2.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-115.45387,33.81057,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5041</name>
+			<description><![CDATA[Voltages: 115/33kV, 33/12kV<br/>Allocated Gen.: 11.1MVA, 0.3MVA<br/>Queued Gen.: 3.2MVA, 0.0MVA<br/><b>Max Available Capacity: 97.7MVA, 10.45MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.79701,35.652732,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5042</name>
+			<description><![CDATA[Voltage: 115/33kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 56.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.54173,34.989701,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5043</name>
+			<description><![CDATA[Voltage: 220/16kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 11.2MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-115.5161,35.254149,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5051</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 4.7MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 107.3MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.57453,34.422775,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5055</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.2MVA<br/><b>Max Available Capacity: 11.05MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.88153,34.467496,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5056</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 2.0MVA<br/>Queued Gen.: 2.1MVA<br/><b>Max Available Capacity: 101.9MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.90454,34.280834,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5060</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 2.6MVA<br/>Queued Gen.: 0.1MVA<br/><b>Max Available Capacity: 109.3MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.63894,34.121125,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5062</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 4.7MVA<br/>Queued Gen.: 0.6MVA<br/><b>Max Available Capacity: 78.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.67867,33.997792,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5067</name>
+			<description><![CDATA[Voltage: 115/12kV<br/>Allocated Gen.: 0.2MVA<br/>Queued Gen.: 6.8MVA<br/><b>Max Available Capacity: 49.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.57779,33.934739,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5068</name>
+			<description><![CDATA[Voltage: 16/16kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 6.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-114.96692,34.845276,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5069</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.3MVA<br/>Queued Gen.: 1.0MVA<br/><b>Max Available Capacity: 54.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.56507,34.008334,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5070</name>
+			<description><![CDATA[Voltage: 115/12kV<br/>Allocated Gen.: 1.7MVA<br/>Queued Gen.: 0.6MVA<br/><b>Max Available Capacity: 70.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.15586,33.74113,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5073</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.2MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 50.2MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.17697,33.880038,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5074</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 2.0MVA<br/>Queued Gen.: 0.3MVA<br/><b>Max Available Capacity: 53.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.1468,33.97733,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5081</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.7MVA<br/>Queued Gen.: 0.1MVA<br/><b>Max Available Capacity: 86.95MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.98216,33.808685,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5082</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 2.3MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 98.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.8345,33.815031,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5083</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.8MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 55.2MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.64244,33.666742,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5084</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 2.5MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 81.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.10569,33.928668,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5085</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 71.8MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.85145,33.71474,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5086</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 8.5MVA<br/>Queued Gen.: 0.2MVA<br/><b>Max Available Capacity: 36.1MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.94497,33.686554,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5087</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.6MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 26.4MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.92136,33.946114,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5088</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 5.4MVA<br/>Queued Gen.: 1.8MVA<br/><b>Max Available Capacity: 152.8MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.76728,33.667154,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5095</name>
+			<description><![CDATA[Voltage: 115/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 56.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.11478,33.542044,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5096</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 6.4MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 77.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.53088,34.090568,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5101</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 8.4MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 103.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.14832,34.091331,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5105</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 1.2MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 82.8MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.03873,34.105933,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5106</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 1.1MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 89.3MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.02585,34.143594,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5107</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 1.1MVA<br/>Queued Gen.: 0.3MVA<br/><b>Max Available Capacity: 69.85MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.17194,33.9994,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5108</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.5MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 47.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.96951,34.021957,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5110</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 18.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.18642,34.044664,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5115</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 0.7MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 55.3MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.08507,34.162507,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5116</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 3.3MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 97.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.08128,34.051238,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5130</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 0.5MVA<br/>Queued Gen.: 0.2MVA<br/><b>Max Available Capacity: 44.1MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.20975,34.205139,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5136</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 0.1MVA<br/>Queued Gen.: 0.2MVA<br/><b>Max Available Capacity: 17.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.12951,34.045567,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5139</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.7MVA<br/>Queued Gen.: 1.0MVA<br/><b>Max Available Capacity: 25.3MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.56616,34.089732,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5141</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 1.8MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 93.4MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.08305,34.091998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5158</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 0.4MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 83.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.17119,34.199449,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5161</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 0.4MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 75.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.02618,34.07112,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5164</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 2.7MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 75.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.16164,34.045554,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5171</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 1.6MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 93.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.98702,34.133617,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5175</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 1.4MVA<br/>Queued Gen.: 0.5MVA<br/><b>Max Available Capacity: 104.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.12799,34.005168,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5176</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 4.4MVA<br/>Queued Gen.: 1.5MVA<br/><b>Max Available Capacity: 50.1MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.6185,33.97011,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5179</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 1.0MVA<br/>Queued Gen.: 0.1MVA<br/><b>Max Available Capacity: 79.9MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.08146,34.121673,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5184</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.5MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 80.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.95438,34.045985,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5185</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.5MVA<br/>Queued Gen.: 0.1MVA<br/><b>Max Available Capacity: 93.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.87241,34.118417,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5186</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.7MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 100.1MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.87847,34.09261,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5188</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 6.1MVA<br/>Queued Gen.: 0.2MVA<br/><b>Max Available Capacity: 49.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.93282,34.113513,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5191</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 10.8MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 64.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.99034,34.050289,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5192</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 4.8MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 51.2MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.9259,34.086957,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5193</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 13.3MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 49.1MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.90704,34.049588,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5195</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 10.3MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 45.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.92775,34.008073,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5196</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.8MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 93.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.88839,33.998623,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5201</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 1.9MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 141.3MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.39634,34.073982,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5204</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 2.2MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 70.2MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.40251,34.014569,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5207</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 1.3MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 88.3MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.397,33.9192,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5208</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 0.1MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 62.3MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.36118,34.090564,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5211</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 0.1MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 55.9MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.358,33.9656,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5213</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 0.6MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 44.2MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.3477,33.942437,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5217</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 0.3MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 55.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.46507,34.006367,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5226</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 0.8MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 44.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.31331,33.90234,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5231</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 1.1MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 54.9MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.48842,34.016956,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5232</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 0.6MVA<br/>Queued Gen.: 1.1MVA<br/><b>Max Available Capacity: 76.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.37437,33.858612,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5233</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 0.6MVA<br/>Queued Gen.: 0.1MVA<br/><b>Max Available Capacity: 55.3MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.32292,33.792079,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5235</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 0.1MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 27.9MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.35795,33.997026,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5236</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 1.9MVA<br/>Queued Gen.: 0.1MVA<br/><b>Max Available Capacity: 98.8MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.63032,34.149205,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5239</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 13.7MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 14.3MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.71509,34.106674,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5241</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 1.3MVA<br/>Queued Gen.: 0.9MVA<br/><b>Max Available Capacity: 63.3MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.33508,33.918904,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5242</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 0.3MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 83.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.47195,34.025774,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5244</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 0.7MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 44.1MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.362,33.9158,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5246</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 0.5MVA<br/>Queued Gen.: 0.6MVA<br/><b>Max Available Capacity: 43.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.37523,33.872455,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5250</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 1.5MVA<br/>Queued Gen.: 8.3MVA<br/><b>Max Available Capacity: 12.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.45222,34.047424,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5252</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 0.3MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 50.1MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.35451,33.80888,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5264</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 0.8MVA<br/>Queued Gen.: 0.4MVA<br/><b>Max Available Capacity: 54.8MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.37181,33.766959,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5269</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 1.3MVA<br/>Queued Gen.: 0.1MVA<br/><b>Max Available Capacity: 99.4MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.34341,33.830848,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5271</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 0.1MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 22.3MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.43646,33.977791,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5272</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 1.3MVA<br/>Queued Gen.: 0.1MVA<br/><b>Max Available Capacity: 39.1MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.77676,34.045005,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5275</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 0.7MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 21.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.38901,33.746081,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5277</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 0.3MVA<br/>Queued Gen.: 0.1MVA<br/><b>Max Available Capacity: 27.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.68496,34.035209,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5301</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 6.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.24262,37.208831,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5302</name>
+			<description><![CDATA[Voltage: 220/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 3.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.30624,37.198838,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5303</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.8MVA<br/>Queued Gen.: 1.8MVA<br/><b>Max Available Capacity: 53.4MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.20789,36.149116,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5304</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.9MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 12.1MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.21498,35.748898,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5305</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 4.4MVA<br/>Queued Gen.: 6.3MVA<br/><b>Max Available Capacity: 73.3MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.24261,35.775509,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5306</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.1MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 22.9MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.25261,35.893009,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5308</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.4MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 3.8MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.69509,35.725788,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5309</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 2.8MVA<br/>Queued Gen.: 1.0MVA<br/><b>Max Available Capacity: 24.2MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.43901,36.326618,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5310</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 5.3MVA<br/>Queued Gen.: 4.3MVA<br/><b>Max Available Capacity: 102.4MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.64929,36.323563,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5311</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 1.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.51897,35.517177,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5312</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 2.2MVA<br/>Queued Gen.: 1.1MVA<br/><b>Max Available Capacity: 108.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.33234,36.283283,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5315</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.1MVA<br/>Queued Gen.: 3.0MVA<br/><b>Max Available Capacity: 51.9MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.47678,36.239674,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5316</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.1MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 5.9MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.02594,36.404116,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5317</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.7MVA<br/>Queued Gen.: 7.5MVA<br/><b>Max Available Capacity: 38.55MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.09122,36.203838,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5318</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 3.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.42564,35.307736,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5319</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.3MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 18.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.15927,35.806899,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5320</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.1MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 29.2MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.39651,36.123561,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5321</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 19.2MVA<br/><b>Max Available Capacity: 36.8MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.30289,35.965785,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5322</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 5.0MVA<br/>Queued Gen.: 0.9MVA<br/><b>Max Available Capacity: 32.1MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.144,35.995232,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5323</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 10.6MVA<br/>Queued Gen.: 8.8MVA<br/><b>Max Available Capacity: 92.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.03483,36.066617,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5325</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.8MVA<br/>Queued Gen.: 4.5MVA<br/><b>Max Available Capacity: 17.87MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.05733,36.14634,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5326</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.5MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 20.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.02066,35.964954,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5327</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 7.1MVA<br/>Queued Gen.: 0.2MVA<br/><b>Max Available Capacity: 48.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.30456,36.052455,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5328</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 10.2MVA<br/>Queued Gen.: 2.1MVA<br/><b>Max Available Capacity: 99.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.33039,36.214119,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5329</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.3MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 43.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.18984,36.41634,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5330</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 3.9MVA<br/>Queued Gen.: 5.3MVA<br/><b>Max Available Capacity: 46.8MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.13288,36.324951,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5331</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 5.6MVA<br/>Queued Gen.: 0.5MVA<br/><b>Max Available Capacity: 49.9MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.27905,36.329571,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5332</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 0.45MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.49036,35.413846,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5333</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.9MVA<br/>Queued Gen.: 4.5MVA<br/><b>Max Available Capacity: 6.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.1815,36.082177,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5336</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.5MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 8.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.20955,35.84551,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5337</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 3.9MVA<br/>Queued Gen.: 3.1MVA<br/><b>Max Available Capacity: 93.8MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.36679,36.341896,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5343</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 18.75MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.12733,35.734676,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5346</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.3MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 12.2MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.29706,36.414951,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5347</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.3MVA<br/>Queued Gen.: 0.9MVA<br/><b>Max Available Capacity: 13.8MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.4753,35.635938,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5348</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 12.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.14539,35.882732,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5350</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.5MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 8.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.88677,36.458835,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5351</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.3MVA<br/>Queued Gen.: 0.1MVA<br/><b>Max Available Capacity: 11.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.82037,36.127448,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5353</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.1MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 12.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.26202,35.666897,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5356</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.1MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 13.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.43314,35.772727,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5357</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.4MVA<br/>Queued Gen.: 2.5MVA<br/><b>Max Available Capacity: 14.85MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.49481,35.109687,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5358</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.3MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 27.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.37981,35.123577,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5365</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.9MVA<br/>Queued Gen.: 0.2MVA<br/><b>Max Available Capacity: 54.9MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.1941,34.509979,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5372</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 3.1MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 24.9MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-120.05121,34.467637,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5374</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 2.0MVA<br/>Queued Gen.: 3.0MVA<br/><b>Max Available Capacity: 51.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.31305,36.35718,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5461</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 28.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.60783,34.35389,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5503</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 1.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 41.4MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.51429,34.408887,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5504</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 0.6MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 55.4MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.30872,34.363053,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5505</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 24.4MVA<br/>Queued Gen.: 2.0MVA<br/><b>Max Available Capacity: 29.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.09621,34.205285,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5506</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 0.4MVA<br/>Queued Gen.: 0.1MVA<br/><b>Max Available Capacity: 55.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.2215,34.18167,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5508</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 4.2MVA<br/>Queued Gen.: 32.1MVA<br/><b>Max Available Capacity: 19.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.28841,34.718315,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5510</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 4.3MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 46.1MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.9201,34.407497,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5511</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 15.9MVA<br/>Queued Gen.: 3.7MVA<br/><b>Max Available Capacity: 2.9MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.18619,35.054134,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5512</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 7.2MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.82686,34.790644,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5514</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 14.4MVA<br/>Queued Gen.: 5.7MVA<br/><b>Max Available Capacity: 69.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.14591,34.700818,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5517</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 3.1MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 69.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.00565,34.218338,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5518</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.0MVA<br/>Queued Gen.: 19.8MVA<br/><b>Max Available Capacity: 35.2MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.96923,34.616099,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5519</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 1.3MVA<br/>Queued Gen.: 0.3MVA<br/><b>Max Available Capacity: 54.4MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.7612,34.147225,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5522</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 8.5MVA<br/>Queued Gen.: 4.6MVA<br/><b>Max Available Capacity: 87.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.16458,34.642146,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5523</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 26.5MVA<br/>Queued Gen.: 8.0MVA<br/><b>Max Available Capacity: 0.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.37036,35.073025,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5525</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 1.4MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 54.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.78599,34.185052,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5526</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 2.3MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 25.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.24178,34.446103,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5530</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.3MVA<br/>Queued Gen.: 5.0MVA<br/><b>Max Available Capacity: 0.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.96979,34.763318,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5531</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 1.9MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 58.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.68569,34.423329,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5532</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 3.0MVA<br/>Queued Gen.: 1.6MVA<br/><b>Max Available Capacity: 99.4MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.71758,34.279114,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5534</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 2.9MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 41.9MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.16621,34.300559,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5536</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 0.7MVA<br/>Queued Gen.: 1.0MVA<br/><b>Max Available Capacity: 26.3MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.01066,34.264171,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5539</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 3.8MVA<br/>Queued Gen.: 0.4MVA<br/><b>Max Available Capacity: 68.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.14758,34.567492,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5541</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.6MVA<br/>Queued Gen.: 12.8MVA<br/><b>Max Available Capacity: 6.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.23647,34.864978,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5542</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 3.6MVA<br/>Queued Gen.: 0.1MVA<br/><b>Max Available Capacity: 97.1MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.45339,34.416179,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5545</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.4MVA<br/>Queued Gen.: 4.0MVA<br/><b>Max Available Capacity: 3.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.96917,34.689572,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5546</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 10.6MVA<br/>Queued Gen.: 1.0MVA<br/><b>Max Available Capacity: 72.4MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.62234,34.496986,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5547</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 14.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.95284,34.940532,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5548</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 13.4MVA<br/>Queued Gen.: 14.6MVA<br/><b>Max Available Capacity: 0.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.0963,34.647599,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5550</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 1.3MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 54.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.43494,34.283781,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5552</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 3.7MVA<br/>Queued Gen.: 0.5MVA<br/><b>Max Available Capacity: 38.2MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.15622,34.173336,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5555</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 1.7MVA<br/>Queued Gen.: 0.1MVA<br/><b>Max Available Capacity: 35.2MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.70203,34.236671,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5556</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.1MVA<br/>Queued Gen.: 1.5MVA<br/><b>Max Available Capacity: 13.4MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.50218,34.774173,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5557</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 5.6MVA<br/>Queued Gen.: 1.6MVA<br/><b>Max Available Capacity: 93.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.9314,34.194606,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5560</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 1.3MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 54.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.42426,34.449561,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5561</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.9MVA<br/>Queued Gen.: 1.1MVA<br/><b>Max Available Capacity: 10.48MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.15646,34.836925,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5563</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 2.5MVA<br/>Queued Gen.: 1.6MVA<br/><b>Max Available Capacity: 40.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.0926,34.143773,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5564</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 5.5MVA<br/>Queued Gen.: 0.6MVA<br/><b>Max Available Capacity: 83.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.05897,34.566188,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5566</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 4.0MVA<br/>Queued Gen.: 0.5MVA<br/><b>Max Available Capacity: 51.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.22807,34.65972,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5567</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.8MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 4.2MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.71812,34.578602,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5568</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 4.9MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 51.1MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.58009,34.45694,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5569</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 2.6MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 109.4MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.87177,34.186394,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5570</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 3.6MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 46.8MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.81792,34.447774,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5572</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 0.1MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 22.3MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-120.20098,34.475789,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5576</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 2.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 110.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.5587,34.379161,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5577</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 3.1MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 64.1MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.24178,34.256393,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5579</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 0.2MVA<br/>Queued Gen.: 0.1MVA<br/><b>Max Available Capacity: 55.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.05511,34.356105,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5580</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 4.6MVA<br/>Queued Gen.: 1.4MVA<br/><b>Max Available Capacity: 100.4MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.77926,34.278892,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5584</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.1MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 27.9MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.36009,34.14251,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5585</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 1.9MVA<br/>Queued Gen.: 0.9MVA<br/><b>Max Available Capacity: 47.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.7618,34.451942,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5587</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 3.3MVA<br/>Queued Gen.: 2.0MVA<br/><b>Max Available Capacity: 78.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.17594,34.226948,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5594</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 5.7MVA<br/>Queued Gen.: 4.8MVA<br/><b>Max Available Capacity: 90.3MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.51299,34.443008,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5596</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 1.3MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 49.1MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.8732,34.438148,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5597</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 2.5MVA<br/>Queued Gen.: 0.1MVA<br/><b>Max Available Capacity: 98.2MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.83509,34.161761,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5601</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 2.1MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 98.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.45561,34.113068,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5603</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 3.5MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 69.3MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.81403,34.047969,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5604</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 7.0MVA<br/>Queued Gen.: 3.1MVA<br/><b>Max Available Capacity: 90.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.24421,34.062236,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5608</name>
+			<description><![CDATA[Voltages: 66/12kV, 66/33kV<br/>Allocated Gen.: 4.0MVA, 0.0MVA<br/>Queued Gen.: 6.4MVA, 0.0MVA<br/><b>Max Available Capacity: 74.4MVA, 112.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.2781,34.103344,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5610</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 3.7MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 29.05MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.31199,34.060292,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5611</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 2.8MVA<br/>Queued Gen.: 1.4MVA<br/><b>Max Available Capacity: 71.8MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.7309,34.121406,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5614</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.1MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 99.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.73344,33.99541,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5615</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 13.3MVA<br/>Queued Gen.: 3.3MVA<br/><b>Max Available Capacity: 84.2MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.48814,34.077892,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5617</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.5MVA<br/>Queued Gen.: 0.2MVA<br/><b>Max Available Capacity: 77.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.77463,34.056809,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5618</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 3.6MVA<br/>Queued Gen.: 3.2MVA<br/><b>Max Available Capacity: 94.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.6656,34.041401,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5619</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 3.2MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 97.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.18671,34.108066,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5620</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 2.1MVA<br/>Queued Gen.: 2.3MVA<br/><b>Max Available Capacity: 107.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.40032,34.04918,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5621</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 10.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.28504,34.242787,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5626</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.3MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 54.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.52283,33.9589,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5628</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.9MVA<br/>Queued Gen.: 1.3MVA<br/><b>Max Available Capacity: 52.8MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.111,34.027451,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5629</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 2.3MVA<br/>Queued Gen.: 0.1MVA<br/><b>Max Available Capacity: 53.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.17837,34.060847,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5631</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 2.3MVA<br/>Queued Gen.: 1.0MVA<br/><b>Max Available Capacity: 97.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.69784,34.092784,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5633</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 3.1MVA<br/>Queued Gen.: 0.5MVA<br/><b>Max Available Capacity: 63.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.80776,34.117112,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5635</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 3.3MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 67.1MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.65034,34.093697,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5636</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 2.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 98.8MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.05087,34.010571,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5639</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.6MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 91.2MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.72392,34.040828,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5640</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 10.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.24226,34.233899,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5645</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 3.1MVA<br/>Queued Gen.: 5.6MVA<br/><b>Max Available Capacity: 69.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.76728,34.090007,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5648</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.3MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 99.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.67628,34.044747,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5655</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 4.1MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 68.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.85506,34.008899,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5656</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 2.3MVA<br/>Queued Gen.: 0.4MVA<br/><b>Max Available Capacity: 53.3MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.50672,34.012235,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5659</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 7.7MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 65.1MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.59311,33.997518,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5661</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 10.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.10379,34.207861,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5663</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 17.9MVA<br/>Queued Gen.: 9.5MVA<br/><b>Max Available Capacity: 84.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.5683,34.047181,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5664</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 5.8MVA<br/>Queued Gen.: 5.9MVA<br/><b>Max Available Capacity: 64.3MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.52672,34.049179,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5665</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 6.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-114.27936,34.388708,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5667</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 99.8MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.58371,34.120955,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5670</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 2.6MVA<br/>Queued Gen.: 0.4MVA<br/><b>Max Available Capacity: 103.4MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.25199,34.149733,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5672</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 11.9MVA<br/>Queued Gen.: 2.0MVA<br/><b>Max Available Capacity: 114.9MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.40949,34.135287,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5674</name>
+			<description><![CDATA[Voltage: 66/33kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 26.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-114.17272,34.293624,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5677</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 3.3MVA<br/>Queued Gen.: 2.8MVA<br/><b>Max Available Capacity: 114.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.59283,34.084457,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5678</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 1.5MVA<br/><b>Max Available Capacity: 13.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-114.41691,34.478344,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5679</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 9.9MVA<br/>Queued Gen.: 0.2MVA<br/><b>Max Available Capacity: 101.9MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.53894,33.847794,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5680</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 2.2MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 42.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.8115,34.002122,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5686</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 6.1MVA<br/>Queued Gen.: 6.3MVA<br/><b>Max Available Capacity: 43.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.69533,33.964179,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5699</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 10.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.1948,34.2667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5701</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.3MVA<br/>Queued Gen.: 5.0MVA<br/><b>Max Available Capacity: 50.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.24809,33.835782,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5704</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 25.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.22451,33.743629,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5708</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.5MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 40.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.1722,33.793316,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5711</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 3.3MVA<br/>Queued Gen.: 2.7MVA<br/><b>Max Available Capacity: 61.2MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.21674,33.863072,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5712</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 2.7MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 53.3MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.21649,33.819364,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5714</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 1.8MVA<br/>Queued Gen.: 1.2MVA<br/><b>Max Available Capacity: 93.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.19608,33.963799,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5718</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 0.6MVA<br/>Queued Gen.: 0.3MVA<br/><b>Max Available Capacity: 29.1MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.22674,33.996129,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5720</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 0.6MVA<br/>Queued Gen.: 0.2MVA<br/><b>Max Available Capacity: 64.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.26475,33.89485,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5721</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 22.4MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.22309,33.762309,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5722</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 55.7MVA<br/>Queued Gen.: 0.3MVA<br/><b>Max Available Capacity: 31.2MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.20646,33.763909,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5723</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.1MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 55.9MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.12014,33.883824,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5726</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.3MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 47.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.14173,33.790852,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5738</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 2.4MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 42.4MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.1909,33.81141,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5739</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 0.7MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 55.3MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.20647,33.983334,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5749</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 0.6MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 47.4MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.21563,33.928348,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5750</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 0.1MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 27.9MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.23144,33.956795,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5751</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 0.9MVA<br/>Queued Gen.: 0.2MVA<br/><b>Max Available Capacity: 43.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.27563,33.860017,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5753</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 5.8MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 22.2MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.16805,33.811416,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5754</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 8.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 36.8MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.1434,33.874459,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5755</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.0MVA<br/>Queued Gen.: 0.7MVA<br/><b>Max Available Capacity: 54.3MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.19865,33.790247,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5756</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 1.6MVA<br/>Queued Gen.: 1.7MVA<br/><b>Max Available Capacity: 75.1MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.20657,33.900559,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5758</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.1MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 33.65MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.26216,33.807876,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5768</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.2MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 44.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.15234,33.767281,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5771</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.6MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 54.4MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.12135,33.84003,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5772</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.2MVA<br/>Queued Gen.: 1.4MVA<br/><b>Max Available Capacity: 47.8MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.14765,33.911884,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5776</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 0.5MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 77.9MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.24931,33.881008,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5781</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 8.6MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 36.2MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.26813,33.827518,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5783</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.7MVA<br/>Queued Gen.: 0.4MVA<br/><b>Max Available Capacity: 73.3MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.09136,33.87987,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5785</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 2.8MVA<br/>Queued Gen.: 0.5MVA<br/><b>Max Available Capacity: 59.1MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.16742,33.853024,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5788</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.3MVA<br/>Queued Gen.: 0.6MVA<br/><b>Max Available Capacity: 52.1MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.06314,33.855614,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5790</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.6MVA<br/>Queued Gen.: 0.5MVA<br/><b>Max Available Capacity: 36.4MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.20361,33.771454,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5791</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.4MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 44.4MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.04751,33.881153,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5796</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.9MVA<br/>Queued Gen.: 12.5MVA<br/><b>Max Available Capacity: 66.75MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.10091,33.77253,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5797</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 44.8MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.18332,33.778655,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5798</name>
+			<description><![CDATA[Voltage: 66/16kV<br/>Allocated Gen.: 0.7MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 44.1MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.39397,33.990844,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5801</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.3MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 55.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.92941,33.764277,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5802</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 2.7MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 98.1MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.80266,33.78835,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5804</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.1MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 49.3MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.83194,33.880236,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5805</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.4MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 83.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.90713,33.657308,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5807</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.7MVA<br/>Queued Gen.: 0.9MVA<br/><b>Max Available Capacity: 37.4MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.03299,33.730267,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5808</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 3.4MVA<br/>Queued Gen.: 0.3MVA<br/><b>Max Available Capacity: 97.1MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.80216,33.73426,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5809</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.7MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 54.3MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.01478,33.688907,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5811</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.3MVA<br/>Queued Gen.: 0.1MVA<br/><b>Max Available Capacity: 102.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.63366,33.62891,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5812</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.1MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 43.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.04311,33.953397,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5813</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 8.5MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 92.3MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.87967,33.910163,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5814</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.1MVA<br/>Queued Gen.: 12.6MVA<br/><b>Max Available Capacity: 71.3MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.04701,33.902795,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5816</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 2.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 70.8MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.96259,33.917153,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5818</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.6MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 90.95MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.86538,33.608135,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5819</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.4MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 90.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.02797,33.851865,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5821</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 2.3MVA<br/>Queued Gen.: 0.2MVA<br/><b>Max Available Capacity: 93.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.86856,33.694806,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5822</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.7MVA<br/>Queued Gen.: 0.6MVA<br/><b>Max Available Capacity: 65.9MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.92046,33.868092,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5823</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.3MVA<br/>Queued Gen.: 1.0MVA<br/><b>Max Available Capacity: 42.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.11119,33.959346,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5825</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.1MVA<br/>Queued Gen.: 0.3MVA<br/><b>Max Available Capacity: 54.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.95318,33.654445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5826</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.9MVA<br/>Queued Gen.: 1.5MVA<br/><b>Max Available Capacity: 41.4MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.88492,33.712818,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5828</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.3MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 41.1MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.99756,33.663075,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5829</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 2.9MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 97.9MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.74188,33.68282,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5832</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.3MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 99.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.93367,33.925118,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5833</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.6MVA<br/>Queued Gen.: 6.0MVA<br/><b>Max Available Capacity: 83.4MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.96854,33.876056,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5834</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 2.8MVA<br/>Queued Gen.: 0.1MVA<br/><b>Max Available Capacity: 45.1MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.01302,33.887596,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5835</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.6MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 96.8MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.85201,33.766683,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5836</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.6MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 41.4MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.77887,33.551827,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5837</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.9MVA<br/>Queued Gen.: 0.4MVA<br/><b>Max Available Capacity: 70.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.07251,33.809757,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5838</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 3.1MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 87.3MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.06812,34.004733,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5842</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.7MVA<br/>Queued Gen.: 0.1MVA<br/><b>Max Available Capacity: 55.2MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.98773,33.715959,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5843</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 2.2MVA<br/>Queued Gen.: 0.1MVA<br/><b>Max Available Capacity: 78.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.86142,33.79017,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5845</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.5MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 89.1MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.69836,33.609444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5850</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.7MVA<br/>Queued Gen.: 4.9MVA<br/><b>Max Available Capacity: 89.4MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.05923,33.948628,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5851</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.7MVA<br/>Queued Gen.: 3.9MVA<br/><b>Max Available Capacity: 95.4MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.91214,33.686805,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5852</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 3.3MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 64.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.13979,33.940849,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5853</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.6MVA<br/>Queued Gen.: 0.8MVA<br/><b>Max Available Capacity: 55.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.92025,33.714248,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5854</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.1MVA<br/>Queued Gen.: 0.1MVA<br/><b>Max Available Capacity: 43.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.95538,33.738182,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5856</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.3MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 44.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.85912,33.755853,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5861</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 2.7MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 98.1MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.84905,33.732763,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5862</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 11.2MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 51.2MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.90188,33.745713,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5865</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 2.4MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 109.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.82841,33.688446,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5866</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.7MVA<br/>Queued Gen.: 0.3MVA<br/><b>Max Available Capacity: 79.2MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.02728,33.817517,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5869</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.0MVA<br/>Queued Gen.: 0.7MVA<br/><b>Max Available Capacity: 48.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.01234,33.773243,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5870</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.9MVA<br/>Queued Gen.: 3.2MVA<br/><b>Max Available Capacity: 73.3MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.89895,33.778072,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5872</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 4.6MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 62.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.93556,33.635646,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5873</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.2MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 36.3MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.98126,33.847396,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5874</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 2.7MVA<br/>Queued Gen.: 13.5MVA<br/><b>Max Available Capacity: 84.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.86565,33.640773,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5879</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 10.3MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 135.3MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.84752,33.671752,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5880</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.9MVA<br/>Queued Gen.: 0.3MVA<br/><b>Max Available Capacity: 81.8MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.78813,33.888916,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5886</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 47.4MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.08122,33.915181,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5887</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.3MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 83.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.74898,33.597695,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5889</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 4.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 63.2MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.87861,33.871489,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5890</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.1MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 43.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.74773,33.871835,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5892</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 3.6MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 108.4MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.99257,33.932231,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5893</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.2MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 43.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.08276,33.963001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5896</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 3.5MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 80.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.71495,33.563727,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5899</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.9MVA<br/>Queued Gen.: 0.1MVA<br/><b>Max Available Capacity: 99.8MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.97978,33.766124,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5902</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 56.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.739,33.7182,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>6521</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 3.75MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.16206,37.25689,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7004</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 5.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-114.532,33.862,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7026</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 3.75MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.24797,34.785924,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7054</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.1MVA<br/>Queued Gen.: 0.1MVA<br/><b>Max Available Capacity: 2.3MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.84416,36.45542,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7064</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 2.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-114.19386,34.347272,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7068</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.1MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 1.4MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.4684,34.308057,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7075</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 1.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.7119,34.405041,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7108</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.9MVA<br/>Queued Gen.: 0.1MVA<br/><b>Max Available Capacity: 4.3MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.28782,33.552044,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7109</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.5MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 3.25MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.21985,33.510228,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7112</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 5.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.30824,34.138254,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7113</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 0.18MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-115.26908,35.468674,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7131</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.2MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 4.8MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.17062,33.471833,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7152</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 1.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.92162,34.0884,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7155</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.1MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 1.4MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.18366,33.498869,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7173</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 1.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.85382,35.796483,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7174</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 0.75MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.90976,33.896098,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7179</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 5.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.6071,33.889183,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7181</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 2.5MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 25.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.37524,33.701906,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7205</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 1.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.97888,36.569467,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7215</name>
+			<description><![CDATA[Voltage: 16/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 1.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.33194,34.485858,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7222</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.1MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 4.9MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.33413,33.506133,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7308</name>
+			<description><![CDATA[Voltage: 25/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 0.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.28631,37.059203,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7323</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 1.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.767,35.1998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7360</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 1.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.28856,37.173694,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7367</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 0.75MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.23687,35.87998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7376</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 1.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.33196,35.011317,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7451</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.2MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 3.55MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.29578,33.513778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7461</name>
+			<description><![CDATA[Voltage: 25/25kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 7.08MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-115.3725,34.4811,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7530</name>
+			<description><![CDATA[Voltage: 2.4/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 0.3MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.77974,35.459128,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7537</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.2MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 9.8MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.12278,33.834088,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7545</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 1.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.58486,34.043743,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7548</name>
+			<description><![CDATA[Voltage: 33/16kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 10.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.06479,34.225002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7549</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 5.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.57948,34.048061,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7575</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 0.05MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.89078,35.048327,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7582</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 1.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.55951,34.064117,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7619</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 5.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.283,33.9175,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7620</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.1MVA<br/>Queued Gen.: 2.0MVA<br/><b>Max Available Capacity: 11.9MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.81032,33.927883,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7657</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 1.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.89847,33.968133,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7674</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 1.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.61118,34.369981,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7679</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 3.75MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-114.19331,34.230716,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7684</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.3MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 4.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.2442,33.785019,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7720</name>
+			<description><![CDATA[Voltage: 33/16kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 1.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.1048,34.258136,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7735</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 10.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.50873,33.805426,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7744</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 5.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.56692,33.963775,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7747</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 1.1MVA<br/><b>Max Available Capacity: 6.4MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.20523,34.599651,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7754</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 1.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.81565,35.376716,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7779</name>
+			<description><![CDATA[Voltage: 25/16kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 0.32MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.41788,36.390497,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7783</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.3MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 0.45MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.68369,33.892008,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7796</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 0.3MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.87287,34.314479,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7804</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 0.08MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.89858,34.309812,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7808</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 1.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.73168,33.705982,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7829</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 1.6MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 5.9MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.51667,33.827998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7912</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 1.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.3989,35.716867,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8000</name>
+			<description><![CDATA[Voltage: 115/12kV<br/>Allocated Gen.: 3.6MVA<br/>Queued Gen.: 7.5MVA<br/><b>Max Available Capacity: 44.9MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.41314,34.574006,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8003</name>
+			<description><![CDATA[Voltage: 115/12kV<br/>Allocated Gen.: 1.9MVA<br/>Queued Gen.: 0.1MVA<br/><b>Max Available Capacity: 54.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.04364,33.543617,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8004</name>
+			<description><![CDATA[Voltage: 115/12kV<br/>Allocated Gen.: 5.4MVA<br/>Queued Gen.: 0.1MVA<br/><b>Max Available Capacity: 50.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.53335,33.81335,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8005</name>
+			<description><![CDATA[Voltage: 115/12kV<br/>Allocated Gen.: 4.0MVA<br/>Queued Gen.: 5.0MVA<br/><b>Max Available Capacity: 103.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.20339,33.557883,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8006</name>
+			<description><![CDATA[Voltage: 115/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 56.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.07512,33.965074,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8010</name>
+			<description><![CDATA[Voltages: 115/12kV, 115/33kV<br/>Allocated Gen.: 2.3MVA, 0.0MVA<br/>Queued Gen.: 9.0MVA, 0.0MVA<br/><b>Max Available Capacity: 16.7MVA, 28.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.55689,34.424199,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8013</name>
+			<description><![CDATA[Voltage: 115/12kV<br/>Allocated Gen.: 3.6MVA<br/>Queued Gen.: 5.6MVA<br/><b>Max Available Capacity: 74.8MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.22477,34.449165,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8014</name>
+			<description><![CDATA[Voltage: 115/12kV<br/>Allocated Gen.: 11.0MVA<br/>Queued Gen.: 1.4MVA<br/><b>Max Available Capacity: 71.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.21153,33.828635,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8016</name>
+			<description><![CDATA[Voltage: 115/12kV<br/>Allocated Gen.: 3.7MVA<br/>Queued Gen.: 0.8MVA<br/><b>Max Available Capacity: 102.9MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.50362,33.846408,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8017</name>
+			<description><![CDATA[Voltage: 115/12kV<br/>Allocated Gen.: 1.2MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 54.8MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.33418,33.756412,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8018</name>
+			<description><![CDATA[Voltages: 115/12kV, 115/33kV<br/>Allocated Gen.: 2.7MVA, 0.0MVA<br/>Queued Gen.: 0.1MVA, 0.0MVA<br/><b>Max Available Capacity: 109.2MVA, 112.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.13748,33.597211,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8019</name>
+			<description><![CDATA[Voltage: 115/12kV<br/>Allocated Gen.: 0.7MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 94.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.24335,33.947107,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8020</name>
+			<description><![CDATA[Voltage: 115/12kV<br/>Allocated Gen.: 3.3MVA<br/>Queued Gen.: 5.9MVA<br/><b>Max Available Capacity: 97.2MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.29282,34.473607,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8021</name>
+			<description><![CDATA[Voltage: 115/12kV<br/>Allocated Gen.: 1.2MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 74.8MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.35421,34.102234,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8022</name>
+			<description><![CDATA[Voltage: 115/12kV<br/>Allocated Gen.: 1.2MVA<br/>Queued Gen.: 4.5MVA<br/><b>Max Available Capacity: 39.1MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.42347,34.110921,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8024</name>
+			<description><![CDATA[Voltages: 115/12kV, 115/33kV<br/>Allocated Gen.: 1.9MVA, 10.7MVA<br/>Queued Gen.: 1.1MVA, 1.0MVA<br/><b>Max Available Capacity: 97.8MVA, 44.3MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.21987,33.900818,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8025</name>
+			<description><![CDATA[Voltage: 115/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 5.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.07469,35.27854,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8026</name>
+			<description><![CDATA[Voltage: 115/33kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 112.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.89135,33.918466,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8027</name>
+			<description><![CDATA[Voltage: 115/33kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 47.5MVA<br/><b>Max Available Capacity: 8.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.86114,34.371666,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8028</name>
+			<description><![CDATA[Voltage: 115/33kV<br/>Allocated Gen.: 1.1MVA<br/>Queued Gen.: 3.2MVA<br/><b>Max Available Capacity: 48.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.89034,34.984417,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8029</name>
+			<description><![CDATA[Voltages: 115/33kV, 33/25kV<br/>Allocated Gen.: 29.3MVA, 0.2MVA<br/>Queued Gen.: 68.7MVA, 2.0MVA<br/><b>Max Available Capacity: 0.0MVA, 2.8MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.18046,34.136313,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8030</name>
+			<description><![CDATA[Voltages: 33/12kV, 115/33kV<br/>Allocated Gen.: 0.0MVA, 1.8MVA<br/>Queued Gen.: 0.0MVA, 0.0MVA<br/><b>Max Available Capacity: 10.5MVA, 12.2MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-115.55205,35.499956,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8031</name>
+			<description><![CDATA[Voltage: 115/33kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 28.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.64784,35.364407,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8033</name>
+			<description><![CDATA[Voltage: 115/33kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 20.0MVA<br/><b>Max Available Capacity: 5.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.39872,35.700083,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8035</name>
+			<description><![CDATA[Voltage: 115/33kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 13.33MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.04809,34.075844,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8036</name>
+			<description><![CDATA[Voltages: 115/12kV, 115/33kV<br/>Allocated Gen.: 7.9MVA, 0.0MVA<br/>Queued Gen.: 3.8MVA, 0.0MVA<br/><b>Max Available Capacity: 89.1MVA, 112.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.39307,33.748634,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8037</name>
+			<description><![CDATA[Voltages: 115/12kV, 115/33kV<br/>Allocated Gen.: 1.8MVA, 0.0MVA<br/>Queued Gen.: 0.4MVA, 0.0MVA<br/><b>Max Available Capacity: 53.8MVA, 106.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.03088,34.862205,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8038</name>
+			<description><![CDATA[Voltages: 115/12kV, 115/33kV<br/>Allocated Gen.: 2.9MVA, 0.0MVA<br/>Queued Gen.: 0.0MVA, 53.0MVA<br/><b>Max Available Capacity: 69.9MVA, 59.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.98891,33.771966,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8039</name>
+			<description><![CDATA[Voltage: 115/12kV<br/>Allocated Gen.: 2.8MVA<br/>Queued Gen.: 0.2MVA<br/><b>Max Available Capacity: 53.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.29171,34.075011,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8041</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.1MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 5.1MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.70089,35.010528,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8042</name>
+			<description><![CDATA[Voltage: 115/33kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 8.2MVA<br/><b>Max Available Capacity: 111.8MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.31671,34.092788,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8044</name>
+			<description><![CDATA[Voltages: 115/33kV, 33/12kV<br/>Allocated Gen.: 140.9MVA, 0.2MVA<br/>Queued Gen.: 27.0MVA, 0.0MVA<br/><b>Max Available Capacity: 0.0MVA, 13.8MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.54335,33.901683,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8049</name>
+			<description><![CDATA[Voltages: 115/12kV, 115/33kV<br/>Allocated Gen.: 1.4MVA, 0.8MVA<br/>Queued Gen.: 24.4MVA, 56.1MVA<br/><b>Max Available Capacity: 86.2MVA, 55.1MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.3906,34.50666,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8072</name>
+			<description><![CDATA[Voltage: 115/12kV<br/>Allocated Gen.: 0.5MVA<br/>Queued Gen.: 9.3MVA<br/><b>Max Available Capacity: 32.2MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.10755,34.149033,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8073</name>
+			<description><![CDATA[Voltage: 115/12kV<br/>Allocated Gen.: 0.5MVA<br/>Queued Gen.: 0.1MVA<br/><b>Max Available Capacity: 55.4MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.47727,33.760089,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8076</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 19.1MVA<br/>Queued Gen.: 0.1MVA<br/><b>Max Available Capacity: 36.8MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.24103,34.079444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8078</name>
+			<description><![CDATA[Voltage: 115/12kV<br/>Allocated Gen.: 0.4MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 55.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.14594,33.687458,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8079</name>
+			<description><![CDATA[Voltage: 115/12kV<br/>Allocated Gen.: 1.7MVA<br/>Queued Gen.: 4.3MVA<br/><b>Max Available Capacity: 78.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.35701,34.416352,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8082</name>
+			<description><![CDATA[Voltage: 115/12kV<br/>Allocated Gen.: 0.4MVA<br/>Queued Gen.: 0.1MVA<br/><b>Max Available Capacity: 27.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.11976,34.063899,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8086</name>
+			<description><![CDATA[Voltage: 115/12kV<br/>Allocated Gen.: 2.4MVA<br/>Queued Gen.: 1.7MVA<br/><b>Max Available Capacity: 68.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.32587,33.86002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8087</name>
+			<description><![CDATA[Voltage: 115/12kV<br/>Allocated Gen.: 1.6MVA<br/>Queued Gen.: 0.1MVA<br/><b>Max Available Capacity: 49.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.28976,34.413334,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8088</name>
+			<description><![CDATA[Voltage: 115/12kV<br/>Allocated Gen.: 0.8MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 72.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.29202,33.630878,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8089</name>
+			<description><![CDATA[Voltage: 115/12kV<br/>Allocated Gen.: 1.7MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 104.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.92085,33.73502,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8093</name>
+			<description><![CDATA[Voltage: 115/12kV<br/>Allocated Gen.: 3.4MVA<br/>Queued Gen.: 0.9MVA<br/><b>Max Available Capacity: 79.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.32921,34.170005,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8094</name>
+			<description><![CDATA[Voltages: 115/33kV, 33/12kV<br/>Allocated Gen.: 0.0MVA, 0.0MVA<br/>Queued Gen.: 0.0MVA, 0.0MVA<br/><b>Max Available Capacity: 56.0MVA, 5.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.21671,34.282784,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8095</name>
+			<description><![CDATA[Voltage: 115/12kV<br/>Allocated Gen.: 3.0MVA<br/>Queued Gen.: 2.1MVA<br/><b>Max Available Capacity: 95.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.00835,33.732795,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8096</name>
+			<description><![CDATA[Voltage: 115/12kV<br/>Allocated Gen.: 1.7MVA<br/>Queued Gen.: 0.6MVA<br/><b>Max Available Capacity: 81.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.98698,33.92557,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8097</name>
+			<description><![CDATA[Voltage: 115/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 5.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.44752,35.043042,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8098</name>
+			<description><![CDATA[Voltages: 115/12kV, 115/33kV<br/>Allocated Gen.: 2.3MVA, 0.0MVA<br/>Queued Gen.: 1.3MVA, 0.0MVA<br/><b>Max Available Capacity: 41.2MVA, 112.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.4939,33.807796,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8099</name>
+			<description><![CDATA[Voltage: 115/12kV<br/>Allocated Gen.: 6.9MVA<br/>Queued Gen.: 0.3MVA<br/><b>Max Available Capacity: 104.8MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.45029,33.792241,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8103</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 2.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-115.74336,34.548968,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8110</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.4MVA<br/>Queued Gen.: 1.2MVA<br/><b>Max Available Capacity: 8.9MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.02087,34.900818,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8113</name>
+			<description><![CDATA[Voltages: 33/12kV, 33/33kV<br/>Allocated Gen.: 1.4MVA, 23.2MVA<br/>Queued Gen.: 0.0MVA, 30.0MVA<br/><b>Max Available Capacity: 26.6MVA, 114.8MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-114.68031,33.611563,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8118</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 14.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.78377,33.913983,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8119</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 1.6MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 3.4MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.66253,34.836654,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8121</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 14.4MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.96701,35.30135,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8130</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 1.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.91058,34.193339,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8132</name>
+			<description><![CDATA[Voltages: 33/12kV, 33/12kV<br/>Allocated Gen.: 0.6MVA, 0.1MVA<br/>Queued Gen.: 0.0MVA, 0.3MVA<br/><b>Max Available Capacity: 13.4MVA, 10.1MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.3255,35.145155,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8136</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.4MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 10.1MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.47279,33.808353,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8137</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 2.5MVA<br/>Queued Gen.: 0.1MVA<br/><b>Max Available Capacity: 42.2MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.68757,35.371967,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8139</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 1.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 13.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-114.68031,33.611563,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8151</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.3MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 77.1MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.45728,34.005017,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8156</name>
+			<description><![CDATA[Voltage: 33/25kV<br/>Allocated Gen.: 0.1MVA<br/>Queued Gen.: 3.0MVA<br/><b>Max Available Capacity: 10.56MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.33557,34.207504,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8159</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.2MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 28.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.4406,33.859181,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8161</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 4.2MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.66197,34.957208,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8162</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 6.25MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-114.62368,33.66052,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8163</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.1MVA<br/>Queued Gen.: 4.5MVA<br/><b>Max Available Capacity: 9.4MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.32394,34.741649,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8164</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.3MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 24.2MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.97614,33.747246,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8167</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.2MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 4.8MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.15421,34.907204,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8168</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 10.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.71446,33.747241,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8171</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 1.3MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 54.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.50196,33.932235,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8172</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.2MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 5.05MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.3142,34.136389,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8181</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 1.4MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 3.85MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.00003,33.844742,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8190</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.1MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 5.15MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.81754,34.864987,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8193</name>
+			<description><![CDATA[Voltage: 115/12kV<br/>Allocated Gen.: 1.7MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 43.1MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.18906,33.94818,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8195</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 1.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 27.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.18759,33.5399,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8205</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 5.25MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-114.51726,33.729375,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8206</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 1.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.8359,35.013584,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8209</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.2MVA<br/>Queued Gen.: 4.7MVA<br/><b>Max Available Capacity: 9.1MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.12336,33.837521,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8210</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.1MVA<br/>Queued Gen.: 3.0MVA<br/><b>Max Available Capacity: 7.4MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-114.55106,33.611411,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8211</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.2MVA<br/>Queued Gen.: 0.1MVA<br/><b>Max Available Capacity: 10.2MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.18214,34.826194,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8212</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 3.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.33505,34.601659,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8214</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 1.3MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 26.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.54501,33.798629,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8215</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.7MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 44.1MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.3639,33.721135,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8216</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 1.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.8,35.0975,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8219</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.2MVA<br/>Queued Gen.: 1.3MVA<br/><b>Max Available Capacity: 26.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.2442,33.785019,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8220</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.2MVA<br/>Queued Gen.: 3.0MVA<br/><b>Max Available Capacity: 10.8MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.94643,34.445279,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8222</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 1.4MVA<br/>Queued Gen.: 6.1MVA<br/><b>Max Available Capacity: 37.3MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.21394,34.521943,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8225</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.3MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 10.2MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.36825,34.101361,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8227</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 7.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-114.65607,33.524471,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8228</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.3MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 13.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.26049,33.673058,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8231</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.2MVA<br/>Queued Gen.: 1.3MVA<br/><b>Max Available Capacity: 9.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.41595,33.998718,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8235</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 5.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-114.57245,33.690969,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8238</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 1.1MVA<br/>Queued Gen.: 0.3MVA<br/><b>Max Available Capacity: 26.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.38641,33.699467,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8239</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.3MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 27.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.30435,34.128813,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8252</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 5.61MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.3703,35.773638,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8255</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.4MVA<br/>Queued Gen.: 3.0MVA<br/><b>Max Available Capacity: 10.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.0535,34.137582,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8259</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.1MVA<br/><b>Max Available Capacity: 5.15MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-114.72528,33.418601,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8260</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.4MVA<br/>Queued Gen.: 1.0MVA<br/><b>Max Available Capacity: 23.1MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.2952,34.535134,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8265</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.1MVA<br/>Queued Gen.: 0.6MVA<br/><b>Max Available Capacity: 13.3MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.39255,34.005847,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8268</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 5.25MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.82948,34.903041,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8270</name>
+			<description><![CDATA[Voltage: 115/12kV<br/>Allocated Gen.: 0.8MVA<br/>Queued Gen.: 0.1MVA<br/><b>Max Available Capacity: 55.1MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.25543,33.584447,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8273</name>
+			<description><![CDATA[Voltage: 7/16kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 2.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-115.12056,34.145833,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8275</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 1.3MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 110.7MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.58839,33.857791,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8279</name>
+			<description><![CDATA[Voltages: 66/12kV, 66/33kV<br/>Allocated Gen.: 2.9MVA, 1.0MVA<br/>Queued Gen.: 2.5MVA, 0.0MVA<br/><b>Max Available Capacity: 129.0MVA, 111.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.57229,33.884465,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8283</name>
+			<description><![CDATA[Voltage: 115/33kV<br/>Allocated Gen.: 15.7MVA<br/>Queued Gen.: 20.0MVA<br/><b>Max Available Capacity: 20.4MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.86671,34.859706,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8294</name>
+			<description><![CDATA[Voltage: 33/33kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 35.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.82031,34.304168,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8318</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 1.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.60262,34.373891,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8342</name>
+			<description><![CDATA[Voltage: 115/12kV<br/>Allocated Gen.: 2.5MVA<br/>Queued Gen.: 0.2MVA<br/><b>Max Available Capacity: 109.3MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.20718,33.687269,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8343</name>
+			<description><![CDATA[Voltages: 115/12kV, 115/33kV<br/>Allocated Gen.: 2.9MVA, 0.0MVA<br/>Queued Gen.: 0.0MVA, 0.0MVA<br/><b>Max Available Capacity: 53.1MVA, 106.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.32626,33.674214,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8345</name>
+			<description><![CDATA[Voltage: 115/12kV<br/>Allocated Gen.: 3.2MVA<br/>Queued Gen.: 0.2MVA<br/><b>Max Available Capacity: 108.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-116.35106,33.730105,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8346</name>
+			<description><![CDATA[Voltage: 115/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 56.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.37428,33.701617,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8347</name>
+			<description><![CDATA[Voltages: 115/12kV, 115/33kV<br/>Allocated Gen.: 2.5MVA, 0.0MVA<br/>Queued Gen.: 0.7MVA, 0.0MVA<br/><b>Max Available Capacity: 80.8MVA, 56.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.06384,33.490922,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8348</name>
+			<description><![CDATA[Voltage: 115/12kV<br/>Allocated Gen.: 4.7MVA<br/>Queued Gen.: 0.1MVA<br/><b>Max Available Capacity: 107.2MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.14043,33.503664,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8352</name>
+			<description><![CDATA[Voltage: 33/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 3.8MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-114.16826,34.26063,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8361</name>
+			<description><![CDATA[Voltage: 115/12kV<br/>Allocated Gen.: 0.0MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 7.0MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.95088,36.082698,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8504</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.4MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 27.6MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.20281,34.578948,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8505</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.1MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 12.94MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-119.01289,34.808864,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8802</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 11.5MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 52.9MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.84804,33.920064,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8804</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 3.3MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 145.5MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.68894,33.649747,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8808</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 0.6MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 44.2MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-118.00006,33.745013,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8810</name>
+			<description><![CDATA[Voltage: 66/12kV<br/>Allocated Gen.: 2.2MVA<br/>Queued Gen.: 0.0MVA<br/><b>Max Available Capacity: 81.8MVA</b><br/>]]></description>
+			<styleUrl>#subColor</styleUrl>
+			<Point>
+				<coordinates>-117.60663,33.642099,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

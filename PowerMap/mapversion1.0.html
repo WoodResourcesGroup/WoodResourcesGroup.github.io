@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8 />
+  <title>Woody Biomass Facility Map</title>
+  <!-- mapbox.js live host. local host: <script src='bundle.js'></script> -->
+  <script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.4/mapbox.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.4/mapbox.css' rel='stylesheet' />
+
+  <!-- Jquery scripts -->
+  <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+  <!-- Omnivore Script -->
+  <!--  <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.js'></script> -->
+  <script src='leaflet-omnivore.js'></script>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+
+  <!-- fullscreen scripts -->
+  <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v0.0.1/Leaflet.fullscreen.min.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v0.0.1/leaflet.fullscreen.css' rel='stylesheet' />
+
+  <!-- zoom slider scripts -->
+  <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-zoomslider/v0.7.0/L.Control.Zoomslider.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-zoomslider/v0.7.0/L.Control.Zoomslider.css' rel='stylesheet' />
+
+  <style>
+    body { margin:0; padding:0; width:500px;}
+    #map { position:absolute; top:0; bottom:0; width:100%; }
+  </style>
+</head>
+
+<body>
+  <div id='map' class = 'light'>   
+  </div>
+
+  <!-- enter content for map legend -->
+  <div id='legend-content'>
+    <div class='my-legend'>
+      <div class='legend-top'>
+        <h3>Map Icon Key</h3> 
+        <span title = "Electric Generator Status/Wood Processor Status" style="cursor:help;text-align:right;font-size:11px;font-family: Arial; font-weight: bold;">Facility Status </span><br> 
+        <hr>
+        <span class="symbol_rectangle" style="padding-left:20px;padding-top:3px;padding-bottom:3px;border:0px solid #000000;background: #23c02c;overflow:hidden;">&nbsp;</span> Operational / Open<br>
+        <span class="symbol_rectangle" style="padding-left:20px;padding-top:3px;padding-bottom:3px;border:0px solid #BD8339;background: #F4EA00;overflow:hidden;">&nbsp;</span> Idle / Inactive<br>
+        <span class="symbol_rectangle" style="padding-left:20px;padding-top:3px;padding-bottom:3px;border:0px solid #000000;background: #2141F3;overflow:hidden;">&nbsp;</span> Active Development<br>
+        <span class="symbol_rectangle" style="padding-left:20px;padding-top:3px;padding-bottom:3px;border:0px solid #000000;background: #1CEBE5;overflow:hidden;">&nbsp;</span> Proposed Project<br>
+        <span class="symbol_rectangle" style="padding-left:20px;padding-top:3px;padding-bottom:3px;border:0px solid #000000;background: #C100F2;overflow:hidden;">&nbsp;</span> Cancelled Project<br>
+        <span class="symbol_rectangle" style="padding-left:20px;padding-top:3px;padding-bottom:3px;border:0px solid #000000;background: #c1271f;overflow:hidden;">&nbsp;</span> Non-Operational / Liquidated
+        <p></p>
+          <span style="text-align:right;font-size:11px;font-family: Arial; font-weight: bold;">Facility Type</span>
+          <br> 
+          <hr>
+          <p  title = "Power Plant Facilities Utilizing Woody Feestock Material Sourced from California" style="cursor:help;font-size:12px; color:green;"> Electrical Generation <img src = "https://docs.google.com/uc?id=0B3yNiqk9X8Dmc1hzZG5wZ0RLUDg&amp;export-png" width = "20" height = "20" border = "0"/>
+          </p>
+
+          <img src="https://docs.google.com/uc?id=0B3yNiqk9X8DmTXRkQllHdWpldU0&amp;export-png" width="20" height="20" border="0"/>&nbsp;Standalone Generator
+          <br>
+
+          <img src="https://docs.google.com/uc?id=0B3yNiqk9X8Dmc1hzZG5wZ0RLUDg" width="20" height="20" border="0" />&nbsp;Cogeneration
+          <br>
+
+          <p title= "Displays Sawmills and other Wood Processing Facilities within California" style="cursor:help;font-size:12px; color:green;">Sawmill & Other &nbsp; <img src="https://docs.google.com/uc?id=0B3yNiqk9X8Dmb0RZbm1OZGNFaTg" width="20" height="20" border="0" /></p>
+
+          <span title = "Includes Dimensional and Stud Mills" style="cursor:help;"><img src="https://docs.google.com/uc?id=0B3yNiqk9X8DmZ2Q2V0ZIcU9laG8" width="20" height="20" border="0" />&nbsp;Sawmill </span>
+          <br>
+
+          <span title ="Includes Post and pole, Fenceboard, Cedar, and Redwood Mills" style="cursor:help;"><img src="https://docs.google.com/uc?id=0BzwsVf_VMR5JeXRBbmR6bnV6OWs" width="20" height="20" border="0" />&nbsp;Specialty Mill
+          </span>
+          <br>
+
+          <span title = "Includes OSB, Veneer, Lvl, MDF Facilities" style="cursor:help"> <img src="https://docs.google.com/uc?id=0BzwsVf_VMR5JLWZib2pkOXZYOW8" width="20" height="20" border="0" />&nbsp;Engineered Wood </span>
+          <br>
+
+          <span title = "Includes Pulp, Particleboard, and Containerboard Mills" style="cursor:help"><img src="https://docs.google.com/uc?id=0B3yNiqk9X8Dmck1jdEJZTEUyMEU" width="20" height="20" border="0" />&nbsp;Fiber 
+          </span>
+          <br>
+
+          <span title = "Includes Small Production Mills and Shavings Mills" style="cursor:help"><img src="https://docs.google.com/uc?id=0B3yNiqk9X8DmZGc0YW1MeU9XNG8" width="20" height="20" border="0" />&nbsp;Other Mill Type</span>
+
+          <p>
+
+          </div>
+          <div class='legend-source'>
+            Please reference all data: UC Berkeley <span style="font-weight: bold;font-size: 20px"><a href="http://www.google.com" target="blank"> Woody Biomass Utilization Group</a></span>
+          </div>
+        </div> 
+
+        <!-- styling for legend -->
+        <style type='text/css'>
+          .my-legend {
+            width:165px;
+            font-family: Arial;
+            font-size:75%;
+          }
+          .my-legend .legend-title {
+            text-align: left;
+            margin-bottom: 8px;
+            font-weight: bold;
+          }
+          .my-legend .legend-top {
+            margin: 0;
+            padding: 0;
+            float: left;
+            list-style: none;
+          }
+          .my-legend .legend-side {
+            margin: 0;
+            padding: 0;
+            float: left;
+            list-style: none;
+          }
+          .my-legend .legend-source {
+            line-height: 1.5em;
+            font-size: 8.5px;
+            color: #999;
+            clear: both;
+          }
+          .my-legend a {
+            color: #777;
+            font-size:50%;
+          }
+          .leaflet-control-zoomslider-knob { width:14px; height:6px; }
+          .leaflet-container .leaflet-control-zoomslider-body {
+            -webkit-box-sizing:content-box;
+            -moz-box-sizing:content-box;
+            box-sizing:content-box;
+          }
+        </style>
+      </div>
+
+
+      <script>
+          //osm standard map
+          var osmlayer='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+          var layerAttrib='© <a href="http://openstreetmap.org/copyright" target= "blank">OpenStreetMap</a> contributors';
+          var osm = new L.TileLayer(osmlayer, {minZoom: 1, maxZoom: 15, attribution: layerAttrib}); 
+          // stamen terrain map
+          var terrainlayer='http://tile.stamen.com/terrain-background/{z}/{x}/{y}.jpg';
+          var terrainAttrib='Map tiles by <a href="http://stamen.com" target = "blank">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0" target = "blank">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org" target = "blank">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0" target = "blank">CC BY SA</a>.';
+          var terrain = new L.TileLayer(terrainlayer, {minZoom: 1, maxZoom: 15, attribution: terrainAttrib});
+          //esri satellite
+          var esrilayer='http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}';
+          var esriAttrib='© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html" target="blank">(ESRI Terms of Use)</a>';
+          var esrimap = new L.TileLayer(esrilayer, {minZoom: 1, maxZoom: 15, attribution: esriAttrib}); 
+
+          var map = L.mapbox.map('map', null , {zoomControl: false}).setView([37.208, -120.102], 6);
+          map.legendControl.addLegend(document.getElementById('legend-content').innerHTML);
+          L.control.zoomslider().addTo(map);
+          map.addControl(L.mapbox.shareControl());
+
+// L.control.fullscreen().addTo(map);
+L.control.scale({
+  metric:false,
+  position: 'bottomleft'
+}).addTo(map);
+
+// duplicates two layers and merges them together
+// https://docs.google.com/spreadsheet/pub?key=0AnyNiqk9X8DmdDJneGxsNTB6cFFQamRMX0VuNjhPQ2c&single=true&gid=1&output=csv
+var activeplant = 
+omnivore.csv('Data/Powerplant.csv')
+.on('layeradd',function(e) {
+  var powermarker = e.layer;
+  var feature = powermarker.feature;
+  var powercontent = 
+  '<h1>' + '<font color="2C49BO">' +feature.properties.Name + '</font>'+ '</h1>' + '<hr>' +
+  '<b>Location: </b>' + feature.properties.City +', ' + feature.properties.State +'<br>' +
+  '<b>Facility Type: </b>' + feature.properties.Project_Type + ', '+feature.properties.Cogen_Status + '<br>' +
+  '<b>Output: </b>' + feature.properties.MW + ' MW '+'<br>' +
+  '<b>Status: </b>' + feature.properties.Status + '<br>' +
+  '<b>Alternative Names: </b>' + feature.properties.OldName;
+
+  powermarker.bindPopup(powercontent, {
+    closeButton: true,
+    minWidth:320 });
+
+  powermarker.feature.properties['marker-size'] = 'medium';
+
+  if (powermarker.feature.properties.Status ==='Operational')
+  {
+    if (powermarker.feature.properties.Cogen_Status ==='cogen')
+    {
+      powermarker.setIcon(L.icon({
+        iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmSzNaSzJYRDUzRFE&amp;export-png',
+        iconSize: [25,25]
+      }));
+    }
+    else
+    {
+      powermarker.setIcon(L.icon({
+        iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmSURaM3ZjZkswNzA&amp;export-png',
+        iconSize: [25,25]
+      }));
+    }
+  }
+  else   if (powermarker.feature.properties.Status ==='Idle')
+  {
+    if (powermarker.feature.properties.Cogen_Status ==='cogen')
+    {
+      powermarker.setIcon(L.icon({
+        iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmbWlQTUh6MkJkSEU&amp;export-png',
+        iconSize: [25,25]
+      }));
+    }
+    else
+    {
+      powermarker.setIcon(L.icon({
+        iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmczlWeTgyNEhzV0U&amp;export-png',
+        iconSize: [25,25]
+      }));
+    }
+  }
+  else
+  {        
+    powermarker.setIcon(L.icon({
+      iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmSllLWFk5VjllZm8&amp;export-png',
+      iconSize: [0,0]
+    }));
+  };
+
+}).on('click',function(e){
+  map.panTo(e.layer.getLatLng());
+});
+
+//should loop this, but could not get it to work. Quicker to brute force.
+var devplant = 
+omnivore.csv('Data/Powerplant.csv')
+.on('layeradd',function(e) {
+  var powermarker = e.layer;
+  var feature = powermarker.feature;
+  var powercontent = 
+  '<h1>' + '<font color="2C49BO">' +feature.properties.Name + '</font>'+ '</h1>' + '<hr>' +
+  '<b>Location: </b>' + feature.properties.City +', ' + feature.properties.State +'<br>' +
+  '<b>Facility Type: </b>' + feature.properties.Project_Type + ', '+feature.properties.Cogen_Status + '<br>' +
+  '<b>Output: </b>' + feature.properties.MW + ' MW '+'<br>' +
+  '<b>Status: </b>' + feature.properties.Status + '<br>' +
+  '<b>Alternative Names: </b>' + feature.properties.OldName;
+
+  powermarker.bindPopup(powercontent, {
+    closeButton: true,
+    minWidth:320 });
+
+  powermarker.feature.properties['marker-size'] = 'medium';
+
+  if (powermarker.feature.properties.Status ==='Proposal')
+  {
+    if (powermarker.feature.properties.Cogen_Status ==='cogen')
+    {
+    powermarker.setIcon(L.icon({
+      iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmRnJFc3ZZYzladGM&amp;export-png',
+      iconSize: [25,25]
+    }));
+  }
+  else
+  {
+    powermarker.setIcon(L.icon({
+      iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmYTg2RjlIdEdXRXc&amp;export-png',
+      iconSize: [25,25]
+    }));
+  }
+}
+else if (powermarker.feature.properties.Status === 'Active development')
+{    
+  if (powermarker.feature.properties.Cogen_Status === 'cogen')
+  {
+    powermarker.setIcon(L.icon({
+      iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmYzYxcWRYY0NDZ3M&amp;export-png',
+      iconSize: [25,25]
+    }));
+  }
+  else
+  {
+    powermarker.setIcon(L.icon({
+      iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmcS1NdTFCbnhvb3M&amp;export-png',
+      iconSize: [25,25]
+    }));
+  }
+}
+else
+{        
+  powermarker.setIcon(L.icon({
+    iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmSllLWFk5VjllZm8&amp;export-png',
+    iconSize: [0,0]
+  }));
+};
+
+}).on('click',function(e){
+  map.panTo(e.layer.getLatLng());
+});
+
+//should loop this, but could not get it to work. Quicker to brute force.
+var closedplant = 
+omnivore.csv('Data/Powerplant.csv')
+.on('layeradd',function(e) {
+  var powermarker = e.layer;
+  var feature = powermarker.feature;
+  var powercontent = 
+  '<h1>' + '<font color="2C49BO">' +feature.properties.Name + '</font>'+ '</h1>' + '<hr>' +
+  '<b>Location: </b>' + feature.properties.City +', ' + feature.properties.State +'<br>' +
+  '<b>Facility Type: </b>' + feature.properties.Project_Type + ', '+feature.properties.Cogen_Status + '<br>' +
+  '<b>Output: </b>' + feature.properties.MW + ' MW '+'<br>' +
+  '<b>Status: </b>' + feature.properties.Status + '<br>' +
+  '<b>Alternative Names: </b>' + feature.properties.OldName;
+
+  powermarker.bindPopup(powercontent, {
+    closeButton: true,
+    minWidth:320 });
+
+  powermarker.feature.properties['marker-size'] = 'medium';
+
+  if (powermarker.feature.properties.Status === 'Non-Operational')
+  {    
+    if (powermarker.feature.properties.Cogen_Status === 'cogen')
+    {
+      powermarker.setIcon(L.icon({
+        iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmQUJNemVBa016RUk&amp;export-png',
+        iconSize: [25,25]
+      }));
+    }
+    else
+    {
+      powermarker.setIcon(L.icon({
+        iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmTEotOG1yamFwaWc&amp;export-png',
+        iconSize: [25,25]
+      }));
+    }
+  }
+  else if (powermarker.feature.properties.Status === 'Cancelled')
+  {    
+    if (powermarker.feature.properties.Cogen_Status === 'cogen')
+    {
+      powermarker.setIcon(L.icon({
+        iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8Dmcy03ZjVNM21CcHM&amp;export-png',
+        iconSize: [25,25]
+      }));
+    }
+    else
+    {
+      powermarker.setIcon(L.icon({
+        iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmazJIbUNreUJNbUk&amp;export-png',
+        iconSize: [25,25]
+      }));
+    }
+  }
+  else
+  {        
+    powermarker.setIcon(L.icon({
+      iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmSllLWFk5VjllZm8&amp;export-png',
+      iconSize: [0,0]
+    }));
+  };
+
+}).on('click',function(e){
+  map.panTo(e.layer.getLatLng());
+});
+
+//should loop this, but could not get it to work. Quicker to brute force.
+var woodmark = omnivore.csv('data/sawmill.csv')
+.on('layeradd',function(e) {
+  var sawmarker = e.layer;
+  var feature = sawmarker.feature;
+  var sawcontent = 
+  '<h1>' + '<font color="2C49BO">' +feature.properties.Name + '</font>'+ '</h1>' + '<hr>' +  
+  '<b>Status: </b>' + feature.properties.Status +'<br>'  +
+  '<b>Facility Type: </b>' + feature.properties.MillType + '<br>'+ 
+  '<b>Products: </b>' + feature.properties.Products +'<br>' + 
+  '<b>Feedstock/Species: </b>' + feature.properties.Feedstock +',' + feature.properties.Species +'<br>' + 
+  '<b>Location: </b>' + feature.properties.City +', ' + feature.properties.State +'<br>';
+
+  sawmarker.bindPopup(sawcontent,{
+    closeButton: true,
+    minWidth:320});
+
+  sawmarker.feature.properties['marker-size'] = 'medium';
+
+  if (sawmarker.feature.properties.Status ==='Open')
+  {
+    sawmarker.feature.properties['marker-color'] = '#23c02c';
+    sawmarker.setIcon(L.mapbox.marker.icon(sawmarker.feature.properties));
+    if (sawmarker.feature.properties.MillType ==='sawmill')
+    {
+      sawmarker.feature.properties['marker-symbol'] = 'warehouse';
+      sawmarker.setIcon(L.mapbox.marker.icon(sawmarker.feature.properties));
+    }
+    else if (sawmarker.feature.properties.MillType ==='secondary processing')
+    {
+      sawmarker.feature.properties['marker-symbol'] = 'square-stroked';
+      sawmarker.setIcon(L.mapbox.marker.icon(sawmarker.feature.properties));
+    }
+    else if (sawmarker.feature.properties.MillType ==='composite panel')
+    {
+      sawmarker.feature.properties['marker-symbol'] = 'cross';
+      sawmarker.setIcon(L.mapbox.marker.icon(sawmarker.feature.properties));
+    }
+    else if (sawmarker.feature.properties.MillType === 'shavings')
+    {
+      sawmarker.feature.properties['marker-symbol'] = 'triangle';
+      sawmarker.setIcon(L.mapbox.marker.icon(sawmarker.feature.properties));
+    }
+    else 
+    {
+      sawmarker.feature.properties['marker-symbol'] = 'park';
+      sawmarker.setIcon(L.mapbox.marker.icon(sawmarker.feature.properties));
+    };
+  }
+  else if (sawmarker.feature.properties.Status === 'Developing')
+  {    
+    sawmarker.feature.properties['marker-color'] = '#2141F3';
+    sawmarker.setIcon(L.mapbox.marker.icon(sawmarker.feature.properties));
+    if (sawmarker.feature.properties.MillType ==='sawmill')
+    {
+      sawmarker.feature.properties['marker-symbol'] = 'warehouse';
+      sawmarker.setIcon(L.mapbox.marker.icon(sawmarker.feature.properties));
+    }
+    else if (sawmarker.feature.properties.MillType ==='secondary processing')
+    {
+      sawmarker.feature.properties['marker-symbol'] = 'square-stroked';
+      sawmarker.setIcon(L.mapbox.marker.icon(sawmarker.feature.properties));
+    }
+    else if (sawmarker.feature.properties.MillType ==='composite panel')
+    {
+      sawmarker.feature.properties['marker-symbol'] = 'cross';
+      sawmarker.setIcon(L.mapbox.marker.icon(sawmarker.feature.properties));
+    }
+    else if (sawmarker.feature.properties.MillType === 'shavings')
+    {
+      sawmarker.feature.properties['marker-symbol'] = 'triangle';
+      sawmarker.setIcon(L.mapbox.marker.icon(sawmarker.feature.properties));
+    }
+    else 
+    {
+      sawmarker.feature.properties['marker-symbol'] = 'park';
+      sawmarker.setIcon(L.mapbox.marker.icon(sawmarker.feature.properties));
+    };
+  }
+  else 
+  {        
+    sawmarker.setIcon(L.icon({
+      iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmSllLWFk5VjllZm8&amp;export-png',
+      iconSize: [0,0]
+    }));
+  };
+}).on('click',function(e){
+  map.panTo(e.layer.getLatLng());
+});
+
+//should loop this, but could not get it to work. Quicker to brute force.
+var wood2mark = omnivore.csv('data/sawmill.csv')
+.on('layeradd',function(e) {
+  var sawmarker = e.layer;
+  var feature = sawmarker.feature;
+  var sawcontent = 
+  '<h1>' + '<font color="2C49BO">' +feature.properties.Name + '</font>'+ '</h1>' + '<hr>' +  
+  '<b>Status: </b>' + feature.properties.Status +'<br>'  +
+  '<b>Facility Type: </b>' + feature.properties.MillType + '<br>'+ 
+  '<b>Products: </b>' + feature.properties.Products +'<br>' + 
+  '<b>Feedstock/Species: </b>' + feature.properties.Feedstock +',' + feature.properties.Species +'<br>' + 
+  '<b>Location: </b>' + feature.properties.City +', ' + feature.properties.State +'<br>';
+
+  sawmarker.bindPopup(sawcontent,{
+    closeButton: true,
+    minWidth:320});
+
+  sawmarker.feature.properties['marker-size'] = 'medium';
+
+  if (sawmarker.feature.properties.Status ==='Proposed')
+  {
+    sawmarker.feature.properties['marker-color'] = '#1CEBE5';
+    sawmarker.setIcon(L.mapbox.marker.icon(sawmarker.feature.properties));
+    if (sawmarker.feature.properties.MillType ==='sawmill')
+    {
+      sawmarker.feature.properties['marker-symbol'] = 'warehouse';
+      sawmarker.setIcon(L.mapbox.marker.icon(sawmarker.feature.properties));
+    }
+    else if (sawmarker.feature.properties.MillType ==='secondary processing')
+    {
+      sawmarker.feature.properties['marker-symbol'] = 'square-stroked';
+      sawmarker.setIcon(L.mapbox.marker.icon(sawmarker.feature.properties));
+    }
+    else if (sawmarker.feature.properties.MillType ==='composite panel')
+    {
+      sawmarker.feature.properties['marker-symbol'] = 'cross';
+      sawmarker.setIcon(L.mapbox.marker.icon(sawmarker.feature.properties));
+    }
+    else if (sawmarker.feature.properties.MillType === 'shavings')
+    {
+      sawmarker.feature.properties['marker-symbol'] = 'triangle';
+      sawmarker.setIcon(L.mapbox.marker.icon(sawmarker.feature.properties));
+    }
+    else 
+    {
+      sawmarker.feature.properties['marker-symbol'] = 'park';
+      sawmarker.setIcon(L.mapbox.marker.icon(sawmarker.feature.properties));
+    };
+  }
+  
+  else 
+  {        
+    sawmarker.setIcon(L.icon({
+      iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmSllLWFk5VjllZm8&amp;export-png',
+      iconSize: [0,0]
+    }));
+  };
+}).on('click',function(e){
+  map.panTo(e.layer.getLatLng());
+});
+
+//should loop this, but could not get it to work. Quicker to brute force.
+// https://docs.google.com/spreadsheet/pub?key=0AnyNiqk9X8DmdDJneGxsNTB6cFFQamRMX0VuNjhPQ2c&single=true&gid=0&output=csv CORS problem with cross domain call. Currently replaced with csv manual load....
+var wood3mark = omnivore.csv('data/sawmill.csv')
+.on('layeradd',function(e) {
+  var sawmarker = e.layer;
+  var feature = sawmarker.feature;
+  var sawcontent = 
+  '<h1>' + '<font color="2C49BO">' +feature.properties.Name + '</font>'+ '</h1>' + '<hr>' +  
+  '<b>Status: </b>' + feature.properties.Status +'<br>'  +
+  '<b>Facility Type: </b>' + feature.properties.MillType + '<br>'+ 
+  '<b>Products: </b>' + feature.properties.Products +'<br>' + 
+  '<b>Feedstock/Species: </b>' + feature.properties.Feedstock +',' + feature.properties.Species +'<br>' + 
+  '<b>Location: </b>' + feature.properties.City +', ' + feature.properties.State +'<br>';
+
+  sawmarker.bindPopup(sawcontent,{
+    closeButton: true,
+    minWidth:320});
+
+  sawmarker.feature.properties['marker-size'] = 'medium';
+
+  if (sawmarker.feature.properties.Status ==='Open')
+  {
+    sawmarker.setIcon(L.icon({
+      iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmSllLWFk5VjllZm8&amp;export-png',
+      iconSize: [0,0]
+    }));
+  }
+  else if (sawmarker.feature.properties.Status === 'Developing')
+  {    
+    sawmarker.setIcon(L.icon({
+      iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmSllLWFk5VjllZm8&amp;export-png',
+      iconSize: [0,0]
+    }));
+  }
+
+  else if (sawmarker.feature.properties.Status === 'Pilot')
+  {    
+    sawmarker.setIcon(L.icon({
+      iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmSllLWFk5VjllZm8&amp;export-png',
+      iconSize: [0,0]
+    }));
+  }
+  else if (sawmarker.feature.properties.Status === 'Proposed')
+  {    
+    sawmarker.setIcon(L.icon({
+      iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmSllLWFk5VjllZm8&amp;export-png',
+      iconSize: [0,0]
+    }));
+  } 
+  else if (sawmarker.feature.properties.Status ==='Inactive')
+  {
+    sawmarker.feature.properties['marker-color'] = '#F4EA00';
+    sawmarker.setIcon(L.mapbox.marker.icon(sawmarker.feature.properties));
+    if (sawmarker.feature.properties.MillType ==='sawmill')
+    {
+      sawmarker.feature.properties['marker-symbol'] = 'warehouse';
+      sawmarker.setIcon(L.mapbox.marker.icon(sawmarker.feature.properties));
+    }
+    else if (sawmarker.feature.properties.MillType ==='secondary processing')
+    {
+      sawmarker.feature.properties['marker-symbol'] = 'square-stroked';
+      sawmarker.setIcon(L.mapbox.marker.icon(sawmarker.feature.properties));
+    }
+    else if (sawmarker.feature.properties.MillType ==='composite panel')
+    {
+      sawmarker.feature.properties['marker-symbol'] = 'cross';
+      sawmarker.setIcon(L.mapbox.marker.icon(sawmarker.feature.properties));
+    }
+    else if (sawmarker.feature.properties.MillType === 'shavings')
+    {
+      sawmarker.feature.properties['marker-symbol'] = 'triangle';
+      sawmarker.setIcon(L.mapbox.marker.icon(sawmarker.feature.properties));
+    }
+    else 
+    {
+      sawmarker.feature.properties['marker-symbol'] = 'park';
+      sawmarker.setIcon(L.mapbox.marker.icon(sawmarker.feature.properties));
+    };
+  }
+  else
+  {    
+    sawmarker.feature.properties['marker-color'] = '#c1271f';
+    sawmarker.setIcon(L.mapbox.marker.icon(sawmarker.feature.properties));
+    if (sawmarker.feature.properties.MillType ==='sawmill')
+    {
+      sawmarker.feature.properties['marker-symbol'] = 'warehouse';
+      sawmarker.setIcon(L.mapbox.marker.icon(sawmarker.feature.properties));
+    }
+    else if (sawmarker.feature.properties.MillType ==='secondary processing')
+    {
+      sawmarker.feature.properties['marker-symbol'] = 'square-stroked';
+      sawmarker.setIcon(L.mapbox.marker.icon(sawmarker.feature.properties));
+    }
+    else if (sawmarker.feature.properties.MillType ==='composite panel')
+    {
+      sawmarker.feature.properties['marker-symbol'] = 'cross';
+      sawmarker.setIcon(L.mapbox.marker.icon(sawmarker.feature.properties));
+    }
+    else if (sawmarker.feature.properties.MillType === 'shavings')
+    {
+      sawmarker.feature.properties['marker-symbol'] = 'triangle';
+      sawmarker.setIcon(L.mapbox.marker.icon(sawmarker.feature.properties));
+    }
+    else 
+    {
+      sawmarker.feature.properties['marker-symbol'] = 'park';
+      sawmarker.setIcon(L.mapbox.marker.icon(sawmarker.feature.properties));
+    };
+  };
+}).on('click',function(e){
+  map.panTo(e.layer.getLatLng());
+});
+
+  // style and filter control for CARB Air Basins
+  var AIRBasinCustom = L.geoJson(null, {
+    // http://leafletjs.com/reference.html#geojson-style
+    style: function(feature) {
+      return {
+        color: '#f00',
+        weight:2.5,
+        Opacity:1,
+        fillOpacity: 0
+      };
+    }
+  });
+
+  var AIRBasinCoverage = omnivore.kml('data/CARBAirBasins.kml',null,AIRBasinCustom)
+  .on('layeradd', function(e) {
+    var basinmarker = e.layer;
+    var feature = basinmarker.feature;  
+    var basincontent =  '<h2 style= "text-align:center">' + feature.properties.name + '</h2>';
+    // +feature.properties.styleUrl;
+    basinmarker.bindPopup(basincontent,{
+      closeButton: true,
+      minWidth: 0
+    });
+  });
+
+// style and filter control for utility coverage
+var UtilityCustom = L.geoJson(null, {
+    // http://leafletjs.com/reference.html#geojson-style
+    style: function(feature) {
+      return {
+
+        weight:2.5,
+        Opacity:1,
+        fillOpacity: 0
+      };
+    }
+  });
+
+var UtilityLayer = omnivore.kml('data/ServiceAreaPublic.kml', null, UtilityCustom)
+.on('layeradd', function(e) {
+  var servicemarker = e.layer;
+  var feature = servicemarker.feature; 
+  var servicecontent =  '<p>'+feature.properties.description+'</p>';
+  servicemarker.bindPopup(servicecontent,{
+    closeButton: true,
+    minWidth: 0
+  }); 
+});
+
+//control box for ALL LAYERS
+L.control.layers(
+// base layers follow
+{
+  //automatically adds this layer on page load
+  'Base View' : osm.addTo(map),
+  'Terrain View': terrain,
+  'Satellite View' : esrimap,
+},
+// overlay layers
+{
+  'Power Plant Active<br><z-index:1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - (Operational/Idle)': activeplant.addTo(map),
+
+  'Power Plant Closed<br><z-index:10>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - (Non-Operational/Cancelled)': closedplant,
+
+  'Power Plant in Development<br><z-index:5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - (Active Development/Proposed)': devplant,
+
+  'Sawmill & Other<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - (Open/Active)': woodmark,
+
+  'Sawmill & Other<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - (Proposed)': wood2mark,
+
+  'Sawmill & Other<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - (Inactive/Non-operational)': wood3mark,
+
+  'CARB Air Basins': AIRBasinCoverage,
+
+  'Utility Coverage': UtilityLayer,
+},{
+  position: 'bottomleft',collapsed: false,
+ // autoZIndex: true,
+}).addTo(map);
+
+</script>
+</body>
+</html>
