@@ -56,7 +56,7 @@
   function addTimeSlider(sublayer) {
   	var sql = cartodb.SQL({ user: 'woodybiomassgroup' })
     // fetch time range from cartodb map
-    sql.execute('select max(date), min(date) from grantawardee', function(data) {
+    sql.execute('select max(date), min(date) from wbugrantawards', function(data) {
       // sql.execute('select max(date), min(date) from wbugrantawardees', function(data) {
       	var range = data.rows[0];
       	var max = new Date(range.max).getTime()
@@ -88,7 +88,7 @@ stop: function( event, ui ) {
     var end = new Date(ui.values[1]).toISOString();
 
   // build sql
-  sublayer.setSQL("select * from wbugrantawards where date >= '" + start + "' and date <= '" + end + "'");
+  sublayer.setSQL("select * from wbugrantawards where year >= '" + start + "' and year <= '" + end + "'");
   // sublayer.setSQL("select * from wbugrantawardees where date >= '" + start + "' and date <= '" + end + "'");
 }
 });
