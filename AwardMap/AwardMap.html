@@ -88,7 +88,7 @@ stop: function( event, ui ) {
     var end = new Date(ui.values[1]).toISOString();
 
   // build sql
-  sublayer.setSQL("select * from grantawardee where date >= '" + start + "' and date <= '" + end + "'");
+  sublayer.setSQL("select * from wbugrantawards where date >= '" + start + "' and date <= '" + end + "'");
   // sublayer.setSQL("select * from wbugrantawardees where date >= '" + start + "' and date <= '" + end + "'");
 }
 });
