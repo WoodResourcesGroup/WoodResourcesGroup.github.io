@@ -43,58 +43,6 @@
 	<div id="legend"></div>
 	<script>
 
-  // formats text below slider to inform user of range
-  function changeLegend(start, end) {
-  	var end = new Date(end).getFullYear()
-  	var displayend = end-1
-  	var start = new Date(start).getFullYear()
-  	$('#legend').html(start + " - " + displayend)
-  }
-  // adds time slider and references mapowner
-  // MAKE SURE wbugrantawardees references currnet name of sheet. For some reason, CArtodb retains original sheet values adn it can distort the query call. Also, add an extra year so that the end date on the slider will move to the current year
-
-  function addTimeSlider(sublayer) {
-  	var sql = cartodb.SQL({ user: 'woodybiomassgroup' })
-    // fetch time range from cartodb map
-    sql.execute('select max(date), min(date) from grantawardeescsv_2', function(data) {
-      // sql.execute('select max(date), min(date) from wbugrantawardees', function(data) {
-      	var range = data.rows[0];
-      	var max = new Date(range.max).getTime()
-      	var min = new Date(range.min).getTime()
-    // updates slider with range    
-    $("#slider").slider({
-    	range: true,
-    	min: min,
-    	max: max,
-    // step accounts for miliseconds in a year. Should be a way to run everything in units of "year" instead of miliseconds, but this is faster. talk to Julie about this, it's been set so that it is in 6 month increments..
-    minrange: 315570000000,
-    step: 31557000000,
-    values: [min , max ],
-    slide: function(event, ui) {
-    // force slider to filter results to a minimum size of one "step" as defined below
-    if (ui.values[1] - ui.values[0] < 31557000000)
-    {
-    	return false;
-    }
-    else
-    {
-    // give feedback to the user on slide change
-    changeLegend(ui.values[0], ui.values[1]);
-}
-},
-stop: function( event, ui ) {
-    // when user selects the dates, update the layer with the range
-    var start = new Date(ui.values[0]).toISOString()
-    var end = new Date(ui.values[1]).toISOString();
-
-  // build sql
-  sublayer.setSQL("select * from grantawardeescsv_2 where date >= '" + start + "' and date <= '" + end + "'");
-  // sublayer.setSQL("select * from wbugrantawardees where date >= '" + start + "' and date <= '" + end + "'");
-}
-});
-changeLegend(min, max+1);
-});
-}
 
 function main() {
 
