@@ -1,3 +1,8 @@
-UPDATE wbugrantawards SET date = to_timestamp(year, 'YYYY')
+UPDATE spreadsheet
+
+make new column and set date column to year
+use sql query to set new timestamped column using existing year information
+wbugrantawards SET date = to_timestamp(year, 'YYYY')
+
 
 http://www.azavea.com/blogs/atlas/2015/02/configuring-your-timestamp-field-for-cartodbs-torque-heatmaps/
