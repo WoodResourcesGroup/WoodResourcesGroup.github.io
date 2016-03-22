@@ -399,7 +399,7 @@ omnivore.csv('data/Powerplant.csv')
   else
   {        
     powermarker.setIcon(L.icon({
-      iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmSllLWFk5VjllZm8&amp;export-png',
+      iconUrl: '/Marker/Custom/Map Icon/filler.png',
       iconSize: [0,0]
     }));
   };
@@ -465,7 +465,7 @@ omnivore.csv('data/Powerplant.csv')
   else
   {        
     powermarker.setIcon(L.icon({
-      iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmSllLWFk5VjllZm8&amp;export-png',
+      iconUrl: '/Marker/Custom/Map Icon/filler.png',
       iconSize: [0,0]
     }));
   };
@@ -477,7 +477,7 @@ omnivore.csv('data/Powerplant.csv')
 //should loop this, but could not get it to work. Quicker to brute force.
 // https://docs.google.com/spreadsheet/pub?key=0AnyNiqk9X8DmdDJneGxsNTB6cFFQamRMX0VuNjhPQ2c&single=true&gid=1&output=csv
 var plant3overlay = 
-omnivore.csv('data/Powerplant.csv')
+omnivore.csv('Data/Powerplant.csv')
 .on('layeradd',function(e) {
   var powermarker = e.layer;
   var feature = powermarker.feature;
@@ -524,7 +524,7 @@ omnivore.csv('data/Powerplant.csv')
     else
     {
       powermarker.setIcon(L.icon({
-        iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmTEotOG1yamFwaWc&amp;export-png',
+        iconUrl: 'http://risato.github.io/BiomassMap/Marker/Custom/Map Icon/Closed.png',
         iconSize: [25,25]
       }));
     }
@@ -532,7 +532,7 @@ omnivore.csv('data/Powerplant.csv')
   else
   {        
     powermarker.setIcon(L.icon({
-      iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmSllLWFk5VjllZm8&amp;export-png',
+      iconUrl: '/Marker/Custom/Map Icon/filler.png',
       iconSize: [0,0]
     }));
   };
@@ -624,7 +624,7 @@ var woodmark = omnivore.csv('data/sawmill.csv')
   else 
   {        
     sawmarker.setIcon(L.icon({
-      iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmSllLWFk5VjllZm8&amp;export-png',
+      iconUrl: '/Marker/Custom/Map Icon/filler.png',
       iconSize: [0,0]
     }));
   };
@@ -715,7 +715,7 @@ var wood2mark = omnivore.csv('data/sawmill.csv')
   else 
   {        
     sawmarker.setIcon(L.icon({
-      iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmSllLWFk5VjllZm8&amp;export-png',
+      iconUrl: '/Marker/Custom/Map Icon/filler.png',
       iconSize: [0,0]
     }));
   };
@@ -746,14 +746,14 @@ var wood3mark = omnivore.csv('data/sawmill.csv')
   if (sawmarker.feature.properties.Status ==='Open')
   {
     sawmarker.setIcon(L.icon({
-      iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmSllLWFk5VjllZm8&amp;export-png',
+      iconUrl: '/Marker/Custom/Map Icon/filler.png',
       iconSize: [0,0]
     }));
   }
   else if (sawmarker.feature.properties.Status === 'Developing')
   {    
     sawmarker.setIcon(L.icon({
-      iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmSllLWFk5VjllZm8&amp;export-png',
+      iconUrl: '/Marker/Custom/Map Icon/filler.png',
       iconSize: [0,0]
     }));
   }
@@ -761,14 +761,14 @@ var wood3mark = omnivore.csv('data/sawmill.csv')
   else if (sawmarker.feature.properties.Status === 'Pilot')
   {    
     sawmarker.setIcon(L.icon({
-      iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmSllLWFk5VjllZm8&amp;export-png',
+      iconUrl: '/Marker/Custom/Map Icon/filler.png',
       iconSize: [0,0]
     }));
   }
   else if (sawmarker.feature.properties.Status === 'Proposed')
   {    
     sawmarker.setIcon(L.icon({
-      iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmSllLWFk5VjllZm8&amp;export-png',
+      iconUrl: '/Marker/Custom/Map Icon/filler.png',
       iconSize: [0,0]
     }));
   } 
