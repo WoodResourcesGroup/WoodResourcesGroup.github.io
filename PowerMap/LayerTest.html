@@ -325,6 +325,84 @@ legend.addTo(map);
 // LAYERS DEFINED BELOW. STRUCTURED SO THAT each layer shows only the filtered icons and them merges them together. 
 // duplicates two layers and merges them together
 // https://docs.google.com/spreadsheet/pub?key=0AnyNiqk9X8DmdDJneGxsNTB6cFFQamRMX0VuNjhPQ2c&single=true&gid=1&output=csv
+omnivore.csv('data/powerplant.csv').addTo(map);
+var plantoverlaytest = omnivore.csv('data/powerplant.csv')
+.on('layeradd',function(e) {
+  var powermarker = e.layer;
+  var feature = powermarker.feature;
+  var powercontent = 
+  '<h1>' + '<font color="2C49BO">' +feature.properties.MapLabel + '</font>'+ '</h1>' + '<hr>' +
+  '<b>Location: </b>' + feature.properties.City +', ' + feature.properties.State +'<br>' +
+  '<b>Facility Type: </b>' + feature.properties.Project_Type + ', '+feature.properties.Cogen_Status + '<br>' +
+  '<b>Output: </b>' + feature.properties.MW + ' MW '+'<br>' +
+  '<b>Status: </b>' + feature.properties.Status + '<br>';
+
+  powermarker.bindPopup(powercontent, {
+    closeButton: true,
+    minWidth:320 });
+  powermarker.feature.properties['color'] = '#23c02c';
+  powermarker.setIcon(L.MakiMarkers.icon(powermarker.feature.properties));
+   // powermarker.setIcon(L.icon({
+   //      iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmSzNaSzJYRDUzRFE&amp;export-png',
+   //      iconSize: [25,25]
+   //    }));
+
+}).on('click',function(e){
+  map.panTo(e.layer.getLatLng());
+});
+var woodmarktest = omnivore.csv('data/sawmill.csv')
+.on('layeradd',function(e) {
+  var sawmarker = e.layer;
+  var feature = sawmarker.feature;
+  var sawcontent = 
+  '<h1>' + '<font color="2C49BO">' +feature.properties.Name + '</font>'+ '</h1>' + '<hr>' +  
+  '<b>Status: </b>' + feature.properties.Status +'<br>'  +
+  '<b>Facility Type: </b>' + feature.properties.MillType + '<br>'+ 
+  '<b>Products: </b>' + feature.properties.Products +'<br>' + 
+  '<b>Feedstock/Species: </b>' + feature.properties.Feedstock +',' + feature.properties.Species +'<br>' + 
+  '<b>Location: </b>' + feature.properties.City +', ' + feature.properties.State +'<br>';
+
+  sawmarker.bindPopup(sawcontent,{
+    closeButton: true,
+    minWidth:320});
+
+  sawmarker.feature.properties['size'] = 'm';
+
+  if (sawmarker.feature.properties.Status ==='Open')
+  {
+    sawmarker.feature.properties['color'] = '#23c02c';
+    sawmarker.setIcon(L.MakiMarkers.icon(sawmarker.feature.properties));
+    if (sawmarker.feature.properties.MillType ==='sawmill')
+    {
+      sawmarker.feature.properties['icon'] = 'rocket';
+      sawmarker.setIcon(L.MakiMarkers.icon(sawmarker.feature.properties));
+    }
+    else if (sawmarker.feature.properties.MillType ==='secondary processing')
+    {
+      sawmarker.feature.properties['icon'] = 'square-stroked';
+      sawmarker.setIcon(L.MakiMarkers.icon(sawmarker.feature.properties));
+    }
+    else if (sawmarker.feature.properties.MillType ==='composite panel')
+    {
+      sawmarker.feature.properties['icon'] = 'cross';
+      sawmarker.setIcon(L.MakiMarkers.icon(sawmarker.feature.properties));
+    }
+    else if (sawmarker.feature.properties.MillType === 'shavings')
+    {
+      sawmarker.feature.properties['icon'] = 'triangle';
+      sawmarker.setIcon(L.MakiMarkers.icon(sawmarker.feature.properties));
+    }
+    else 
+    {
+      sawmarker.feature.properties['icon'] = 'park';
+      sawmarker.setIcon(L.MakiMarkers.icon(sawmarker.feature.properties));
+    };
+  }
+;
+}).on('click',function(e){
+  map.panTo(e.layer.getLatLng());
+});
+
 var plantoverlay = 
 omnivore.csv('data/Powerplant.csv')
 .on('layeradd',function(e) {
@@ -334,9 +412,8 @@ omnivore.csv('data/Powerplant.csv')
   '<h1>' + '<font color="2C49BO">' +feature.properties.MapLabel + '</font>'+ '</h1>' + '<hr>' +
   '<b>Location: </b>' + feature.properties.City +', ' + feature.properties.State +'<br>' +
   '<b>Facility Type: </b>' + feature.properties.Project_Type + ', '+feature.properties.Cogen_Status + '<br>' +
-  '<b>Output: </b>' + feature.properties.MWNameplate + ' MW '+'<br>' +
-  '<b>Status: </b>' + feature.properties.Status + '<br>' +
-  '<b>Alternative Names: </b>' + feature.properties.OldName;
+  '<b>Output: </b>' + feature.properties.MW + ' MW '+'<br>' +
+  '<b>Status: </b>' + feature.properties.Status + '<br>';
 
   powermarker.bindPopup(powercontent, {
     closeButton: true,
@@ -392,6 +469,8 @@ omnivore.csv('data/Powerplant.csv')
 
 //should loop this, but could not get it to work. Quicker to brute force.
 var plant2overlay = 
+
+
 omnivore.csv('data/Powerplant.csv')
 .on('layeradd',function(e) {
   var powermarker = e.layer;
@@ -400,9 +479,8 @@ omnivore.csv('data/Powerplant.csv')
   '<h1>' + '<font color="2C49BO">' +feature.properties.MapLabel + '</font>'+ '</h1>' + '<hr>' +
   '<b>Location: </b>' + feature.properties.City +', ' + feature.properties.State +'<br>' +
   '<b>Facility Type: </b>' + feature.properties.Project_Type + ', '+feature.properties.Cogen_Status + '<br>' +
-  '<b>Output: </b>' + feature.properties.MWNameplate + ' MW '+'<br>' +
-  '<b>Status: </b>' + feature.properties.Status + '<br>' +
-  '<b>Alternative Names: </b>' + feature.properties.OldName;
+  '<b>Output: </b>' + feature.properties.MW + ' MW '+'<br>' +
+  '<b>Status: </b>' + feature.properties.Status + '<br>';
 
   powermarker.bindPopup(powercontent, {
     closeButton: true,
@@ -454,7 +532,12 @@ omnivore.csv('data/Powerplant.csv')
 
 }).on('click',function(e){
   map.panTo(e.layer.getLatLng());
-});
+})
+//for error log
+// .on('error', function(error) {
+//     console.log(error);
+// })
+;
 
 //should loop this, but could not get it to work. Quicker to brute force.
 // https://docs.google.com/spreadsheet/pub?key=0AnyNiqk9X8DmdDJneGxsNTB6cFFQamRMX0VuNjhPQ2c&single=true&gid=1&output=csv
@@ -467,9 +550,8 @@ omnivore.csv('data/Powerplant.csv')
   '<h1>' + '<font color="2C49BO">' +feature.properties.MapLabel + '</font>'+ '</h1>' + '<hr>' +
   '<b>Location: </b>' + feature.properties.City +', ' + feature.properties.State +'<br>' +
   '<b>Facility Type: </b>' + feature.properties.Project_Type + ', '+feature.properties.Cogen_Status + '<br>' +
-  '<b>Output: </b>' + feature.properties.MWNameplate + ' MW '+'<br>' +
-  '<b>Status: </b>' + feature.properties.Status + '<br>' +
-  '<b>Alternative Names: </b>' + feature.properties.OldName;
+  '<b>Output: </b>' + feature.properties.MW + ' MW '+'<br>' +
+  '<b>Status: </b>' + feature.properties.Status + '<br>';
 
   powermarker.bindPopup(powercontent, {
     closeButton: true,
@@ -942,12 +1024,14 @@ L.control.groupedLayers(
   'Biomass Power Plant': { 
     '(Operational/Active)': plantoverlay.addTo(map),
     '(Proposed/Pilot)': plant2overlay,
-    '(Non-Operational/Idle)': plant3overlay.addTo(map)
+    '(Non-Operational/Idle)': plant3overlay,
+    '(test)': plantoverlaytest
   },
   'Sawmill': {
     '(Open/Active)': woodmark,
     '(Inactive/Non-operational)': wood3mark,
     '(Proposed/Pilot)': wood2mark
+,    '(test)': woodmarktest
   },
   'Other': {
     'CARB Air Basins': AIRBasinCoverage,
