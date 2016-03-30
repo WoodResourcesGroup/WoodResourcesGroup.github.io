@@ -1,4 +1,4 @@
-Name,Status,MapLabel,MWNameplate,Project_Type,Cogen_Status,County,City,State,Zip,RecID,OldName,Latitude,Longitude
+Name,Status,MapLabel,MWNameplate,Project_Type,Cogen_Status,County,City,State,Zip,RecID,OldName,latitude,longitude
 Blue Lake Rancheria,Active development,Blue Lake Rancheria,0.8,Biomass solid fuel,not cogen,Humboldt County,Blue Lake,CA,95525,59,,40.886347,-124.000079
 North Fork BioMAT Project,Active development,North Fork BioMAT Project,2,Biomass solid fuel,Unknown,Madera County,North Fork,CA,93643,60,,37.231861,-119.494599
 Wilseyville BioMAT Project,Active development,Wilseyville BioMAT Project,3,Biomass solid fuel,Unknown,Calaveras County,West Point,CA,95255,61,,38.37751,-120.523977
