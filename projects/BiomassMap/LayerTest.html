@@ -301,7 +301,7 @@ legend.onAdd = function(map) {
   '&nbsp;Cogeneration   '+
   '</span>'+
   '<p title= "Displays Sawmills and other Wood Processing Facilities within California" style="cursor:help;font-size:16px; color:green;">'+
-  'Sawmill & Other<br>'+
+  'Sawmill & Other Facilities<br>'+
   '<span style="color:black; font-size:12px">'+
   '<span title = "Includes Dimensional and Stud Mills" style="cursor:help;">'+
   '<img src="https://docs.google.com/uc?id=0B3yNiqk9X8DmZ2Q2V0ZIcU9laG8" width="20" height="20" border="0" />'+
@@ -344,7 +344,7 @@ legend.addTo(map);
 // duplicates two layers and merges them together
 // https://docs.google.com/spreadsheet/pub?key=0AnyNiqk9X8DmdDJneGxsNTB6cFFQamRMX0VuNjhPQ2c&single=true&gid=1&output=csv
 var plantoverlay = 
-omnivore.csv('Data/Powerplant.csv')
+omnivore.csv('Data/pptest.csv')
 .on('layeradd',function(e) {
   var powermarker = e.layer;
   var feature = powermarker.feature;
@@ -352,7 +352,7 @@ omnivore.csv('Data/Powerplant.csv')
   '<h1>' + '<font color="2C49BO">' +feature.properties.MapLabel + '</font>'+ '</h1>' + '<hr>' +
   '<b>Location: </b>' + feature.properties.City +', ' + feature.properties.State +'<br>' +
   '<b>Facility Type: </b>' + feature.properties.Project_Type + ', '+feature.properties.Cogen_Status + '<br>' +
-  '<b>Output: </b>' + feature.properties.MW + ' MW '+'<br>' +
+  '<b>Output: </b>' + feature.properties.MWNameplate + ' MW '+'<br>' +
   '<b>Status: </b>' + feature.properties.Status + '<br>' +
   '<b>Alternative Names: </b>' + feature.properties.OldName;
 
@@ -415,7 +415,7 @@ omnivore.csv('Data/Powerplant.csv')
 
 //should loop this, but could not get it to work. Quicker to brute force.
 var plant2overlay = 
-omnivore.csv('Data/Powerplant.csv')
+omnivore.csv('Data/pptest.csv')
 .on('layeradd',function(e) {
   var powermarker = e.layer;
   var feature = powermarker.feature;
@@ -423,7 +423,7 @@ omnivore.csv('Data/Powerplant.csv')
   '<h1>' + '<font color="2C49BO">' +feature.properties.MapLabel + '</font>'+ '</h1>' + '<hr>' +
   '<b>Location: </b>' + feature.properties.City +', ' + feature.properties.State +'<br>' +
   '<b>Facility Type: </b>' + feature.properties.Project_Type + ', '+feature.properties.Cogen_Status + '<br>' +
-  '<b>Output: </b>' + feature.properties.MW + ' MW '+'<br>' +
+  '<b>Output: </b>' + feature.properties.MWNameplate + ' MW '+'<br>' +
   '<b>Status: </b>' + feature.properties.Status + '<br>' +
   '<b>Alternative Names: </b>' + feature.properties.OldName;
 
@@ -483,7 +483,7 @@ omnivore.csv('Data/Powerplant.csv')
 //should loop this, but could not get it to work. Quicker to brute force.
 // https://docs.google.com/spreadsheet/pub?key=0AnyNiqk9X8DmdDJneGxsNTB6cFFQamRMX0VuNjhPQ2c&single=true&gid=1&output=csv
 var plant3overlay = 
-omnivore.csv('Data/Powerplant.csv')
+omnivore.csv('Data/pptest.csv')
 .on('layeradd',function(e) {
   var powermarker = e.layer;
   var feature = powermarker.feature;
@@ -491,7 +491,7 @@ omnivore.csv('Data/Powerplant.csv')
   '<h1>' + '<font color="2C49BO">' +feature.properties.MapLabel + '</font>'+ '</h1>' + '<hr>' +
   '<b>Location: </b>' + feature.properties.City +', ' + feature.properties.State +'<br>' +
   '<b>Facility Type: </b>' + feature.properties.Project_Type + ', '+feature.properties.Cogen_Status + '<br>' +
-  '<b>Output: </b>' + feature.properties.MW + ' MW '+'<br>' +
+  '<b>Output: </b>' + feature.properties.MWNameplate + ' MW '+'<br>' +
   '<b>Status: </b>' + feature.properties.Status + '<br>' +
   '<b>Alternative Names: </b>' + feature.properties.OldName;
 
@@ -574,9 +574,9 @@ var woodmark = omnivore.csv('Data/sawmill.csv')
   {
     sawmarker.feature.properties['color'] = '#23c02c';
     sawmarker.setIcon(L.MakiMarkers.icon(sawmarker.feature.properties));
-    if (sawmarker.feature.properties.MillType ==='sawmill')
+    if (sawmarker.feature.properties.MillType ==='Sawmill')
     {
-      sawmarker.feature.properties['icon'] = 'rocket';
+      sawmarker.feature.properties['icon'] = 'warehouse';
       sawmarker.setIcon(L.MakiMarkers.icon(sawmarker.feature.properties));
     }
     else if (sawmarker.feature.properties.MillType ==='secondary processing')
@@ -604,7 +604,7 @@ var woodmark = omnivore.csv('Data/sawmill.csv')
   {    
     sawmarker.feature.properties['color'] = '#2141F3';
     sawmarker.setIcon(L.MakiMarkers.icon(sawmarker.feature.properties));
-    if (sawmarker.feature.properties.MillType ==='sawmill')
+    if (sawmarker.feature.properties.MillType ==='Sawmill')
     {
       sawmarker.feature.properties['icon'] = 'warehouse';
       sawmarker.setIcon(L.MakiMarkers.icon(sawmarker.feature.properties));
@@ -666,7 +666,7 @@ var wood2mark = omnivore.csv('Data/sawmill.csv')
   {
     sawmarker.feature.properties['color'] = '#1CEBE5';
     sawmarker.setIcon(L.MakiMarkers.icon(sawmarker.feature.properties));
-    if (sawmarker.feature.properties.MillType ==='sawmill')
+    if (sawmarker.feature.properties.MillType ==='Sawmill')
     {
       sawmarker.feature.properties['icon'] = 'warehouse';
       sawmarker.setIcon(L.MakiMarkers.icon(sawmarker.feature.properties));
@@ -696,7 +696,7 @@ var wood2mark = omnivore.csv('Data/sawmill.csv')
   {    
     sawmarker.feature.properties['color'] = '#C100F2';
     sawmarker.setIcon(L.MakiMarkers.icon(sawmarker.feature.properties));
-    if (sawmarker.feature.properties.MillType ==='sawmill')
+    if (sawmarker.feature.properties.MillType ==='Sawmill')
     {
       sawmarker.feature.properties['icon'] = 'warehouse';
       sawmarker.setIcon(L.MakiMarkers.icon(sawmarker.feature.properties));
@@ -791,7 +791,7 @@ var wood3mark = omnivore.csv('Data/sawmill.csv')
   {
     sawmarker.feature.properties['color'] = '#F4EA00';
     sawmarker.setIcon(L.MakiMarkers.icon(sawmarker.feature.properties));
-    if (sawmarker.feature.properties.MillType ==='sawmill')
+    if (sawmarker.feature.properties.MillType ==='Sawmill')
     {
       sawmarker.feature.properties['icon'] = 'warehouse';
       sawmarker.setIcon(L.MakiMarkers.icon(sawmarker.feature.properties));
@@ -821,7 +821,7 @@ var wood3mark = omnivore.csv('Data/sawmill.csv')
   {    
     sawmarker.feature.properties['color'] = '#c1271f';
     sawmarker.setIcon(L.MakiMarkers.icon(sawmarker.feature.properties));
-    if (sawmarker.feature.properties.MillType ==='sawmill')
+    if (sawmarker.feature.properties.MillType ==='Sawmill')
     {
       sawmarker.feature.properties['icon'] = 'warehouse';
       sawmarker.setIcon(L.MakiMarkers.icon(sawmarker.feature.properties));
@@ -977,7 +977,7 @@ L.control.groupedLayers(
     '(Proposal/Pilot)': plant2overlay,
     '(Liquidated/Idle)': plant3overlay.addTo(map)
   },
-  'Sawmill': {
+  'Sawmills and Other Facilities': {
     '(Operational/Active)': woodmark,
     '(Liquidated/Idle)': wood3mark,
     '(Proposal/Pilot)': wood2mark
