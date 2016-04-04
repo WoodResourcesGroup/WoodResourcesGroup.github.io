@@ -237,105 +237,7 @@ var legend = L.control({position: 'bottomright'});
 legend.onAdd = function(map) {
   this._div = L.DomUtil.create('div', 'myControl');
   // legend content
-  this._div.innerHTML = '<div class="legend">' +
-  '<h2 title = "Operational Condition of Facility" style="cursor:help;text-align:center;font-size:125%;font-family: Arial; font-weight: bold;">' +
-  'Facility Status'+
-  '</h2>' +
-  '<p>'+
-  '<hr>'+ 
-
-  '<span title = "Open for business to accept and process raw woody material." style="cursor:help;">' +
-  '<span class="symbol_rectangle" style="padding-left:20px;padding-top:3px;padding-bottom:3px;border:0px solid #000000;background: #23c02c;overflow:hidden;">'+
-  '&nbsp;</span>'+
-  '&nbsp;'+
-  'Operational<p>'+ 
-  '</span>'+
-
-  '<span title = "Construction may or may not have begun, site is purchased or being purchased, feasibility studies have been completed, web site is active, permitting is underway, and additional capital is being raised." style="cursor:help;">' +
-  '<span class="symbol_rectangle" style="padding-left:20px;padding-itop:3px;padding-bottom:3px;border:0px solid #000000;background: #2141F3;overflow:hidden;">'+
-  '&nbsp;</span>'+
-  '&nbsp;'+
-  'Active Project<p>'+
-   '</span>'+
-
-  '<span title = "Plant is closed and most or all of the workers have been laid off. The plant may still accept raw material, but it is not operating. Equipment is still in place and the facility could theoretically be reopened." style="cursor:help;">' +
-  '<span class="symbol_rectangle" style="padding-left:20px;padding-top:3px;padding-bottom:3px;border:0px solid #BD8339;background: #F4EA00;overflow:hidden;">'+
-  '&nbsp;</span>'+
-  '&nbsp;'+
-  'Idle<p>'+
-   '</span>'+
-
-  '<span title = "Non-industrial size plant whose purpose is to test and confirm manufacturing processes at a scale above “bench top” and below “industrial”. Pilot plant is normally step before scale-up occurs to industrial." style="cursor:help;">' +
-  '<span class="symbol_rectangle" style="padding-left:20px;padding-top:3px;padding-bottom:3px;border:0px solid #000000;background: #C100F2;overflow:hidden;">'+
-  '&nbsp;</span>'+
-  '&nbsp;'+
-  'Pilot<p>'+
-   '</span>'+
-
-  '<span title = "There is no physical presence yet. Site has not been purchased. Feasibility studies may have been completed, web site may be up, and capital is being raised." style="cursor:help;">' +
-  '<span class="symbol_rectangle" style="padding-left:20px;padding-top:3px;padding-bottom:3px;border:0px solid #000000;background: #1CEBE5;overflow:hidden;">'+
-  '&nbsp;</span>'+
-  '&nbsp;'+
-  'Proposal<p>'+
-   '</span>'+
-
-  '<span title = "Plant is closed, workers have been laid off, and equipment has been liquidated. Industrial site remains. Some structures may remain and other businesses may be using the site." style="cursor:help;">' +
-  '<span class="symbol_rectangle" style="padding-left:20px;padding-top:3px;padding-bottom:3px;border:0px solid #000000;background: #c1271f;overflow:hidden;">'+
-  '&nbsp;</span>'+
-  '&nbsp;'+
-  'Liquidated<p>'+
-   '</span>'+
-
-  '<p>'+
-  '<h2 style="text-align:center;font-size:125%;font-family: Arial; font-weight: bold;">'+
-  'Type</h2>'+
-  '<p>'+
-  '<hr>'+
-  '<p  title = "Power Plant Facilities Utilizing Woody Feestock Material Sourced from California" style="cursor:help; color:green;font-size:16px">'+
-  'Power Facility<br>'+
-  '<span style="color:black; font-size:12px">'+
-  '<img src="https://docs.google.com/uc?id=0B3yNiqk9X8DmTXRkQllHdWpldU0&amp;export-png" width="20" height="20" border="0"/>'+
-  '&nbsp;Standalone Generator '+
-  '<br>'+
-  '<img src="https://docs.google.com/uc?id=0B3yNiqk9X8Dmc1hzZG5wZ0RLUDg" width="20" height="20" border="0" z-index="10"/>'+
-  '&nbsp;Cogeneration   '+
-  '</span>'+
-  '<p title= "Displays Sawmills and other Wood Processing Facilities within California" style="cursor:help;font-size:16px; color:green;">'+
-  'Sawmill & Other Facilities<br>'+
-  '<span style="color:black; font-size:12px">'+
-  '<span title = "Includes Dimensional and Stud Mills" style="cursor:help;">'+
-  '<img src="https://docs.google.com/uc?id=0B3yNiqk9X8DmZ2Q2V0ZIcU9laG8" width="20" height="20" border="0" />'+
-  '&nbsp;Sawmill'+
-  '</span>'+
-  '<br>'+
-  '<span title ="Includes Post and pole, Fenceboard, Cedar, and Redwood Mills" style="cursor:help;">'+
-  '<img src="https://docs.google.com/uc?id=0BzwsVf_VMR5JeXRBbmR6bnV6OWs" width="20" height="20" border="0" />'+
-  '&nbsp;Specialty Mill '+
-  '</span>'+
-  '<br>'+
-  '<span title = "Includes OSB, Veneer, Lvl, MDF Facilities" style="cursor:help">'+
-  '<img src="https://docs.google.com/uc?id=0BzwsVf_VMR5JLWZib2pkOXZYOW8" width="20" height="20" border="0" />'+
-  '&nbsp;Engineered Wood'+
-  '</span>'+
-  '<br>'+
-  '<span title = "Includes Pulp, Particleboard, and Containerboard Mills" style="cursor:help">'+
-  '<img src="https://docs.google.com/uc?id=0B3yNiqk9X8Dmck1jdEJZTEUyMEU" width="20" height="20" border="0" />'+
-  '&nbsp;Fiber  '+
-  '</span>'+
-  '<br>'+
-  '<span title = "Includes Small Production Mills and Shavings Mills" style="cursor:help">'+
-  '<img src="https://docs.google.com/uc?id=0B3yNiqk9X8DmZGc0YW1MeU9XNG8" width="20" height="20" border="0" />'+
-  '&nbsp;Other Mill Type</span>'+
-  '<br>'+
-  '<h4>'+
-  'Please attribute data to UC Berkeley'+
-  '<br>'+
-  '<span style="font-weight: bold;font-size: 20px">'+
-  '<a href="http://ucanr.edu/sites/WoodyBiomass/" target="http://ucanr.edu/sites/WoodyBiomass/">'+
-  'Woody Biomass Utilization Group</a>'+
-  '</span>'+
-  '</h4>'+
-  '</div>'
+  this._div.innerHTML = 'text'
   return this._div;
 }
 legend.addTo(map);
@@ -969,23 +871,6 @@ L.control.groupedLayers(
   // "GoogleStreet": gmap_layer,
   // "Satellite View":gmap_layer2,
   // "Terrain View":gmap_layer3,
-},
-// overlay layers
-{
-  'Biomass Power Plant': { 
-    '(Operational/Active)': plantoverlay.addTo(map),
-    '(Proposal/Pilot)': plant2overlay,
-    '(Liquidated/Idle)': plant3overlay.addTo(map)
-  },
-  'Sawmills and Other Facilities': {
-    '(Operational/Active)': woodmark,
-    '(Liquidated/Idle)': wood3mark,
-    '(Proposal/Pilot)': wood2mark
-  },
-  'Other': {
-    'CARB Air Basins': AIRBasinCoverage,
-    'Utility Coverage': UtilityLayer
-  },
 },{
   position: 'bottomleft',collapsed: false,
  // autoZIndex: true,
@@ -1017,12 +902,12 @@ var markers = L.markerClusterGroup();
 for (var i = 1; i < wood3mark.length; i++) {
   var a = wood3mark[i];
   var title = a[2];
-  var marker = L.marker(new L.LatLng(a[13], a[14]), { title: title });
+  var marker = L.marker(new L.LatLng(a[12], a[13]), { title: title });
   marker.bindPopup(title);
   markers.addLayer(marker);
 }
-
-map.addLayer(markers);
+markers.addTo(map);
+// map.addLayer(markers);
 
 </script>
 </body>
