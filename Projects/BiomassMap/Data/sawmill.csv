@@ -7,7 +7,7 @@ Kimberly-Clark Corporation (Anderson),Closed,1981,,Sawmill,Logs,,,Anderson,CA,,9
 P&M Anderson Mill,Closed,1995,,Sawmill,Logs,Lumber,,Anderson,CA,,9006,40.46978,-122.327068
 Roseburg Forest Products,Closed,1993,Paul Bunyan,Sawmill,Logs,Lumber,,Anderson,CA,,9007,40.436626,-122.276119
 SPI Anderson Pole Peeler Plant,Closed,,Sierra Pacific Industries,Pole Peeler,Logs,Post/Pole,"Douglas-fir, Ponderosa Pine, Incense Cedar, Hemlock-fir, Sugar Pine",Anderson,CA,96007,9009,40.471498,-122.320991
-SPI Anderson Sawmill,Closed,2016,Sierra Pacific Industries,Sawmill,Logs,Lumber,"Douglas-fir, Ponderosa Pine, Incense Cedar, Hemlock-fir, Sugar Pine",Anderson,CA,,9008,40.471498,-122.320991
+SPI Anderson Sawmill,Open,,Sierra Pacific Industries,Sawmill,Logs,Lumber,"Douglas-fir, Ponderosa Pine, Incense Cedar, Hemlock-fir, Sugar Pine",Anderson,CA,,9008,40.471498,-122.320991
 All-Brite Lumber Company (Arcata),Closed,1976,,Sawmill,Logs,,"RW, DF",Arcata,CA,95521,9162,40.86811,-124.092833
 Brightwood Lumber,Closed,1973,,Sawmill,Logs,,,Arcata,CA,95521,9164,40.865432,-124.151866
 California Redwood Company (Korbel),Closed,2015,"Simpson Timber Co., Korbel, CA",Sawmill,Logs,Lumber,"Douglas-fir, Redwood",Arcata,CA,95518,9013,40.87184621,-123.9632726
@@ -54,7 +54,7 @@ Louisiana Pacific (Cloverdale),Closed,1993,,Sawmill,Logs,Lumber,,Cloverdale,CA,,
 Masonite (Cloverdale),Closed,1983,Molalla Forest Products,Sawmill,Logs,,,Cloverdale,CA,,9144,38.779133,-123.008295
 Preston Lumber Corporation,Closed,1996,"Richardson Lumber, Davies Lumber",Sawmill,Logs,,,Cloverdale,CA,,9143,38.829085,-123.01282
 Redwood Empire (Cloverdale),Open,,"Preston Lumber Corporation (Cloverdale Plant), Richardson Lumber",Sawmill,Logs,Lumber,"Redwood, Douglas-fir, Hemlock",Cloverdale,CA,95425,9039,38.820891,-123.018623
-Emmert Forest Products,Closed,1975,,Sawmill,Logs,,,Clovis ,CA,,9188,36.871047,-119.747674
+Emmert Forest Products,Closed,1975,,Sawmill,Logs,,,Clovis,CA,,9188,36.871047,-119.747674
 B&T Lumber,Closed,1975,,Sawmill,Logs,,,Covelo,CA,,9189,39.79271,-123.247404
 Louisiana Pacific (Covelo),Closed,1993,,Sawmill,Logs,Lumber,,Covelo,CA,,9040,39.8174833,-123.20695
 B&R Sawmills Inc,Closed,1974,,Sawmill,Logs,,,Crescent City,CA,,9190,41.791097,-124.18658
@@ -156,7 +156,7 @@ Siskiyou Plumas Lumber,Closed,1996,,Sawmill,Logs,Lumber,,Quincy,CA,,9091,39.9415
 SPI Quincy Sawmill,Open,,Sierra Pacific Industries - Quincy Station,Sawmill,Logs,Lumber,,Quincy,CA,95971,9090,39.93866858,-120.9112616
 Louisiana Pacific (Red Bluff),Closed,1991,,Sawmill,Logs,Lumber,,Red Bluff,CA,,9093,40.133429,-122.202967
 Roseburg Forest Products *,Closed,1991,Diamond Lands,Sawmill,Logs,Lumber,,Red Bluff,CA,,9092,40.165498,-122.231812
-Lassen Forest Products,Open,,,Bark Processor,Bark,Bark Products,,Red Bluff ,CA,96080,9095,40.12963114,-122.1878034
+Lassen Forest Products,Open,,,Bark Processor,Bark,Bark Products,,Red Bluff,CA,96080,9095,40.12963114,-122.1878034
 Eel River (Redcrest),Closed,2001,,Sawmill,Logs,Lumber,,Redcrest,CA,,9096,40.397451,-123.940738
 Butler Forest Products,Closed,1997,,Sawmill,Logs,Lumber,,Redding,CA,,9097,40.500658,-122.450707
 Heron Mills,Closed,1975,,Sawmill,Logs,,,Redding,CA,,9254,40.587103,-122.3915
@@ -202,7 +202,7 @@ Georgia Pacific (Ukiah),Closed,1974,,Sawmill,Logs,,,Ukiah,CA,95482,9280,39.18498
 Hollow Tree Lumber,Closed,1974,,Sawmill,Logs,,,Ukiah,CA,95482,9281,39.17842,-123.230076
 Masonite ( Ukiah),Closed,,,Sawmill,Logs,,,Ukiah,CA,,9118,39.173757,-123.206264
 Agwood Mill & Lbr.,Open,,Agwood Mill & Lumber Inc,Sawmill,Logs,Lumber,"DF, redwood",Ukiah,CA,95482,9117,39.17958875,-123.2036368
-Blue Lake Round Stock,Open,,,Post/Pole Mill,Logs,Post/Pole,"DF, RW",Ukiah,CA,,9292,40.484703,-122.345292
+Blue Lake Round Stock,Open,,,Post/Pole Mill,Logs,Post/Pole,"DF, RW",Anderson,CA,,9292,40.484703,-122.345292
 Mendocino Forest Products Sawmill (Ukiah),Open,,"Palco, LP",Sawmill,Logs,Lumber,"RW, DF",Ukiah,CA,95482,9119,39.183738,-123.203868
 Snyder Lumber,Closed,1987,,Sawmill,Logs,,,Wallace,CA,,9283,38.194106,-120.977912
 Schmidbauer Lumber,Closed,1987,,Sawmill,Logs,,,Weaverville,CA,,9284,40.725091,-122.93143
@@ -224,6 +224,6 @@ Sharp Lumber,Closed,1972,,Sawmill,Logs,,,Yreka,CA,96097,9291,41.708698,-122.6324
 SPI Siskiyou Sawmill,Closed,1976,,Sawmill,Logs,,,Yreka,CA,96097,9289,41.732535,-122.59341
 Fruit Growers Supply Co. Sawmill,Open,,Hi-Ridge,Sawmill,Logs,Lumber,"PP, DF, WF, LPP",Yreka,CA,96097,9131,41.73064723,-122.5929565
 "Shasta Forest Products, Inc.",Open,,,Bark Processor,Bark,Bark Products,,Yreka,CA,96097,9132,41.732792,-122.591179
-Timber Products Veneer Mill,Open,,Timber Products Co,Veneer,Logs,Veneer,"DF, WF Shasta RF, pine and other.  No IC.",Yreka,CA,96097,9133,41.737758,-122.593349
+Timber Products Veneer Mill,Open,,Timber Products Co,Veneer,Logs,Veneer,"DF, WF Shasta RF, pine and other. No IC.",Yreka,CA,96097,9133,41.737758,-122.593349
 Sound Stud Sawmill,Closed,2009,"Sound Stud Sawmill, Anderson, CA",Sawmill,Logs,Lumber,"Douglas-fir, Ponderosa Pine, Hemlock",Yuba City,CA,96007,9134,40.484703,-122.345292
 Unity Forest Products,Open,,,Small Production Mill,Logs,,,Yuba City,CA,,9135,39.112056,-121.608451
