@@ -1,20 +1,20 @@
 Name,Status,MapLabel,MWname,Project_Type,Cogen_Status,County,City,State,Zip,RecID,OldName,latitude,longitude
-Blue Lake Rancheria,Active development,Blue Lake Rancheria,0.8,Biomass solid fuel,not cogen,Humboldt County,Blue Lake,CA,95525,59,,40.886347,-124.000079
-North Fork BioMAT Project,Active development,North Fork BioMAT Project,2,Biomass solid fuel,Unknown,Madera County,North Fork,CA,93643,60,,37.231861,-119.494599
-Wilseyville BioMAT Project,Active development,Wilseyville BioMAT Project,3,Biomass solid fuel,Unknown,Calaveras County,West Point,CA,95255,61,,38.37751,-120.523977
-Placer County,Active development,Placer County Biomass Power Project,2,Gasification,cogen,Placer County,Cabin Creek,CA,96161,30,,39.290828,-120.214074
+Blue Lake Rancheria,Active Project,Blue Lake Rancheria,0.8,Biomass solid fuel,not cogen,Humboldt County,Blue Lake,CA,95525,59,,40.886347,-124.000079
+North Fork BioMAT Project,Active Project,North Fork BioMAT Project,2,Biomass solid fuel,Unknown,Madera County,North Fork,CA,93643,60,,37.231861,-119.494599
+Wilseyville BioMAT Project,Active Project,Wilseyville BioMAT Project,3,Biomass solid fuel,Unknown,Calaveras County,West Point,CA,95255,61,,38.37751,-120.523977
+Placer County,Active Project,Placer County Biomass Power Project,2,Gasification,cogen,Placer County,Cabin Creek,CA,96161,30,,39.290828,-120.214074
 Quincy Proposed Project,Proposal,Quincy Project,3,Thermal,Unknown,Plumas County,Quincy,CA,95971,62,,39.936666,-120.946199
-Iberdrola Lakeview Project,Active development,Iberdrola Lakeview Project,26,Unknown,Unknown,Lake County,Lakeview,OR,97630,53,,42.197586,-120.354345
-Red Rock Biofuels LLC,Active Development,Red Rock Biofuels,17.5,Unknown,Unknown,,Lakeview,OR,,135,,42.163105,-120.349209
-Central Valley Ag Grinding,Active Development,Central Valley Ag Grinding,1,Gasification,cogen,Stanislaus County,Oakdale,CA,95361,58,,37.718988,-120.895545
-Valley Bio-Energy,Cancelled,Valley Bio-Energy,33,Biomass solid fuel,not cogen,Stanislaus County,Modesto,CA,95350,101,,37.6383,-120.999589
-Placer County,Cancelled,Placer County Biomass Power Project,2,Gasification,cogen,Placer County,Kings Beach,CA,96143,107,,39.245133,-120.027133
-Iberdrola Klamath Falls Project,Cancelled,Iberdrola Klamath Falls Project,,Unknown,Unknown,Klamath County,Klamath Falls,OR,97601,54,,42.176324,-121.809231
-Klamath Falls Bioenergy Project,Cancelled,Klamath Falls Bioenergy Project,,Unknown,Unknown,Klamath County,Klamath Falls,OR,97601,55,,42.174472,-121.822306
-HFI BioPower,Cancelled,HFI BioPower,20,Unknown,Unknown,Deschutes County,La Pine,OR,97739,116,,43.668663,-121.486519
-Ortigalita Power Co.,Cancelled,Ortigalita Power,1,Unknown,Unknown,Merced,Los Banos,CA,,123,,36.979552,-120.870087
-Rialto Renewable Energy Center,Cancelled,Rialto Renewable Energy Center,40,Unknown,Unknown,San Bernardino,Bloomington,CA,,124,,34.052028,-117.359847
-Colton Renewable Energy Center,Cancelled,Colton Renewable Energy Center,49.9,Unknown,Unknown,San Bernardino,Colton,CA,92324,125,,34.06079,-117.345883
+Iberdrola Lakeview Project,Active Project,Iberdrola Lakeview Project,26,Unknown,Unknown,Lake County,Lakeview,OR,97630,53,,42.197586,-120.354345
+Red Rock Biofuels LLC,Active Project,Red Rock Biofuels,17.5,Unknown,Unknown,,Lakeview,OR,,135,,42.163105,-120.349209
+Central Valley Ag Grinding,Active Project,Central Valley Ag Grinding,1,Gasification,cogen,Stanislaus County,Oakdale,CA,95361,58,,37.718988,-120.895545
+Valley Bio-Energy,Cancelled Project,Valley Bio-Energy,33,Biomass solid fuel,not cogen,Stanislaus County,Modesto,CA,95350,101,,37.6383,-120.999589
+Placer County,Cancelled Project,Placer County Biomass Power Project,2,Gasification,cogen,Placer County,Kings Beach,CA,96143,107,,39.245133,-120.027133
+Iberdrola Klamath Falls Project,Cancelled Project,Iberdrola Klamath Falls Project,,Unknown,Unknown,Klamath County,Klamath Falls,OR,97601,54,,42.176324,-121.809231
+Klamath Falls Bioenergy Project,Cancelled Project,Klamath Falls Bioenergy Project,,Unknown,Unknown,Klamath County,Klamath Falls,OR,97601,55,,42.174472,-121.822306
+HFI BioPower,Cancelled Project,HFI BioPower,20,Unknown,Unknown,Deschutes County,La Pine,OR,97739,116,,43.668663,-121.486519
+Ortigalita Power Co.,Cancelled Project,Ortigalita Power,1,Unknown,Unknown,Merced,Los Banos,CA,,123,,36.979552,-120.870087
+Rialto Renewable Energy Center,Cancelled Project,Rialto Renewable Energy Center,40,Unknown,Unknown,San Bernardino,Bloomington,CA,,124,,34.052028,-117.359847
+Colton Renewable Energy Center,Liquidated,Colton Renewable Energy Center,49.9,Unknown,Unknown,San Bernardino,Colton,CA,92324,125,,34.06079,-117.345883
 Big Valley Biomass Power/BVP Property,Idle,Big Valley Biomass Power,,Biomass solid fuel,not cogen,Lassen County,Bieber,CA,96009,2,,41.132744,-121.137368
 Blue Lake Power,Idle,Renewable Energy Providers Blue Lake Power,11,Biomass solid fuel,not cogen,Humboldt County,Blue Lake,CA,95525,3,,40.877693,-123.994609
 Burney Mountain Power,Idle,Covanta Burney Mtn. Power,11,Biomass solid fuel,not cogen,Shasta County,Burney,CA,96013,6,Covanta,40.909703,-121.639961
@@ -33,23 +33,23 @@ Tracy Biomass Plant,Idle,Greenleaf Tracy Biomass Power,23,Biomass solid fuel,not
 Air Products Stockton,Idle,Air Products Stockton Biomass Power,60,"Co-fire or conversion (from coal, petcoke or TDF)",cogen,San Joaquin County,Stockton,CA,95206,1,,37.912473,-121.261706
 Ortigalita Power Co.,Idle,Ortigalita Phoenix,,Gasification,not cogen,Merced County,Merced,CA,95348,29,,37.335114,-120.528724
 West Biofuels,Idle,West Biofuels Gasifier Pilot,,Gasification,not cogen,Yolo County,Woodland,CA,95776,50,,38.721719,-121.7544
-Diamond Walnut,Non-operational,Diamond Walnut Biomass Power,4.5,Biomass solid fuel,not cogen,San Joaquin County,Stockton,CA,95201,13,,37.950083,-121.254484
-Mesquite Lake Resource Recovery,Non-operational,Mesquite Lake Resource Recovery Power,18.5,Biomass solid fuel,not cogen,Imperial County,El Centro,CA,92227,24,Formerly Chateau,32.90381,-115.512373
-Sierra Biomass (Auberry),Non-operational,Sierra Biomass Power,15,Biomass solid fuel,not cogen,Fresno County,Auberry,CA,93602,37,Auberry,37.065354,-119.491147
-Soledad Energy,Non-operational,Soledad Energy,,Biomass solid fuel,not cogen,Monterey County,Soledad,CA,93960,39,,36.416976,-121.315617
-SPI Anderson I,Closed,SPI Anderson I,4,Biomass solid fuel,cogen,Shasta County,Anderson,CA,96007,41,,40.472715,-122.323162
-Susanville,Non-operational,Susanville Biomass Power Project,12.5,Biomass solid fuel,not cogen,Lassen County,Susanville,CA,96130,47,SPI Susanville,40.408256,-120.644821
-Freshwater Pulp,Non-operational,Freshwater Pulp Biomass Power,50,Chemical recovery,cogen,Humboldt County,Samoa,CA,95564,17,"Evergreen pulp, LP",40.805519,-124.195843
-AES Delano,Non-Operational,AES Delano,50,Unknown,Unknown,Kern County,Delano,CA,93250,108,,35.721901,-119.233356
-Liberty V Biofuels,Non-Operational,Amended and Restated Liberty V Biofuels,4.5,Unknown,Unknown,Kern County,Lost Hills,CA,,109,,35.679797,-119.796498
-Bull Moose Energy Otay Mesa Biomass Facility,Non-Operational,Bull Moose,20,Unknown,Unknown,San Diego County,San Diego,CA,,110,,32.566906,-116.941888
-Envirepel Fallbrook,Non-Operational,Envirepel Fallbrook,40,Unknown,Unknown,San Diego County,Fallbrook,CA,92028,112,,33.333935,-117.145164
-Envirepel Ramona,Non-Operational,Envirepel Ramona,5,Unknown,Unknown,San Diego County,Ramona,CA,92065,114,,33.085519,-116.863258
-Envirepel Vista,Non-Operational,KittyHawk,2,Unknown,Unknown,San Diego County,Vista,CA,92081,115,,33.147989,-117.235388
-Imperial Valley Biopower,Non-Operational,Imperial Valley Biopower,20,Unknown,Unknown,Imperial County,Brawley,CA,92227,117,,32.903407,-115.534379
-Liberty 1 Biofuels Power,Non-Operational,Liberty 1 Biofuels Power,5,Unknown,Unknown,Imperial County,El Centro,CA,92251,118,,32.912743,-115.510335
-Wheelabrator No.4,Non-Operational,Wheelabrator No.4,3,Unknown,Unknown,Shasta County,Cottonwood,CA,96007,121,,40.428435,-122.2769
-Sonoma Green Energy,Non-Operational,Sonoma Green Energy,1,Unknown,Unknown,Sonoma,Petaluma,CA,,126,,38.301876,-122.754976
+Diamond Walnut,Cancelled Project,Diamond Walnut Biomass Power,4.5,Biomass solid fuel,not cogen,San Joaquin County,Stockton,CA,95201,13,,37.950083,-121.254484
+Mesquite Lake Resource Recovery,Cancelled Project,Mesquite Lake Resource Recovery Power,18.5,Biomass solid fuel,not cogen,Imperial County,El Centro,CA,92227,24,Formerly Chateau,32.90381,-115.512373
+Sierra Biomass (Auberry),Liquidated,Sierra Biomass Power,15,Biomass solid fuel,not cogen,Fresno County,Auberry,CA,93602,37,Auberry,37.065354,-119.491147
+Soledad Energy,Liquidated,Soledad Energy,,Biomass solid fuel,not cogen,Monterey County,Soledad,CA,93960,39,,36.416976,-121.315617
+SPI Anderson I,Liquidated,SPI Anderson I,4,Biomass solid fuel,cogen,Shasta County,Anderson,CA,96007,41,,40.472715,-122.323162
+Susanville,Liquidated,Susanville Biomass Power Project,12.5,Biomass solid fuel,not cogen,Lassen County,Susanville,CA,96130,47,SPI Susanville,40.408256,-120.644821
+Freshwater Pulp,Liquidated,Freshwater Pulp Biomass Power,50,Chemical recovery,cogen,Humboldt County,Samoa,CA,95564,17,"Evergreen pulp, LP",40.805519,-124.195843
+AES Delano,Liquidated,AES Delano,50,Unknown,Unknown,Kern County,Delano,CA,93250,108,,35.721901,-119.233356
+Liberty V Biofuels,Liquidated,Amended and Restated Liberty V Biofuels,4.5,Unknown,Unknown,Kern County,Lost Hills,CA,,109,,35.679797,-119.796498
+Bull Moose Energy Otay Mesa Biomass Facility,Cancelled Project,Bull Moose,20,Unknown,Unknown,San Diego County,San Diego,CA,,110,,32.566906,-116.941888
+Envirepel Fallbrook,Cancelled Project,Envirepel Fallbrook,40,Unknown,Unknown,San Diego County,Fallbrook,CA,92028,112,,33.333935,-117.145164
+Envirepel Ramona,Cancelled Project,Envirepel Ramona,5,Unknown,Unknown,San Diego County,Ramona,CA,92065,114,,33.085519,-116.863258
+Envirepel Vista,Cancelled Project,KittyHawk,2,Unknown,Unknown,San Diego County,Vista,CA,92081,115,,33.147989,-117.235388
+Imperial Valley Biopower,Cancelled Project,Imperial Valley Biopower,20,Unknown,Unknown,Imperial County,Brawley,CA,92227,117,,32.903407,-115.534379
+Liberty 1 Biofuels Power,Cancelled Project,Liberty 1 Biofuels Power,5,Unknown,Unknown,Imperial County,El Centro,CA,92251,118,,32.912743,-115.510335
+Wheelabrator No.4,Liquidated,Wheelabrator No.4,3,Unknown,Unknown,Shasta County,Cottonwood,CA,96007,121,,40.428435,-122.2769
+Sonoma Green Energy,Cancelled Project,Sonoma Green Energy,1,Unknown,Unknown,Sonoma,Petaluma,CA,,126,,38.301876,-122.754976
 Burney Forest Power,Operational,Burney Forest Power,31,Biomass solid fuel,cogen,Shasta County,Burney,CA,96013,5,,40.879724,-121.720406
 Chowchilla,Operational,Chowchilla Biomass Power,12.5,Biomass solid fuel,not cogen,Madera County,Chowchilla,CA,93610,8,,37.107146,-120.248871
 Collins Pine Co. Project,Operational,Collins Pine Biomass Power,12,Biomass solid fuel,cogen,Plumas County,Chester,CA,96020,9,,40.302842,-121.244088
@@ -86,11 +86,11 @@ Devils Garden Conservation Camp Proposed Project,Proposal,Devils Garden Conserva
 Trinity Conservation Camp Proposed Project,Proposal,Trinity River Conservation Camp Proposed Project,,Thermal,Unknown,Trinity County,Lewiston,CA,96052,64,,40.78939,-122.802506
 California Ethanol & Power LLC,Proposal,California Ethanol & Power LLC,49.9,Unknown,Unknown,Imperial County,Brawley,CA,92227,105,,32.91631,-115.522232
 Trinity River Lbr.,Proposal,Trinity River Lbr.,5,Unknown,Unknown,Trinity County,Weaverville,CA,96093,106,,40.72493,-122.930638
-Hat Creek BioMAT Project,Active,Hat Creek BioMAT Project,,Unknown,,,,,,137,,40.83214935,-121.5149496
-Nevada County BioMAT Project,Active,Nevada County BioMAT Project,,Unknown,,,,,,138,,39.26364317,-121.0133516
-Camptonville BioMAT Project,Active,Camptonville BioMAT Project,,Unknown,,,,,,139,,39.45226864,-121.0484632
+Hat Creek BioMAT Project,Active Project,Hat Creek BioMAT Project,,Unknown,,,,,,137,,40.83214935,-121.5149496
+Nevada County BioMAT Project,Active Project,Nevada County BioMAT Project,,Unknown,,,,,,138,,39.26364317,-121.0133516
+Camptonville BioMAT Project,Active Project,Camptonville BioMAT Project,,Unknown,,,,,,139,,39.45226864,-121.0484632
 Mariposa BioMAT Project,Proposal,Mariposa BioMAT Project,,Unknown,,,,,,140,,37.48496616,-119.9662997
-Mooretown Rancheria BioMAT Project,Active,Mooretown Rancheria BioMAT Project,,Unknown,,,,,,141,,39.46624093,-121.5218733
+Mooretown Rancheria BioMAT Project,Active Project,Mooretown Rancheria BioMAT Project,,Unknown,,,,,,141,,39.46624093,-121.5218733
 Round Valley BioMAT Project,Proposal,Round Valley BioMAT Project,,Unknown,,,,,,142,,39.80247641,-123.2495589
 Branscomb BioMAT Project,Proposal,Branscomb BioMAT Project,,Unknown,,,,,,143,,39.65483903,-123.6251896
-Crescent Mill BioMAT Project,Active,Crescent Mill BioMAT Project,,Unknown,,,,,,144,,40.09576776,-120.9081135
+Crescent Mill BioMAT Project,Active Project,Crescent Mill BioMAT Project,,Unknown,,,,,,144,,40.09576776,-120.9081135
