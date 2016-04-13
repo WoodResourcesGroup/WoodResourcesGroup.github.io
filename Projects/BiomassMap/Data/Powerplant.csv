@@ -1,6 +1,6 @@
 Name,Status,MapLabel,MWname,Project_Type,Cogen_Status,County,City,State,Zip,RecID,OldName,latitude,longitude
 Blue Lake Rancheria,Active Project,Blue Lake Rancheria,0.8,Biomass solid fuel,not cogen,Humboldt County,Blue Lake,CA,95525,59,,40.886347,-124.000079
-North Fork BioMAT Project,Active Project,North Fork BioMAT Project,2,Biomass solid fuel,Unknown,Madera County,North Fork,CA,93643,60,,37.231861,-119.494599
+North Fork BioMAT Project,Active Project,North Fork Community Power,2,Gasification,Unknown,Madera County,North Fork,CA,93643,60,,37.231861,-119.494599
 Wilseyville BioMAT Project,Active Project,Wilseyville BioMAT Project,3,Biomass solid fuel,Unknown,Calaveras County,West Point,CA,95255,61,,38.37751,-120.523977
 Placer County,Active Project,Placer County Biomass Power Project,2,Gasification,cogen,Placer County,Cabin Creek,CA,96161,30,,39.290828,-120.214074
 Quincy Proposed Project,Proposal,Quincy Project,3,Thermal,Unknown,Plumas County,Quincy,CA,95971,62,,39.936666,-120.946199
@@ -31,7 +31,7 @@ Sierra Power Corp.,Idle,Sierra Biomass Power Corp.,9.5,Biomass solid fuel,cogen,
 SPI Loyalton,Idle,SPI Loyalton Biomass Power,20,Biomass solid fuel,not cogen,Sierra County,Loyalton,CA,96118,44,,39.669937,-120.239409
 Tracy Biomass Plant,Idle,Greenleaf Tracy Biomass Power,23,Biomass solid fuel,not cogen,San Joaquin County,Tracy,CA,95377,48,,37.719987,-121.488451
 Air Products Stockton,Idle,Air Products Stockton Biomass Power,60,"Co-fire or conversion (from coal, petcoke or TDF)",cogen,San Joaquin County,Stockton,CA,95206,1,,37.912473,-121.261706
-Ortigalita Power Co.,Idle,Ortigalita Phoenix,,Gasification,not cogen,Merced County,Merced,CA,95348,29,,37.335114,-120.528724
+Ortigalita Power Company,Operational,Ortigalita Power Company,0.5,Gasification,not cogen,Merced County,Merced,CA,95348,29,,37.335114,-120.528724
 West Biofuels,Idle,West Biofuels Gasifier Pilot,,Gasification,not cogen,Yolo County,Woodland,CA,95776,50,,38.721719,-121.7544
 Diamond Walnut,Cancelled Project,Diamond Walnut Biomass Power,4.5,Biomass solid fuel,not cogen,San Joaquin County,Stockton,CA,95201,13,,37.950083,-121.254484
 Mesquite Lake Resource Recovery,Cancelled Project,Mesquite Lake Resource Recovery Power,18.5,Biomass solid fuel,not cogen,Imperial County,El Centro,CA,92227,24,Formerly Chateau,32.90381,-115.512373
