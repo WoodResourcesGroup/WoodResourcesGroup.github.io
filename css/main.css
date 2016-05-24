@@ -78,10 +78,18 @@ li:hover {
 }
 
 .crop {
-    width: 200px;
+    /*width: 200px;
     height: 150px;
     overflow: hidden;
     /*margin: -75px 0 0 -100px;*/
+     width: 180px;
+        height: 160px;
+        border:red solid 2px;
+        margin-top:30px;
+    
+        /* add following */
+        background-size:cover;
+        background-position:50% 50%;
 }
 
 
