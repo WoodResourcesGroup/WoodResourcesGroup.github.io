@@ -124,3 +124,15 @@ a.read-more:hover { background-color: #be3523; border-radius: 3px 3px 3px 3px; t
 
 .read-more:hover { background: #990000; text-decoration: none; }
 
+
+#mainpage {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+  background: red;
+}
+
