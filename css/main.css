@@ -7,7 +7,7 @@ body {
  /*Static Header*/
 nav
 { 
-    border-bottom: 1px solid #d5d5d5; 
+    /*border-bottom: 1px solid #d5d5d5; */
     background:white; 
     padding:10px 0px 0px; 
     position:fixed; 
@@ -98,3 +98,37 @@ a.read-more:hover { background-color: #be3523; border-radius: 3px 3px 3px 3px; t
 .read-more { -moz-border-radius: 50%; -moz-transition: all 0.2s ease-in-out; -webkit-border-radius: 50%; -webkit-transition: all 0.2s ease-in-out; background: #111; border-radius: 50%; border: 10px solid #fdfdfd; color: #fff; display: block; font-family: 'Open Sans', sans-serif; font-size: 14px; height: 80px; line-height: 80px; margin: -40px 0 0 -40px; position: absolute; bottom: 0px; left: 50%; text-align: center; text-transform: uppercase; width: 80px; }
 
 .read-more:hover { background: #990000; text-decoration: none; }
+
+* {margin: 0; padding: 0;}
+
+div {
+  margin: 20px;
+}
+
+ul {
+  list-style-type: none;
+  width: 500px;
+}
+
+h3 {
+  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+}
+
+li img {
+  float: left;
+  margin: 0 15px 0 0;
+}
+
+li p {
+  font: 200 12px/1.5 Georgia, Times New Roman, serif;
+}
+
+li {
+  padding: 10px;
+  overflow: auto;
+}
+
+li:hover {
+  background: #eee;
+  cursor: pointer;
+}
