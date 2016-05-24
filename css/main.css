@@ -49,33 +49,35 @@ nav ul li, footer ul li {
 /* List Formatting*/
 * {margin: 0; padding: 0;}
 
-ul.posts {
+ul {
   list-style-type: none;
   width: 500px;
 }
 
-h3.posts {
+h3 {
   font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
 }
 
-li.posts img {
+li img {
   float: left;
   margin: 0 15px 0 0;
 }
 
-li.posts p {
+li p {
   font: 200 12px/1.5 Georgia, Times New Roman, serif;
 }
 
-li.posts {
+li {
   padding: 10px;
   overflow: auto;
 }
 
-li.posts:hover {
+li:hover {
   background: #eee;
   cursor: pointer;
 }
+
+
 
 
 h1 { color: #111; font-family: 'Open Sans Condensed', sans-serif; font-size: 64px; font-weight: 700; line-height: 64px; margin: 0 0 0; padding: 20px 30px; text-align: center; text-transform: uppercase; }
