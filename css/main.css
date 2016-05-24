@@ -130,3 +130,15 @@ a.read-more:hover { background-color: #be3523; border-radius: 3px 3px 3px 3px; t
 
 .read-more:hover { background: #990000; text-decoration: none; }
 
+.crop {
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.crop img {
+    width: 400px;
+    height: 300px;
+    margin: -75px 0 0 -100px;
+}
+
