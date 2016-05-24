@@ -101,10 +101,6 @@ a.read-more:hover { background-color: #be3523; border-radius: 3px 3px 3px 3px; t
 
 * {margin: 0; padding: 0;}
 
-div {
-  margin: 20px;
-}
-
 ul {
   list-style-type: none;
   width: 500px;
