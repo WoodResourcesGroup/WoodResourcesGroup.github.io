@@ -67,7 +67,12 @@ li {
   overflow: auto;
 }
 
-.post li:hover {
+li:hover .post {
+  background: #eee;
+  cursor: pointer;
+}
+
+li.post:hover {
   background: #eee;
   cursor: pointer;
 }
