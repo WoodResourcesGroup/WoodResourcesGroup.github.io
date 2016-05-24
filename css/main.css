@@ -52,6 +52,11 @@ nav ul li, footer ul li {
 ul {
   list-style-type: none;
   width: 500px;
+
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+
 }
 
 h3 {
