@@ -72,11 +72,6 @@ li:hover .post {
   cursor: pointer;
 }
 
-li.post:hover {
-  background: #eee;
-  cursor: pointer;
-}
-
 .crop {
     width: 200px;
     height: 125px;
