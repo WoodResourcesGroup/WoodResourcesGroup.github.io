@@ -1,10 +1,17 @@
+/* Main CSS*/
 body {
     margin: 60px auto;
     width: 70%;
 
 }
 
- /*Static Header*/
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
+
+
+/*Static Header*/
 nav
 { 
     /*border-bottom: 1px solid #d5d5d5; */
@@ -27,26 +34,50 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
-/*a {
-    text-decoration: none;
-    color: #999;
+
+
+
+
+
+
+
+
+
+
+
+
+/* List Formatting*/
+* {margin: 0; padding: 0;}
+
+ul {
+  list-style-type: none;
+  width: 500px;
 }
-a:hover {
-    text-decoration: underline;
+
+h3 {
+  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
 }
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+
+li img {
+  float: left;
+  margin: 0 15px 0 0;
 }
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}*/
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+
+li p {
+  font: 200 12px/1.5 Georgia, Times New Roman, serif;
 }
+
+li {
+  padding: 10px;
+  overflow: auto;
+}
+
+li:hover {
+  background: #eee;
+  cursor: pointer;
+}
+
+
 
 ul.posts { 
     margin: 20px auto 40px; 
@@ -99,32 +130,3 @@ a.read-more:hover { background-color: #be3523; border-radius: 3px 3px 3px 3px; t
 
 .read-more:hover { background: #990000; text-decoration: none; }
 
-* {margin: 0; padding: 0;}
-
-ul {
-  list-style-type: none;
-  width: 500px;
-}
-
-h3 {
-  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
-}
-
-li img {
-  float: left;
-  margin: 0 15px 0 0;
-}
-
-li p {
-  font: 200 12px/1.5 Georgia, Times New Roman, serif;
-}
-
-li {
-  padding: 10px;
-  overflow: auto;
-}
-
-li:hover {
-  background: #eee;
-  cursor: pointer;
-}
