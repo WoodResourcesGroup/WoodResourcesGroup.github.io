@@ -36,22 +36,12 @@ nav ul li, footer ul li {
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /* List Formatting*/
 * {margin: 0; padding: 0;}
 
 ul {
   list-style-type: none;
-  width: 500px;
+  /*width: 500px;*/
 
     columns: 2;
     -webkit-columns: 2;
