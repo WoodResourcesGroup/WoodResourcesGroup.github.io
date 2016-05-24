@@ -1,10 +1,17 @@
+/* Main CSS*/
 body {
     margin: 60px auto;
     width: 70%;
 
 }
 
- /*Static Header*/
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
+
+
+/*Static Header*/
 nav
 { 
     /*border-bottom: 1px solid #d5d5d5; */
@@ -27,40 +34,49 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
-/*a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}*/
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+
+
+
+
+
+
+
+
+
+
+
+
+/* List Formatting*/
+* {margin: 0; padding: 0;}
+
+ul.posts {
+  list-style-type: none;
+  width: 500px;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+h3.posts {
+  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
 }
 
-ul.posts li {
-    list-style: none;
+li.posts img {
+  float: left;
+  margin: 0 15px 0 0;
 }
 
-.photo img{
-    /*width:50px;*/
-    height:50px;
+li.posts p {
+  font: 200 12px/1.5 Georgia, Times New Roman, serif;
 }
+
+li.posts {
+  padding: 10px;
+  overflow: auto;
+}
+
+li.posts:hover {
+  background: #eee;
+  cursor: pointer;
+}
+
 
 h1 { color: #111; font-family: 'Open Sans Condensed', sans-serif; font-size: 64px; font-weight: 700; line-height: 64px; margin: 0 0 0; padding: 20px 30px; text-align: center; text-transform: uppercase; }
 
@@ -98,3 +114,4 @@ a.read-more:hover { background-color: #be3523; border-radius: 3px 3px 3px 3px; t
 .read-more { -moz-border-radius: 50%; -moz-transition: all 0.2s ease-in-out; -webkit-border-radius: 50%; -webkit-transition: all 0.2s ease-in-out; background: #111; border-radius: 50%; border: 10px solid #fdfdfd; color: #fff; display: block; font-family: 'Open Sans', sans-serif; font-size: 14px; height: 80px; line-height: 80px; margin: -40px 0 0 -40px; position: absolute; bottom: 0px; left: 50%; text-align: center; text-transform: uppercase; width: 80px; }
 
 .read-more:hover { background: #990000; text-decoration: none; }
+
