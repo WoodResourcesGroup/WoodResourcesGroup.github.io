@@ -67,7 +67,7 @@ li {
   overflow: auto;
 }
 
-li:hover {
+.post li:hover {
   background: #eee;
   cursor: pointer;
 }
@@ -113,6 +113,8 @@ a:hover { text-decoration: underline }
 .author span { background: #fdfdfd; padding: 0 10px; text-transform: uppercase; }
 
 .line { border-top: 1px solid #111; display: block; margin-top: 60px; padding-top: 50px; position: relative; }
+
+
 
 a.read-more { background-color: #93291b; border: 1px solid #333333; border-radius: 3px 3px 3px 3px; box-shadow: 0 0 1px #93291b inset; color: #f5f5f5; padding: 5px; }
 
