@@ -78,14 +78,17 @@ li:hover {
 }
 
 .crop {
-    width: 200px;
-    height: 100px;
-    background-position: center;
-
-    /* Make the background image cover the area of the <div>, and clip the excess */
-    background-size: cover;
+    width: 400px;
+    height: 350px;
     overflow: hidden;
 }
+
+.crop img {
+    width: 200px;
+    height: 150px;
+    margin: -75px 0 0 -100px;
+}
+
 
 /*Other*/
 
