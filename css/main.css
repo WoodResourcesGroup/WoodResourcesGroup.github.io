@@ -83,7 +83,7 @@ li {
   overflow: auto;
 }
 
-li:hover .post {
+li:hover {
   background: #eee;
   cursor: pointer;
 }
