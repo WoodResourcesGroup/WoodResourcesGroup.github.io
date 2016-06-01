@@ -2,49 +2,25 @@
 layout: newdefault
 title: About
 ---
+
 <body>
-	<div class="content">
-		<p>
-			Welcome to the personal website of Rick Satomi. This website is a collection of my visualization projects, past and ongoing. I am currently a Staff Research Associate with the <a href = "www.ucanr.edu/woodybiomass"> UC Forest Products Laboratory </a> and Master of Forestry Candidate at UC Berkeley. Prior to 2013, I had completed my undergraduate degree in Forest Management and been working with various forest landowners throughout California. 
-		</p>
-		<br>
-		<p>
-			My interests lie in developing interactive data visualizations to improve understanding of the complex interactions between our everyday lives and natural forest ecosystem resources.  Much of the work I am inovled with is focused on presenting known information in a more digestible format for a general audience. I am currently developing a framework to assess costs associated with wood biomass removal as a means to enable ongoing mitigation efforts within overstocked forest stands. See my <a href="/project">projects</a> page for more detail on some past work.
-		</p>
-
-	</div>
-	<hr />
-
-	<div class="contact">
-		<small>
-			<a href="https://ourenvironment.berkeley.edu/people/ricky-satomi
-			">ESPM Webpage</a><br />
-			<a href="http://ucanr.org/WoodyBiomass
-			">Woody Biomass Webpage</a><br />
-			UC Berkeley, CA</br>
-			1301 S 46th Street, Bldg 478</br>
-			510-665-3662</br>
-			Richmond, CA 94804
-		</small>
-	</div>
-
-	<!-- goes in current? homepage -->
-	<!-- put this at the end of the page. -->
-	<script type="text/javascript">
-		var currentTime = new Date().getHours();
-		if (7 <= currentTime && currentTime < 20)
-		{
-			if (document.body) {
-				document.body.style.backgroundSize = 'cover'
-				document.body.style.background = 'url(http://risato.github.io/Content/homepage.jpg) no-repeat center center'
-			}
-		}
-		else {
-			if (document.body) {
-				document.body.style.backgroundSize = 'cover'
-				document.body.style.background = 'url(http://risato.github.io/Content/homepagenight.jpg) no-repeat fixed center cover center'
-			}
-		}
-
-	</script>
+  <div>
+    <h1>Background based on time of day</h1>
+    <h4>JavaScript applies a CSS class to change the background image based on the time of day of the user's browser.</h4>
+  </div>
+<script>
+  $(document).ready(function() {
+    var d = new Date();
+    var n = d.getHours();
+    if (n > 19 || n < 6)
+    // If time is after 7PM or before 6AM, apply night theme to ‘body’
+      document.body.className = "night";
+    else if (n > 16 && n < 19)
+    // If time is between 4PM – 7PM sunset theme to ‘body’
+      document.body.className = "sunset";
+    else
+    // Else use ‘day’ theme
+      document.body.className = "day";
+  });
+</script>
 </body>
