@@ -27,19 +27,20 @@ title: About
 			Richmond, CA 94804
 		</small>
 	</div>
-	<div class="overlay"></div>
+
+	<!-- goes in current? homepage -->
+	<!-- put this at the end of the page. -->
 
 	<script type="text/javascript">
 		var currentTime = new Date().getHours();
-		if (7 <= currentTime && currentTime < 20) {
-			if (document.body) {
-				document.body.background = "http://risato.github.io/Content/homepage.jpg";
-			}
+		if (7 <= currentTime && currentTime < 20)
+		{
+			<img src="http://risato.github.io/Content/homepage.jpg" id="bg" alt="">
+
+			
 		}
 		else {
-			if (document.body) {
-				document.body.background = "http://risato.github.io/Content/homepagenight.jpg";
-			}
+			<img src="http://risato.github.io/Content/homepagenight.jpg" id="bg" alt="">
 		}
 
 	</script>
