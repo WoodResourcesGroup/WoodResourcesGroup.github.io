@@ -1,67 +1,50 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>{{ page.title }}</title>
-	<!-- link to main stylesheet -->
-	<link rel="shortcut icon" type="image/png" href="{{site.url}}/Content/Logo.jpg">
-	<link rel="stylesheet" type="text/css" href="/css/main.css">
-</head>
-<body>
-	<nav>
-		<ul>
-			<li><a href="/">Home</a></li>
-			<li><a href="/about">About</a></li>
-			<li><a href="/project">Projects</a></li>
-			<li><a href="/cv">CV</a></li>
-		</ul>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="shortcut icon" type="image/png" href="{{site.url}}/Content/Logo.jpg">
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+		</head>
+		<body>
+			<nav>
+	    		<ul>
+	        		<li><a href="/">Home</a></li>
+		        	<li><a href="/about">About</a></li>
+	        		<li><a href="/project">Projects</a></li>
+	        		<li><a href="/cv">CV</a></li>
+	    		</ul>
 
-	</nav>
-	<div class="container">
-		<h1><a class="nav" href="https://risato.github.io/">Risato</a><span class="divider"> &#124; </span>{{ page.title }}</h1>
-		{{ content }}
-		
-	</div><!-- /.container -->
-	<footer>
-		<br>
-		<ul>
-			<li><a href="mailto:rickypsatomi@gmail.com">email</a></li>
-			<li><a href="https://github.com/Risato">github</a></li>
-			<li><a href="https://www.linkedin.com/in/rickysatomi">linkedin</a></li>
+			</nav>
+			<div class="container">
+			<h1><a class="nav" href="https://risato.github.io/">Risato</a><span class="divider"> &#124; </span>{{ page.title }}</h1>
+			{{ content }}
 			
-		</ul>
-		
-		<div class="row">
-			<div class="col-md-6">
-				<ul class="no-bullets">
-					<li>
-						<a href="http://twitter.com/pascalvgemert" target="_blank">
-							<span class="icon icon-twitter"></span>
-							http://twitter.com/pascalvgemert				</a>
-						</li>
-						<li>
-							<a href="http://linkedin.nl/in/pascalvgemert/" target="_blank">
-								<span class="icon icon-linkedin"></span>
-								http://linkedin.nl/in/pascalvgemert/				</a>
-							</li>
-						</ul>
-					</div>
-					<div class="col-md-6">
-						<ul class="no-bullets">
-			<!--<li>
-				<a href="javascript:void(0);">
-					<span class="icon icon-skype"></span>
-					pascalvgemert				</a>
-				</li>-->
-				<li>
-					<a href="mailto:ln.tremegnavlacsap@lacsap">
-						<span class="icon icon-email"></span>
-						<span style="unicode-bidi:bidi-override; direction: rtl;">
-							ln.tremegnavlacsap@lacsap					</span>
-						</a>
-					</li>
+			</div><!-- /.container -->
+			<footer>
+			<br>
+	    		<ul>
+	        		<li><a href="mailto:rickypsatomi@gmail.com">email</a></li>
+	        		<li><a href="https://github.com/Risato">github</a></li>
+	        		<li><a href="https://www.linkedin.com/in/rickysatomi">linkedin</a></li>
+	        		
 				</ul>
-			</div>
-		</div>
-	</footer>
-</body>
-</html>
+
+			</footer>
+		</body>
+<script type="text/javascript">
+var currentTime = new Date().getHours();
+if (7 <= currentTime && currentTime < 20) {
+    if (document.body) {
+        document.body.background = "http://itsnotch.com/tumblr/images/daytime_bg.jpg";
+    }
+}
+else {
+    if (document.body) {
+        document.body.background = "http://itsnotch.com/tumblr/images/nighttime_bg.jpg";
+    }
+}
+
+</script>
+	</html>
+
