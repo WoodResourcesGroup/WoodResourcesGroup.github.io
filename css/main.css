@@ -5,6 +5,8 @@ body {
 
 }
 
+
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
@@ -48,7 +50,16 @@ nav ul li, footer ul li {
   height: 100px;
 }
 
-
+/*Repositions background image*/
+#bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
 
 
 
