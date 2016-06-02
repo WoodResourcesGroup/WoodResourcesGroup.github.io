@@ -338,6 +338,13 @@ figure.effect:hover p {
   text-align: center;
 }
 
+ul.pages {
+  list-style-type: none;
+  /*width: 500px;*/
+  columns: 1;
+  -webkit-columns: 1;
+  -moz-columns: 1;
+}
 .pages li {
   display: inline-block;
   width: 14px;
