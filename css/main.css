@@ -61,12 +61,15 @@ p {
   font-size: 16px;
   font-weight: 300;
   line-height: 28px;
-  margin-bottom: 15px;
-
+  line-height: 1.5625
   margin: 0 0 24px;
+  margin-bottom: 15px;
   text-align: justify;
   text-justify: inter-word;
 }
+
+
+
 
 a {
   color: #990000;
