@@ -56,13 +56,28 @@ h2 {
 }
 
 p {
+  color: #111;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  margin: 0 0 48px;
+}
+
+p {
+  color: #685206;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+p {
   color: #333333;
   font-family: "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.5625;
   margin-bottom: 15px;
-
+  
   margin: 0 0 24px;
   text-align: justify;
   text-justify: inter-word;
@@ -75,7 +90,7 @@ a {
 
 a:hover {
   text-decoration: underline
-}/*
+}
 
 .date {
   color: #111;
@@ -178,7 +193,7 @@ a.read-more:hover {
 
 
 
-*/
+
 
 
 
