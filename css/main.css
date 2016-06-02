@@ -152,16 +152,16 @@ ul {
   -moz-columns: 2;
 }
 
-li img {
+li.post img {
   float: left;
   margin: 0 15px 0 0;
 }
 
-li p {
+li.post p {
   font: 200 12px/1.5 Georgia, Times New Roman, serif;
 }
 
-.post li {
+li.post {
   padding: 10px;
   overflow: auto;
 }
