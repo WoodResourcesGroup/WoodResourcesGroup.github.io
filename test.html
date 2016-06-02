@@ -3,30 +3,53 @@ layout: jump
 title: Home
 ---
 <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+<div class="wrap">
+  <h2>Review <small>Click on the links below to choose a panorama.</small></h2>
 
-<body>
+  <div class="scrollbar">
+    <div class="handle">
+      <div class="mousearea"></div>
+    </div>
+  </div>
 
-	<script>
+  <div class="frame" id="basic">
+    <ul class="clearfix">
+      <li>
+      <a href="http://risato.github.io/Projects/Panorama/SL02" target="my_iframe">
+      Shaver Lake 02
+      </a> </li>
+      
+      
+      <li><a href="http://risato.github.io/Projects/Panorama/SL03" target="my_iframe">Shaver Lake 03</a></li>
+      <li><a href="http://risato.github.io/Projects/Panorama/SL04" target="my_iframe">Shaver Lake 04</a></li>
+      <li><a href="http://risato.github.io/Projects/Panorama/SL14" target="my_iframe">Shaver Lake 14</a></li>
+      <li><a href="http://risato.github.io/Projects/Panorama/SL26" target="my_iframe">Shaver Lake 26</a></li>
+      <li><a href="http://risato.github.io/Projects/Panorama/SL30" target="my_iframe">Shaver Lake 30</a></li>
+      <li><a href="http://risato.github.io/Projects/Panorama/SL34" target="my_iframe">Shaver Lake 34</a></li>
+      <li><a href="http://risato.github.io/Projects/Panorama/SR04" target="my_iframe">Santa Rosa 04</li>
+      <li><a href="http://risato.github.io/Projects/Panorama/SR05" target="my_iframe">Santa Rosa 05</li>
+      <li><a href="http://risato.github.io/Projects/Panorama/SR06" target="my_iframe">Santa Rosa 06</li>
+      <li><a href="http://risato.github.io/Projects/Panorama/SR07" target="my_iframe">Santa Rosa 07</li>
+      <li>More to come....</li>
+    </ul>
+  </div>
 
-		$(document).ready(function() {
-			var d = new Date();
-			var n = d.getHours();
-			// If time is after 7PM or before 6AM, apply night theme to ‘body’
-			if (n > 19 || n < 6)
-				document.body.className = "night";
-			
-    		// If time is between 4PM – 7PM sunset theme to ‘body’
-    		else if (n > 16 && n < 19)
-    			document.body.className = "sunset";
+  <ul class="pages"></ul>
 
-    		// Else use ‘day’ theme
-    		else
-    			document.body.className = "day";
-    	});
-    </script>
+  <div class="controls center">
+    <button class="btn prevPage"><i class="icon-chevron-left"></i><i class="icon-chevron-left"></i> previous page</button>
+    <button class="btn prev"><i class="icon-chevron-left"></i> previous</button>
 
-    <div class="mainpage">
-    	<p style="text-align: center">Forester dabbling in webGIS development on the side. <a href="/about"> More about my work...</a></p>
-    </div><!-- /.blurb -->
-</body>
 
+    <div class="btn-group">
+      <button class="btn add"><i class="icon-plus-sign"></i></button>
+      <button class="btn remove"><i class="icon-minus-sign"></i></button>
+      <button class="btn next"><i class="icon-chevron-left"></i> next</button>
+    </div>
+    <button class="btn nextPage">next page <i class="icon-chevron-right"></i><i class="icon-chevron-right"></i></button>
+  </div>
+</div>
+
+
+
+  <div class="videoWrapper" style="padding-bottom:83.9160839161%;"><iframe src="" name="my_iframe" width="715" height="600" frameborder="no" scrolling="yes"></iframe></div>
