@@ -10,7 +10,6 @@ footer {
   font-size: .8em;
 }
 
-
 p {
   color: #333333;
   font-family: "Helvetica Neue", Arial, sans-serif;
@@ -69,6 +68,7 @@ a {
 a:hover {
   text-decoration: underline
 }
+
 
 /*Static Header*/
 
@@ -139,36 +139,6 @@ footer ul li {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-
-/* Project Page*/
-
-ul {
-  list-style-type: none;
-  /*width: 500px;*/
-  columns: 2;
-  -webkit-columns: 2;
-  -moz-columns: 2;
-}
-
-li.post img {
-  float: left;
-  margin: 0 15px 0 0;
-}
-
-li.post p {
-  font: 200 12px/1.5 Georgia, Times New Roman, serif;
-}
-
-li.post {
-  padding: 10px;
-  overflow: auto;
-}
-
-li.post:hover {
-  background: #eee;
-  cursor: pointer;
 }
 
 .crop {
@@ -338,13 +308,6 @@ figure.effect:hover p {
   text-align: center;
 }
 
-ul.pages {
-  list-style-type: none;
-  /*width: 500px;*/
-  columns: 1;
-  -webkit-columns: 1;
-  -moz-columns: 1;
-}
 .pages li {
   display: inline-block;
   width: 14px;
