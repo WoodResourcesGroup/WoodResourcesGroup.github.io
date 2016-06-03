@@ -5,6 +5,12 @@ body {
   width: 70%;
 }
 
+
+.container {
+  margin: 0 auto;
+}
+
+
 footer {
   border-top: 1px solid #d5d5d5;
   font-size: .8em;
@@ -253,10 +259,6 @@ figure.effect:hover p {
   transform: translate3d(0, 0, 0);
 }
 
-.container {
-  margin: 0 auto;
-}
-
 
 /* Example wrapper */
 
@@ -299,6 +301,10 @@ figure.effect:hover p {
   background: #a03232;
 }
 
+.frame .active {
+  color: #fff;
+  background: #a03232;
+}
 .frame a {
   display: block
 }
