@@ -1,76 +1,74 @@
-<!-- build notes: 6/1 added infobox to bottom right, need to have data to complete as relation of box to marker data is dependent on data type. Also, consider building a dynamic legend, one that has a switch depending on type of data made available from the layer control box.  github plugins needs to be rehosted on google drive. eventually, add right click conexant menu: print screen, find lat long, etc print function still not working... demo wroks though.. need to debug http://rowanwins.github.io/leaflet-easyPrint/, possibly search by facility name. work on getting the tooltip iconds to line up with text. padding-top doesn't work. css backgroudn call to image sorta works, but will be clunky 
-  there is probably an error with the order of the script loadings. -->
-  <!DOCTYPE html>
-  <meta charset="utf-8" />
-  <html>
-  <head>
-   <!-- Leaflet Base -->
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js" ></script>
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
-   
-   <!-- Jquery -->
-   <script src="https://code.jquery.com/jquery-1.10.1.min.js" ></script>
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
-   <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js" ></script>
-   <!--[if lte IE 8] ><link rel="stylesheet" href="http://leaflet.cloudmade.com/dist/leaflet.ie.css" / ><![endif]-->
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<html>
+<head>
+ <!-- Leaflet Base -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js" ></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
 
-   <!--  group layer control -->
-   <script src="https://cdn.rawgit.com/ismyrnow/Leaflet.groupedlayercontrol/gh-pages/src/leaflet.groupedlayercontrol.js"></script>
-   <link rel="stylesheet" href="https://cdn.rawgit.com/ismyrnow/Leaflet.groupedlayercontrol/gh-pages/src/leaflet.groupedlayercontrol.css" />
+ <!-- Jquery -->
+ <script src="https://code.jquery.com/jquery-1.10.1.min.js" ></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+ <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js" ></script>
+ <!--[if lte IE 8] ><link rel="stylesheet" href="http://leaflet.cloudmade.com/dist/leaflet.ie.css" / ><![endif]-->
 
-   <!-- font aswesome icons used in social plugin-->
-   <link href="https://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet" />
+ <!--  group layer control -->
+ <script src="https://cdn.rawgit.com/ismyrnow/Leaflet.groupedlayercontrol/gh-pages/src/leaflet.groupedlayercontrol.js"></script>
+ <link rel="stylesheet" href="https://cdn.rawgit.com/ismyrnow/Leaflet.groupedlayercontrol/gh-pages/src/leaflet.groupedlayercontrol.css" />
 
-   <!-- maki markers-->
-   <script src="https://cdn.rawgit.com/jseppi/Leaflet.MakiMarkers/master/Leaflet.MakiMarkers.js" ></script>
+ <!-- font aswesome icons used in social plugin-->
+ <link href="https://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet" />
 
-   <!-- leaflet hash for social integration-->
-   <script type='text/javascript' src="https://cdn.rawgit.com/mlevans/leaflet-hash/master/leaflet-hash.js" ></script>
+ <!-- maki markers-->
+ <script src="https://cdn.rawgit.com/jseppi/Leaflet.MakiMarkers/master/Leaflet.MakiMarkers.js" ></script>
 
-   <!-- context menu plugin -->
-   <script src="https://aratcliffe.github.io/Leaflet.contextmenu/dist/leaflet.contextmenu.js" ></script>
-   <link rel="stylesheet" href="https://aratcliffe.github.io/Leaflet.contextmenu/dist/leaflet.contextmenu.css"/>
+ <!-- leaflet hash for social integration-->
+ <script type='text/javascript' src="https://cdn.rawgit.com/mlevans/leaflet-hash/master/leaflet-hash.js" ></script>
 
-   <!-- GEOCONTROL - geocontrol search box script -->
-   <script src="https://smeijer.github.io/GeoSearch/js/l.control.geosearch.js" ></script>
-   <script src="https://smeijer.github.io/GeoSearch/js/l.geosearch.provider.google.js" ></script>
-   <link rel="stylesheet" href="https://smeijer.github.io/GeoSearch/css/l.geosearch.css" />
+ <!-- context menu plugin -->
+ <script src="https://aratcliffe.github.io/Leaflet.contextmenu/dist/leaflet.contextmenu.js" ></script>
+ <link rel="stylesheet" href="https://aratcliffe.github.io/Leaflet.contextmenu/dist/leaflet.contextmenu.css"/>
 
-   <!-- marker cluster script -->
-   <link rel="stylesheet" href="https://leaflet.github.io/Leaflet.markercluster/dist/MarkerCluster.css" />
-   <link rel="stylesheet" href="https://leaflet.github.io/Leaflet.markercluster/dist/MarkerCluster.Default.css" />
-   <script src="https://leaflet.github.io/Leaflet.markercluster/dist/leaflet.markercluster-src.js" ></script>
+ <!-- GEOCONTROL - geocontrol search box script -->
+ <script src="https://smeijer.github.io/GeoSearch/js/l.control.geosearch.js" ></script>
+ <script src="https://smeijer.github.io/GeoSearch/js/l.geosearch.provider.google.js" ></script>
+ <link rel="stylesheet" href="https://smeijer.github.io/GeoSearch/css/l.geosearch.css" />
 
-   <!-- GOOGLE  - google map plugin -->
-   <!-- <script src="https://maps.google.com/maps/api/js?v=3.2&sensor=false" ></script> -->
-   <!-- // <script src="http://psha.org.ru/leaflet/plugins/layer/tile/Google.js" ></script> -->
-   <!-- // <script src="https://cdn.rawgit.com/DGuidi/1992824.js"></script> -->
-   <!-- // <script src="https://gist.githubusercontent.com/crofty/2197042/raw/2b90c41b39b7d5b3a851d8f256de2ebd3fe1fb74/leaflet-google.js"></script> -->
-   <!-- // <script type='text/javascript' src="https://gist.githubusercontent.com/crofty/2197042/raw/"></script> -->
-   <!-- // <script  type="text/javascript" src="https://gist.githubusercontent.com/AndrewJHart/9766852/raw/2b90c41b39b7d5b3a851d8f256de2ebd3fe1fb74/leaflet-google.js"></script> -->
-   <script  type="text/javascript" src="https://rawgit.com/AndrewJHart/9766852/raw/2b90c41b39b7d5b3a851d8f256de2ebd3fe1fb74/leaflet-google.js"></script>
-   <!-- // <script type='text/plain' src="https://gist.githubusercontent.com/crofty/2197042/raw/"></script> -->
-   <script type="text/javascript" src="https://stamen-maps.a.ssl.fastly.net/js/tile.stamen.js" ></script>
-   
-   <!-- MINIMAP Plugins -->
-   <link rel="stylesheet" href="https://norkart.github.io/Leaflet-MiniMap/Control.MiniMap.css" />
-   <script src="https://norkart.github.io/Leaflet-MiniMap/Control.MiniMap.js" type="text/javascript" ></script>
+ <!-- marker cluster script -->
+ <link rel="stylesheet" href="https://leaflet.github.io/Leaflet.markercluster/dist/MarkerCluster.css" />
+ <link rel="stylesheet" href="https://leaflet.github.io/Leaflet.markercluster/dist/MarkerCluster.Default.css" />
+ <script src="https://leaflet.github.io/Leaflet.markercluster/dist/leaflet.markercluster-src.js" ></script>
 
-   <!-- Omnivore Script -->
-   <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js' ></script>
-   <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+ <!-- GOOGLE  - google map plugin -->
+ <!-- <script src="https://maps.google.com/maps/api/js?v=3.2&sensor=false" ></script> -->
+ <!-- // <script src="http://psha.org.ru/leaflet/plugins/layer/tile/Google.js" ></script> -->
+ <!-- // <script src="https://cdn.rawgit.com/DGuidi/1992824.js"></script> -->
+ <!-- // <script src="https://gist.githubusercontent.com/crofty/2197042/raw/2b90c41b39b7d5b3a851d8f256de2ebd3fe1fb74/leaflet-google.js"></script> -->
+ <!-- // <script type='text/javascript' src="https://gist.githubusercontent.com/crofty/2197042/raw/"></script> -->
+ <!-- // <script  type="text/javascript" src="https://gist.githubusercontent.com/AndrewJHart/9766852/raw/2b90c41b39b7d5b3a851d8f256de2ebd3fe1fb74/leaflet-google.js"></script> -->
+ <script  type="text/javascript" src="https://rawgit.com/AndrewJHart/9766852/raw/2b90c41b39b7d5b3a851d8f256de2ebd3fe1fb74/leaflet-google.js"></script>
+ <!-- // <script type='text/plain' src="https://gist.githubusercontent.com/crofty/2197042/raw/"></script> -->
+ <script type="text/javascript" src="https://stamen-maps.a.ssl.fastly.net/js/tile.stamen.js" ></script>
 
-   <!-- fullscreen scripts -->
-   <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v0.0.1/Leaflet.fullscreen.min.js' ></script>
-   <link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v0.0.1/leaflet.fullscreen.css' rel='stylesheet' />
+ <!-- MINIMAP Plugins -->
+ <link rel="stylesheet" href="https://norkart.github.io/Leaflet-MiniMap/Control.MiniMap.css" />
+ <script src="https://norkart.github.io/Leaflet-MiniMap/Control.MiniMap.js" type="text/javascript" ></script>
 
-   <!-- zoom slider scripts -->
-   <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-zoomslider/v0.7.0/L.Control.Zoomslider.js' ></script>
-   <link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-zoomslider/v0.7.0/L.Control.Zoomslider.css' rel='stylesheet' />
+ <!-- Omnivore Script -->
+ <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js' ></script>
+ <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
 
-   <!-- leaflet share control https://github.com/makinacorpus/Leaflet.Social/blob/master/example.html -->
-   <script type='text/javascript' src="https://makinacorpus.github.io/Leaflet.Social/leaflet.social.js" ></script>
-   <link rel="stylesheet" type="text/css" href="https://makinacorpus.github.io/Leaflet.Social/leaflet.social.css" />
+ <!-- fullscreen scripts -->
+ <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v0.0.1/Leaflet.fullscreen.min.js' ></script>
+ <link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v0.0.1/leaflet.fullscreen.css' rel='stylesheet' />
+
+ <!-- zoom slider scripts -->
+ <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-zoomslider/v0.7.0/L.Control.Zoomslider.js' ></script>
+ <link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-zoomslider/v0.7.0/L.Control.Zoomslider.css' rel='stylesheet' />
+
+ <!-- leaflet share control https://github.com/makinacorpus/Leaflet.Social/blob/master/example.html -->
+ <script type='text/javascript' src="https://makinacorpus.github.io/Leaflet.Social/leaflet.social.js" ></script>
+ <link rel="stylesheet" type="text/css" href="https://makinacorpus.github.io/Leaflet.Social/leaflet.social.css" />
 
   <!-- Leaflet map print scripts. Saved on google drive in folder. No web script link
   <link rel="stylesheet" href="dist/easyPrint.css"/> 
@@ -141,6 +139,10 @@
     </div>
 
     <script type ="text/javascript">
+
+    // https://github.com/jseppi/Leaflet.MakiMarkers
+    L.MakiMarkers.accessToken = "pk.eyJ1IjoicnNhdG9taSIsImEiOiJjaW9sMDZkdjAwMDNldXhtMWllcTF5Z3E3In0.Cd_rMcLMmE1Zl5-jIiN8Hg";
+    
     // basemap links below
     var osmlayer = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
       attribution: '© <a href="http://openstreetmap.org/copyright" target= "blank">OpenStreetMap</a> contributors'}); 
@@ -237,7 +239,105 @@ var legend = L.control({position: 'bottomright'});
 legend.onAdd = function(map) {
   this._div = L.DomUtil.create('div', 'myControl');
   // legend content
-  this._div.innerHTML = 'text'
+  this._div.innerHTML = '<div class="legend">' +
+  '<h2 title = "Operational Condition of Facility" style="cursor:help;text-align:center;font-size:125%;font-family: Arial; font-weight: bold;">' +
+  'Facility Status'+
+  '</h2>' +
+  '<p>'+
+  '<hr>'+ 
+
+  '<span title = "Open for business to accept and process raw woody material." style="cursor:help;">' +
+  '<span class="symbol_rectangle" style="padding-left:20px;padding-top:3px;padding-bottom:3px;border:0px solid #000000;background: #23c02c;overflow:hidden;">'+
+  '&nbsp;</span>'+
+  '&nbsp;'+
+  'Operational<p>'+ 
+  '</span>'+
+
+  '<span title = "Construction may or may not have begun, site is purchased or being purchased, feasibility studies have been completed, web site is active, permitting is underway, and additional capital is being raised." style="cursor:help;">' +
+  '<span class="symbol_rectangle" style="padding-left:20px;padding-itop:3px;padding-bottom:3px;border:0px solid #000000;background: #2141F3;overflow:hidden;">'+
+  '&nbsp;</span>'+
+  '&nbsp;'+
+  'Active Project<p>'+
+  '</span>'+
+
+  '<span title = "Plant is closed and most or all of the workers have been laid off. The plant may still accept raw material, but it is not operating. Equipment is still in place and the facility could theoretically be reopened." style="cursor:help;">' +
+  '<span class="symbol_rectangle" style="padding-left:20px;padding-top:3px;padding-bottom:3px;border:0px solid #BD8339;background: #F4EA00;overflow:hidden;">'+
+  '&nbsp;</span>'+
+  '&nbsp;'+
+  'Idle<p>'+
+  '</span>'+
+
+  '<span title = "Non-industrial size plant whose purpose is to test and confirm manufacturing processes at a scale above “bench top” and below “industrial”. Pilot plant is normally step before scale-up occurs to industrial." style="cursor:help;">' +
+  '<span class="symbol_rectangle" style="padding-left:20px;padding-top:3px;padding-bottom:3px;border:0px solid #000000;background: #C100F2;overflow:hidden;">'+
+  '&nbsp;</span>'+
+  '&nbsp;'+
+  'Pilot<p>'+
+  '</span>'+
+
+  '<span title = "There is no physical presence yet. Site has not been purchased. Feasibility studies may have been completed, web site may be up, and capital is being raised." style="cursor:help;">' +
+  '<span class="symbol_rectangle" style="padding-left:20px;padding-top:3px;padding-bottom:3px;border:0px solid #000000;background: #1CEBE5;overflow:hidden;">'+
+  '&nbsp;</span>'+
+  '&nbsp;'+
+  'Proposal<p>'+
+  '</span>'+
+
+  '<span title = "Plant is closed, workers have been laid off, and equipment has been liquidated. Industrial site remains. Some structures may remain and other businesses may be using the site." style="cursor:help;">' +
+  '<span class="symbol_rectangle" style="padding-left:20px;padding-top:3px;padding-bottom:3px;border:0px solid #000000;background: #c1271f;overflow:hidden;">'+
+  '&nbsp;</span>'+
+  '&nbsp;'+
+  'Liquidated<p>'+
+  '</span>'+
+
+  '<p>'+
+  '<h2 style="text-align:center;font-size:125%;font-family: Arial; font-weight: bold;">'+
+  'Type</h2>'+
+  '<p>'+
+  '<hr>'+
+  '<p  title = "Power Plant Facilities Utilizing Woody Feestock Material Sourced from California" style="cursor:help; color:green;font-size:16px">'+
+  'Power Facility<br>'+
+  '<span style="color:black; font-size:12px">'+
+  '<img src="https://docs.google.com/uc?id=0B3yNiqk9X8DmTXRkQllHdWpldU0&amp;export-png" width="20" height="20" border="0"/>'+
+  '&nbsp;Standalone Generator '+
+  '<br>'+
+  '<img src="https://docs.google.com/uc?id=0B3yNiqk9X8Dmc1hzZG5wZ0RLUDg" width="20" height="20" border="0" z-index="10"/>'+
+  '&nbsp;Cogeneration   '+
+  '</span>'+
+  '<p title= "Displays Sawmills and other Wood Processing Facilities within California" style="cursor:help;font-size:16px; color:green;">'+
+  'Sawmill & Other Facilities<br>'+
+  '<span style="color:black; font-size:12px">'+
+  '<span title = "Includes Dimensional and Stud Mills" style="cursor:help;">'+
+  '<img src="https://docs.google.com/uc?id=0B3yNiqk9X8DmZ2Q2V0ZIcU9laG8" width="20" height="20" border="0" />'+
+  '&nbsp;Sawmill'+
+  '</span>'+
+  '<br>'+
+  '<span title ="Includes Post and pole, Fenceboard, Cedar, and Redwood Mills" style="cursor:help;">'+
+  '<img src="https://docs.google.com/uc?id=0BzwsVf_VMR5JeXRBbmR6bnV6OWs" width="20" height="20" border="0" />'+
+  '&nbsp;Specialty Mill '+
+  '</span>'+
+  '<br>'+
+  '<span title = "Includes OSB, Veneer, Lvl, MDF Facilities" style="cursor:help">'+
+  '<img src="https://docs.google.com/uc?id=0BzwsVf_VMR5JLWZib2pkOXZYOW8" width="20" height="20" border="0" />'+
+  '&nbsp;Engineered Wood'+
+  '</span>'+
+  '<br>'+
+  '<span title = "Includes Pulp, Particleboard, and Containerboard Mills" style="cursor:help">'+
+  '<img src="https://docs.google.com/uc?id=0B3yNiqk9X8Dmck1jdEJZTEUyMEU" width="20" height="20" border="0" />'+
+  '&nbsp;Fiber  '+
+  '</span>'+
+  '<br>'+
+  '<span title = "Includes Small Production Mills and Shavings Mills" style="cursor:help">'+
+  '<img src="https://docs.google.com/uc?id=0B3yNiqk9X8DmZGc0YW1MeU9XNG8" width="20" height="20" border="0" />'+
+  '&nbsp;Other Mill Type</span>'+
+  '<br>'+
+  '<h4>'+
+  'Please attribute data to UC Berkeley'+
+  '<br>'+
+  '<span style="font-weight: bold;font-size: 20px">'+
+  '<a href="http://ucanr.edu/sites/WoodyBiomass/" target="http://ucanr.edu/sites/WoodyBiomass/">'+
+  'Woody Biomass Utilization Group</a>'+
+  '</span>'+
+  '</h4>'+
+  '</div>'
   return this._div;
 }
 legend.addTo(map);
@@ -283,7 +383,7 @@ omnivore.csv('Data/Powerplant.csv')
       }));
     }
   }
-  else if (powermarker.feature.properties.Status === 'Active development')
+  else if (powermarker.feature.properties.Status === 'Active Project')
   {    
     if (powermarker.feature.properties.Cogen_Status === 'cogen')
     {
@@ -420,7 +520,7 @@ omnivore.csv('Data/Powerplant.csv')
       }));
     }
   }
-  else if (powermarker.feature.properties.Status === 'Non-Operational')
+  else if (powermarker.feature.properties.Status === 'Liquidated')
   {    
     if (powermarker.feature.properties.Cogen_Status === 'cogen')
     {
@@ -442,8 +542,7 @@ omnivore.csv('Data/Powerplant.csv')
   {        
     powermarker.setIcon(L.icon({
       iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmSllLWFk5VjllZm8&amp;export-png',
-iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmSllLWFk5VjllZm8&amp;export-png',
-      iconUrl: '/Marker/Custom/MapIcon/filler.png',
+      // iconUrl: '/Marker/Custom/MapIcon/filler.png',
       iconSize: [0,0]
     }));
   };
@@ -871,6 +970,23 @@ L.control.groupedLayers(
   // "GoogleStreet": gmap_layer,
   // "Satellite View":gmap_layer2,
   // "Terrain View":gmap_layer3,
+},
+// overlay layers
+{
+  'Biomass Power Plant': { 
+    '(Operational/Active)': plantoverlay.addTo(map),
+    '(Proposal/Pilot)': plant2overlay,
+    '(Liquidated/Idle)': plant3overlay.addTo(map)
+  },
+  'Sawmills and Other Facilities': {
+    '(Operational/Active)': woodmark,
+    '(Liquidated/Idle)': wood3mark,
+    '(Proposal/Pilot)': wood2mark
+  },
+  'Other': {
+    'CARB Air Basins': AIRBasinCoverage,
+    'Utility Coverage': UtilityLayer
+  },
 },{
   position: 'bottomleft',collapsed: false,
  // autoZIndex: true,
@@ -896,19 +1012,6 @@ new L.Control.GeoSearch({
     region: region
   })
 }).addTo(map);
-
-var markers = L.markerClusterGroup();
-    // [2], [0] calls column position of data
-for (var i = 1; i < wood3mark.length; i++) {
-  var a = wood3mark[i];
-  var title = a[2];
-  var marker = L.marker(new L.LatLng(a[12], a[13]), { title: title });
-  marker.bindPopup(title);
-  markers.addLayer(marker);
-}
-markers.addTo(map);
-// map.addLayer(markers);
-
 </script>
 </body>
 </html>
