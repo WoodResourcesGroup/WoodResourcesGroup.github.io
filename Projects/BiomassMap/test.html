@@ -755,7 +755,7 @@ var wood3mark = omnivore.csv('Data/sawmill.csv')
 
   sawmarker.feature.properties['marker-size'] = 'medium';
 
-  if (sawmarker.feature.properties.Status ==='Liquidated')
+  if (sawmarker.feature.properties.Status ==='Closed')
   {
     sawmarker.setIcon(L.icon({
       iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmSllLWFk5VjllZm8&amp;export-png',
@@ -980,7 +980,7 @@ L.control.groupedLayers(
   },
   'Sawmills and Other Facilities': {
     '(Operational/Active)': woodmark,
-    '(Liquidated/Idle)': wood3mark,
+    '(Closed/Idle)': wood3mark,
     '(Proposal/Pilot)': wood2mark
   },
   'Other': {
