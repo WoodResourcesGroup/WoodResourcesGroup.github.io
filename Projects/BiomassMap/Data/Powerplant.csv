@@ -19,7 +19,7 @@ Big Valley Biomass Power/BVP Property,Idle,Big Valley Biomass Power,,Biomass sol
 Blue Lake Power,Idle,Renewable Energy Providers Blue Lake Power,11,Biomass solid fuel,not cogen,Humboldt County,Blue Lake,CA,95525,3,,40.877693,-123.994609
 Burney Mountain Power,Idle,Covanta Burney Mtn. Power,11,Biomass solid fuel,not cogen,Shasta County,Burney,CA,96013,6,Covanta,40.909703,-121.639961
 "Delano Energy Co, Inc",Idle,Covanata Delano Power,58,Biomass solid fuel,not cogen,Kern County,Delano,CA,93215,11,Covanta,35.719097,-119.234588
-DG Fairhaven,Idle,Korea East West Fairhaven Power,19.8,Biomass solid fuel,not cogen,Humboldt County,Samoa,CA,95564,12,,40.79946,-124.20309
+DG Fairhaven,Operational,Korea East West Fairhaven Power,19.8,Biomass solid fuel,not cogen,Humboldt County,Samoa,CA,95564,12,,40.79946,-124.20309
 Imperial Valley Resource Recovery Project,Idle,Imperial Valley Resource Recovery Power,,Biomass solid fuel,not cogen,Imperial County,El Centro,CA,92251,19,,32.906602,-115.51372
 Shasta Renewable,Idle,Shasta Renewable,7.2,Biomass solid fuel,cogen,Shasta County,Anderson,CA,96007,20,"Wheelabrator Hudson, Kiara Solar",40.473227,-122.328937
 Madera Power LLC,Idle,Madera Power,33,Biomass solid fuel,not cogen,Fresno County,Firebaugh,CA,93622,21,Yankee Energy,36.861479,-120.338865
@@ -31,7 +31,7 @@ Sierra Power Corp.,Idle,Sierra Biomass Power Corp.,9.5,Biomass solid fuel,cogen,
 SPI Loyalton,Idle,SPI Loyalton Biomass Power,20,Biomass solid fuel,not cogen,Sierra County,Loyalton,CA,96118,44,,39.669937,-120.239409
 Tracy Biomass Plant,Idle,Greenleaf Tracy Biomass Power,23,Biomass solid fuel,not cogen,San Joaquin County,Tracy,CA,95377,48,,37.719987,-121.488451
 Air Products Stockton,Idle,Air Products Stockton Biomass Power,60,"Co-fire or conversion (from coal, petcoke or TDF)",cogen,San Joaquin County,Stockton,CA,95206,1,,37.912473,-121.261706
-Ortigalita Power Company,Operational,Ortigalita Power Company,0.5,Gasification,not cogen,Merced County,Merced,CA,95348,29,,37.335114,-120.528724
+Ortigalita Power Company,Operational,Ortigalita Power Company,1,Gasification,not cogen,Merced County,Merced,CA,95348,29,,37.335114,-120.528724
 West Biofuels,Idle,West Biofuels Gasifier Pilot,,Gasification,not cogen,Yolo County,Woodland,CA,95776,50,,38.721719,-121.7544
 Diamond Walnut,Cancelled Project,Diamond Walnut Biomass Power,4.5,Biomass solid fuel,not cogen,San Joaquin County,Stockton,CA,95201,13,,37.950083,-121.254484
 Mesquite Lake Resource Recovery,Cancelled Project,Mesquite Lake Resource Recovery Power,18.5,Biomass solid fuel,not cogen,Imperial County,El Centro,CA,92227,24,Formerly Chateau,32.90381,-115.512373
@@ -54,7 +54,7 @@ Burney Forest Power,Operational,Burney Forest Power,31,Biomass solid fuel,cogen,
 Chowchilla,Operational,Chowchilla Biomass Power,12.5,Biomass solid fuel,not cogen,Madera County,Chowchilla,CA,93610,8,,37.107146,-120.248871
 Collins Pine Co. Project,Operational,Collins Pine Biomass Power,12,Biomass solid fuel,cogen,Plumas County,Chester,CA,96020,9,,40.302842,-121.244088
 Desert View,Operational,Greenleaf Desert View Power,47,Biomass solid fuel,not cogen,Riverside County,Mecca,CA,92254,10,Colmac,33.586491,-116.087907
-"Dinuba Energy, Inc",Idle,Dinuba Energy,12,Biomass solid fuel,not cogen,Tulare County,Dinuba,CA,93654,14,,36.569581,-119.418984
+"Dinuba Energy, Inc",Operational,Dinuba Energy,12,Biomass solid fuel,not cogen,Tulare County,Dinuba,CA,93654,14,,36.569581,-119.418984
 Honey Lake Power,Operational,Greenleaf Honey Lake Power,35.5,Biomass solid fuel,not cogen,Lassen County,Wendel,CA,96136,18,,40.368492,-120.264999
 Merced Power (El Nido),Operational,Merced Power,12.5,Biomass solid fuel,not cogen,Merced County,El Nido,CA,95317,23,El Nido,37.186982,-120.490162
 Pacific Ultrapower Chinese Station,Operational,Pacific Ultrapower Chinese Station Power,22,Biomass solid fuel,not cogen,Tuolumne County,Jamestown,CA,95327,28,,37.874644,-120.477546
@@ -82,8 +82,8 @@ American Wood Shavings,Operational,American Wood Shavings Biomass Dryer,,Thermal
 Collins Pine Co. Project,Operational,Collins Pine Biomass (Klamath Falls),,Unknown,Unknown,Klamath County,Klamath Falls,OR,97601,102,,42.16992,-121.818424
 Rio Bravo Jasmin,Proposal,Rio Bravo Jasmin Proposed Conversion,35,"Co-fire or conversion (from coal, petcoke or TDF)",cogen,Kern County,Bakersfield,CA,93215,32,,35.741508,-119.050911
 Rio Bravo Poso,Proposal,Rio Bravo Poso Proposed Conversion,35,"Co-fire or conversion (from coal, petcoke or TDF)",cogen,Kern County,Bakersfield,CA,93308,33,,35.547497,-119.075265
-Devils Garden Conservation Camp Proposed Project,Proposal,Devils Garden Conservation Camp Proposed Project,,Thermal,Unknown,Modoc County,Alturas,CA,96101,63,,41.523309,-120.66971
-Trinity Conservation Camp Proposed Project,Proposal,Trinity River Conservation Camp Proposed Project,,Thermal,Unknown,Trinity County,Lewiston,CA,96052,64,,40.78939,-122.802506
+Devils Garden Conservation Camp Proposed Project,Proposal,Devils Garden Conservation Camp Proposed Project (Thermal),,Thermal,Unknown,Modoc County,Alturas,CA,96101,63,,41.523309,-120.66971
+Trinity Conservation Camp Proposed Project,Proposal,Trinity River Conservation Camp Proposed Project (Thermal),,Thermal,Unknown,Trinity County,Lewiston,CA,96052,64,,40.78939,-122.802506
 California Ethanol & Power LLC,Proposal,California Ethanol & Power LLC,49.9,Unknown,Unknown,Imperial County,Brawley,CA,92227,105,,32.91631,-115.522232
 Trinity River Lbr.,Proposal,Trinity River Lbr.,5,Unknown,Unknown,Trinity County,Weaverville,CA,96093,106,,40.72493,-122.930638
 Hat Creek BioMAT Project,Active Project,Hat Creek BioMAT Project,,Unknown,,,,,,137,,40.83214935,-121.5149496
