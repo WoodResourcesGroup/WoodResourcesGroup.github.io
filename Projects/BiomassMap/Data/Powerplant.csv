@@ -32,9 +32,9 @@ SPI Loyalton,Idle,SPI Loyalton Biomass Power,20,Biomass solid fuel,not cogen,Sie
 Tracy Biomass Plant,Idle,Greenleaf Tracy Biomass Power,23,Biomass solid fuel,not cogen,San Joaquin County,Tracy,CA,95377,48,,37.719987,-121.488451
 Air Products Stockton,Idle,Air Products Stockton Biomass Power,60,"Co-fire or conversion (from coal, petcoke or TDF)",cogen,San Joaquin County,Stockton,CA,95206,1,,37.912473,-121.261706
 Ortigalita Power Company,Operational,Ortigalita Power Company,1,Gasification,not cogen,Merced County,Merced,CA,95348,29,,37.335114,-120.528724
-West Biofuels,Idle,West Biofuels Gasifier Pilot,,Gasification,not cogen,Yolo County,Woodland,CA,95776,50,,38.721719,-121.7544
+West Biofuels,Idle,West Biofuels Gasifier Pilot,0.5,Gasification,not cogen,Yolo County,Woodland,CA,95776,50,,38.721719,-121.7544
 Diamond Walnut,Cancelled Project,Diamond Walnut Biomass Power,4.5,Biomass solid fuel,not cogen,San Joaquin County,Stockton,CA,95201,13,,37.950083,-121.254484
-Mesquite Lake Resource Recovery,Cancelled Project,Mesquite Lake Resource Recovery Power,18.5,Biomass solid fuel,not cogen,Imperial County,El Centro,CA,92227,24,Formerly Chateau,32.90381,-115.512373
+Mesquite Lake Resource Recovery,Idle,Mesquite Lake Resource Recovery Power,18.5,Biomass solid fuel,not cogen,Imperial County,El Centro,CA,92227,24,Formerly Chateau,32.90381,-115.512373
 Sierra Biomass (Auberry),Liquidated,Sierra Biomass Power,15,Biomass solid fuel,not cogen,Fresno County,Auberry,CA,93602,37,Auberry,37.065354,-119.491147
 Soledad Energy,Liquidated,Soledad Energy,,Biomass solid fuel,not cogen,Monterey County,Soledad,CA,93960,39,,36.416976,-121.315617
 SPI Anderson I,Liquidated,SPI Anderson I,4,Biomass solid fuel,cogen,Shasta County,Anderson,CA,96007,41,,40.472715,-122.323162
@@ -78,7 +78,7 @@ Cal Forest Nursery,Operational,Cal Forest Nursery Gasifier,0.07,Gasification,cog
 Dixon Ridge Farms,Operational,Dixon Ridge Farms Gasifier Power Pilot,,Gasification,cogen,Yolo County,Winters,CA,95776,15,,38.524353,-121.903077
 Timber Products,Operational,Timber Products Veneer (Yreka),,Thermal,Unknown,Siskiyou County,Yreka,CA,96097,103,,41.731738,-122.589835
 Columbia Plywood,Operational,Columbia Plywood,,Thermal,Unknown,Klamath County,Klamath Falls,OR,97601,104,,42.179712,-121.798302
-American Wood Shavings,Operational,American Wood Shavings Biomass Dryer,,Thermal,,,Jamestown,CA,95327,136,,37.838344,-120.5064
+California Wood Shavings,Operational,California Wood Shavings Biomass Dryer,,Thermal,,,Jamestown,CA,95327,136,,37.838344,-120.5064
 Collins Pine Co. Project,Operational,Collins Pine Biomass (Klamath Falls),,Unknown,Unknown,Klamath County,Klamath Falls,OR,97601,102,,42.16992,-121.818424
 Rio Bravo Jasmin,Proposal,Rio Bravo Jasmin Proposed Conversion,35,"Co-fire or conversion (from coal, petcoke or TDF)",cogen,Kern County,Bakersfield,CA,93215,32,,35.741508,-119.050911
 Rio Bravo Poso,Proposal,Rio Bravo Poso Proposed Conversion,35,"Co-fire or conversion (from coal, petcoke or TDF)",cogen,Kern County,Bakersfield,CA,93308,33,,35.547497,-119.075265
