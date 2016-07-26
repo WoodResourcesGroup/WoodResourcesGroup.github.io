@@ -755,7 +755,7 @@ var wood3mark = omnivore.csv('Data/sawmill.csv')
 
   sawmarker.feature.properties['marker-size'] = 'medium';
 
-  if (sawmarker.feature.properties.Status ==='Closed')
+  if (sawmarker.feature.properties.Status ==='Open')
   {
     sawmarker.setIcon(L.icon({
       iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmSllLWFk5VjllZm8&amp;export-png',
@@ -788,7 +788,7 @@ var wood3mark = omnivore.csv('Data/sawmill.csv')
       iconSize: [0,0]
     }));
   } 
-  else if (sawmarker.feature.properties.Status ==='Idle')
+  else if (sawmarker.feature.properties.Status ==='Inactive')
   {
     sawmarker.feature.properties['color'] = '#F4EA00';
     sawmarker.setIcon(L.MakiMarkers.icon(sawmarker.feature.properties));
