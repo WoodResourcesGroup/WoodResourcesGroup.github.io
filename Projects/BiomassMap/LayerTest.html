@@ -571,7 +571,7 @@ var woodmark = omnivore.csv('Data/sawmill.csv')
 
   sawmarker.feature.properties['size'] = 'm';
 
-  if (sawmarker.feature.properties.Status ==='Open')
+  if (sawmarker.feature.properties.Status ==='Operational')
   {
     sawmarker.feature.properties['color'] = '#23c02c';
     sawmarker.setIcon(L.MakiMarkers.icon(sawmarker.feature.properties));
@@ -601,7 +601,7 @@ var woodmark = omnivore.csv('Data/sawmill.csv')
       sawmarker.setIcon(L.MakiMarkers.icon(sawmarker.feature.properties));
     };
   }
-  else if (sawmarker.feature.properties.Status === 'Developing')
+  else if (sawmarker.feature.properties.Status === 'Active Project')
   {    
     sawmarker.feature.properties['color'] = '#2141F3';
     sawmarker.setIcon(L.MakiMarkers.icon(sawmarker.feature.properties));
