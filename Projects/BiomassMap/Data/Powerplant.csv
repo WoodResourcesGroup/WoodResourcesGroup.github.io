@@ -1,19 +1,19 @@
 Name,Status,MapLabel,MWname,Project_Type,Cogen_Status,County,City,State,Zip,RecID,OldName,latitude,longitude
-Blue Lake Rancheria,Active Project,Blue Lake Rancheria,0.8,Biomass solid fuel,not cogen,Humboldt County,Blue Lake,CA,95525,59,,40.886347,-124.000079
+Blue Lake Rancheria,Active Project,Blue Lake Rancheria,0.8,Gasification,not cogen,Humboldt County,Blue Lake,CA,95525,59,,40.886347,-124.000079
 North Fork BioMAT Project,Active Project,North Fork Community Power,2,Gasification,Unknown,Madera County,North Fork,CA,93643,60,,37.231861,-119.494599
 Wilseyville BioMAT Project,Active Project,Wilseyville BioMAT Project,3,Biomass solid fuel,Unknown,Calaveras County,West Point,CA,95255,61,,38.37751,-120.523977
 Placer County,Active Project,Placer County Biomass Power Project,2,Gasification,cogen,Placer County,Cabin Creek,CA,96161,30,,39.290828,-120.214074
-Iberdrola Lakeview Project,Active Project,Iberdrola Lakeview Project,26,Unknown,Unknown,Lake County,Lakeview,OR,97630,53,,42.197586,-120.354345
+Iberdrola Lakeview Project,Active Project,Iberdrola Lakeview Project,26.8,Biomass solid fuel,cogen,Lake County,Lakeview,OR,97630,53,,42.197586,-120.354345
 Red Rock Biofuels LLC,Active Project,Red Rock Biofuels,17.5,Unknown,Unknown,,Lakeview,OR,,135,,42.163105,-120.349209
 Central Valley Ag Grinding,Active Project,Central Valley Ag Grinding,1,Gasification,cogen,Stanislaus County,Oakdale,CA,95361,58,,37.718988,-120.895545
-Hat Creek BioMAT Project,Active Project,Hat Creek BioMAT Project,,Unknown,,,,,,137,,40.83214935,-121.5149496
-Nevada County BioMAT Project,Active Project,Nevada County BioMAT Project,,Unknown,,,,,,138,,39.26364317,-121.0133516
-Camptonville BioMAT Project,Active Project,Camptonville BioMAT Project,,Unknown,,,,,,139,,39.45226864,-121.0484632
-Mooretown Rancheria BioMAT Project,Active Project,Mooretown Rancheria BioMAT Project,,Unknown,,,,,,141,,39.46624093,-121.5218733
-Crescent Mill BioMAT Project,Active Project,Crescent Mill BioMAT Project,,Unknown,,,,,,144,,40.09576776,-120.9081135
+Hat Creek BioMAT Project,Active Project,Hat Creek BioMAT Project,,Unknown,Unknown,,,,,137,,40.83214935,-121.5149496
+Nevada County BioMAT Project,Active Project,Nevada County BioMAT Project,,Unknown,Unknown,,,,,138,,39.26364317,-121.0133516
+Camptonville BioMAT Project,Active Project,Camptonville BioMAT Project,,Unknown,Unknown,,,,,139,,39.45226864,-121.0484632
+Mooretown Rancheria BioMAT Project,Active Project,Mooretown Rancheria BioMAT Project,,Unknown,Unknown,,,,,141,,39.46624093,-121.5218733
+Crescent Mill BioMAT Project,Active Project,Crescent Mill BioMAT Project,,Unknown,Unknown,,,,,144,,40.09576776,-120.9081135
 Valley Bio-Energy,Cancelled Project,Valley Bio-Energy,33,Biomass solid fuel,not cogen,Stanislaus County,Modesto,CA,95350,101,,37.6383,-120.999589
 Placer County,Cancelled Project,Placer County Biomass Power Project,2,Gasification,cogen,Placer County,Kings Beach,CA,96143,107,,39.245133,-120.027133
-Iberdrola Klamath Falls Project,Cancelled Project,Iberdrola Klamath Falls Project,,Unknown,Unknown,Klamath County,Klamath Falls,OR,97601,54,,42.176324,-121.809231
+Iberdrola Klamath Falls Project,Cancelled Project,Iberdrola Klamath Falls Project,,Unknown,cogen,Klamath County,Klamath Falls,OR,97601,54,,42.176324,-121.809231
 Klamath Falls Bioenergy Project,Cancelled Project,Klamath Falls Bioenergy Project,,Unknown,Unknown,Klamath County,Klamath Falls,OR,97601,55,,42.174472,-121.822306
 HFI BioPower,Cancelled Project,HFI BioPower,20,Unknown,Unknown,Deschutes County,La Pine,OR,97739,116,,43.668663,-121.486519
 Ortigalita Power Co.,Cancelled Project,Ortigalita Power,1,Unknown,Unknown,Merced,Los Banos,CA,,123,,36.979552,-120.870087
@@ -54,7 +54,7 @@ AES Delano,Liquidated,AES Delano,50,Unknown,Unknown,Kern County,Delano,CA,93250,
 Liberty V Biofuels,Liquidated,Amended and Restated Liberty V Biofuels,4.5,Unknown,Unknown,Kern County,Lost Hills,CA,,109,,35.679797,-119.796498
 Wheelabrator No.4,Liquidated,Wheelabrator No.4,3,Unknown,Unknown,Shasta County,Cottonwood,CA,96007,121,,40.428435,-122.2769
 DG Fairhaven,Operational,Korea East West Fairhaven Power,19.8,Biomass solid fuel,not cogen,Humboldt County,Samoa,CA,95564,12,,40.79946,-124.20309
-Eel River,Operational,Eel River Power,32.5,Biomass solid fuel,cogen,Humboldt County,Scotia,CA,95565,36,"Scotia Power, PALCO",40.481337,-124.104634
+Humboldt Redwood Company Scotia Power,Operational,Humboldt Redwood Company Scotia Power,32.5,Biomass solid fuel,cogen,Humboldt County,Scotia,CA,95565,36,"Eel River Power, Scotia Power, PALCO",40.481337,-124.104634
 Ortigalita Power Company,Operational,Ortigalita Power Company,1,Gasification,not cogen,Merced County,Merced,CA,95348,29,,37.335114,-120.528724
 Burney Forest Power,Operational,Burney Forest Power,31,Biomass solid fuel,cogen,Shasta County,Burney,CA,96013,5,,40.879724,-121.720406
 Chowchilla,Operational,Chowchilla Biomass Power,12.5,Biomass solid fuel,not cogen,Madera County,Chowchilla,CA,93610,8,,37.107146,-120.248871
@@ -82,7 +82,7 @@ Cal Forest Nursery,Operational,Cal Forest Nursery Gasifier,0.07,Gasification,cog
 Dixon Ridge Farms,Operational,Dixon Ridge Farms Gasifier Power Pilot,0.025,Gasification,cogen,Yolo County,Winters,CA,95776,15,,38.524353,-121.903077
 Timber Products,Operational,Timber Products Veneer (Yreka),,Thermal,Unknown,Siskiyou County,Yreka,CA,96097,103,,41.731738,-122.589835
 Columbia Plywood,Operational,Columbia Plywood,,Thermal,Unknown,Klamath County,Klamath Falls,OR,97601,104,,42.179712,-121.798302
-California Wood Shavings,Operational,California Wood Shavings Biomass Dryer,,Thermal,,,Jamestown,CA,95327,136,,37.838344,-120.5064
+California Wood Shavings,Operational,California Wood Shavings Biomass Dryer,,Thermal,Unknown,,Jamestown,CA,95327,136,,37.838344,-120.5064
 Collins Pine Co. Project,Operational,Collins Pine Biomass (Klamath Falls),,Unknown,Unknown,Klamath County,Klamath Falls,OR,97601,102,,42.16992,-121.818424
 Quincy Proposed Project,Proposal,Quincy Project,3,Thermal,Unknown,Plumas County,Quincy,CA,95971,62,,39.936666,-120.946199
 Rio Bravo Jasmin,Proposal,Rio Bravo Jasmin Proposed Conversion,35,"Co-fire or conversion (from coal, petcoke or TDF)",cogen,Kern County,Bakersfield,CA,93215,32,,35.741508,-119.050911
@@ -91,6 +91,6 @@ Devils Garden Conservation Camp Proposed Project,Proposal,Devils Garden Conserva
 Trinity Conservation Camp Proposed Project,Proposal,Trinity River Conservation Camp Proposed Project (Thermal),,Thermal,Unknown,Trinity County,Lewiston,CA,96052,64,,40.78939,-122.802506
 California Ethanol & Power LLC,Proposal,California Ethanol & Power LLC,49.9,Unknown,Unknown,Imperial County,Brawley,CA,92227,105,,32.91631,-115.522232
 Trinity River Lbr.,Proposal,Trinity River Lbr.,5,Unknown,Unknown,Trinity County,Weaverville,CA,96093,106,,40.72493,-122.930638
-Mariposa BioMAT Project,Proposal,Mariposa BioMAT Project,,Unknown,,,,,,140,,37.48496616,-119.9662997
-Round Valley BioMAT Project,Proposal,Round Valley BioMAT Project,,Unknown,,,,,,142,,39.80247641,-123.2495589
-Branscomb BioMAT Project,Proposal,Branscomb BioMAT Project,,Unknown,,,,,,143,,39.65483903,-123.6251896
+Mariposa BioMAT Project,Proposal,Mariposa BioMAT Project,,Unknown,Unknown,,,,,140,,37.505994,-120.012666
+Round Valley BioMAT Project,Proposal,Round Valley BioMAT Project,,Unknown,Unknown,,,,,142,,39.80247641,-123.2495589
+Branscomb BioMAT Project,Proposal,Branscomb BioMAT Project,,Unknown,Unknown,,,,,143,,39.65483903,-123.6251896

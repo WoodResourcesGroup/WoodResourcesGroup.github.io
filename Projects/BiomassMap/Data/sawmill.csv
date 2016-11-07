@@ -165,12 +165,12 @@ SPI Camino Sawmill,Closed,2009,Michigan California Lumber Company,Sawmill,Logs,L
 California Redwood Company (Orick),Closed,2009,"Arcata Forest Products, Arcata Redwood Company, Simpson Timber",Sawmill,Logs,Lumber,,Orick,CA,95555 ?,9081,41.29238545,-124.0517323
 Sound Stud Sawmill,Idle,2009,"Sound Stud Sawmill, Anderson, CA",Sawmill,Logs,Lumber,"Douglas-fir, Ponderosa Pine, Hemlock",Yuba City,CA,96007,9134,40.484703,-122.345292
 Pacific Lumber Company,Closed,2010,,Sawmill,Logs,Lumber,,Carlotta,CA,95547 ?,9032,40.535207,-124.066696
-Evergreen Pulp,Idle,2010,"Louisiana Pacific, GP, Simpson, ETC",Pulp Mill,Chips,Pulp,,Samoa,CA,95564 ?,9102,40.80577621,-124.1958033
+Evergreen Pulp,Closed,2010,"Louisiana Pacific, GP, Simpson, ETC",Pulp Mill,Chips,Pulp,,Samoa,CA,95564 ?,9102,40.80577621,-124.1958033
 Hambro Forest Products Particle Bd.,Closed,2012,"Hambro Forest Products, Inc.",Composite Panel,"Chips, Shavings, Sawdust",Particleboard,,Crescent City,CA,95531,9041,41.75348006,-124.1753922
 Trinity River Korbel Sawmill,Active Project,2015,"Simpson Timber Co., Korbel, CA, California Redwood Company (Korbel)",Sawmill,Logs,Lumber,"Redwood, Douglas-fir",Arcata,CA,95518,9013,40.87184621,-123.9632726
 SPI Arcata Sawmill,Idle,2016,Sierra Pacific Industries,Sawmill,Logs,Lumber,"Douglas-fir, Ponderosa Pine, Incense Cedar, True fir",Arcata,CA,95521,9017,40.865848,-124.152849
 Rough & Ready Lbr. Co.,Idle,2016,,Sawmill,Logs,Lumber,"PP, DF (no WF or IC)",Cave Junction,OR,97523,9033,42.10528814,-123.6787754
-SPI Anderson Pole Plant,Operational,,Sierra Pacific Industries,Pole Peeler,Logs,Post/Pole,"Douglas-fir, Ponderosa Pine",Anderson,CA,96007,9009,40.470253,-122.326165
+SPI Anderson Pole Plant,Operational,,Sierra Pacific Industries,Pole Peeler,Logs,Post/Pole,"Douglas-fir, Ponderosa Pine",Anderson,CA,96007,9009,40.471835,-122.32435
 SPI Anderson Sawmill,Operational,,Sierra Pacific Industries,Sawmill,Logs,Lumber,"Douglas-fir, Ponderosa Pine, Incense Cedar, Hemlock-fir, Sugar Pine",Anderson,CA,96007 ?,9008,40.471498,-122.320991
 Humboldt Flakeboard Particle Bd.,Closed,,Humboldt Flakeboard Panels,Composite Panel,Chips,Particleboard,,Arcata,CA,95521,9015,40.899619,-124.075427
 Almquist Lumber Co,Operational,,,Small Production Mill,Logs,Lumber,Hardwood,Arcata,CA,95521,9010,40.911424,-124.067932
@@ -185,7 +185,7 @@ Collins Chester Sawmill,Operational,,Collins Pine Co,Sawmill,Logs,Lumber,"Dougla
 SPI Chinese Camp Sawmill,Operational,,Sierra Pacific Industries,Sawmill,Logs,Fence Boards,"IC, WF",Chinese Camp,CA,95309,9037,37.88282739,-120.4536966
 Redwood Empire (Cloverdale),Operational,,"Preston Lumber Corporation (Cloverdale Plant), Richardson Lumber",Sawmill,Logs,Lumber,"Redwood, Douglas-fir, Hemlock",Cloverdale,CA,95425,9039,38.820891,-123.018623
 Big Creek Lbr. Co. Sawmill,Operational,,Big Creek Lumber Co,Sawmill,Logs,Lumber,"DF, Redwood",Davenport,CA,95017,9044,37.090154,-122.273326
-El Dorado Northern Corp,Inactive,,,Small Production Mill,Logs,Lumber,,El Dorado,CA,95623,9046,38.680212,-120.844795
+El Dorado Northern Corp,Closed,,,Small Production Mill,Logs,Lumber,,El Dorado,CA,95623,9046,38.680212,-120.844795
 Commander Lumber Co.,Unknown,,,Sawmill,Logs,Lumber,,Elk Creek,CA,95939 ?,9047,39.587495,-122.540479
 Trinity River Schmidbauer Lumber Company Sawmill,Operational,,Schmidbauer Lumber Company,Sawmill,Logs,Lumber,"Redwood, Douglas-fir, Hemlock",Eureka,CA,95501,9001,40.79719014,-124.1815646
 Kubich Lumber Co,Operational,,,Small Production Mill,Logs,Lumber,"Incense Cedar, Sugar Pine",Grass Valley,CA,95945,9058,39.238323,-121.089604
@@ -227,3 +227,5 @@ Fruit Growers Supply Co. Sawmill,Operational,,Hi-Ridge,Sawmill,Logs,Lumber,"PP, 
 "Shasta Forest Products, Inc.",Operational,,,Bark Processor,Bark,Bark Products,,Yreka,CA,96097,9132,41.732792,-122.591179
 Timber Products Veneer Mill,Operational,,Timber Products Co,Veneer,Logs,Veneer,"DF, WF Shasta RF, pine and other. No IC.",Yreka,CA,96097,9133,41.737758,-122.593349
 Unity Forest Products,Operational,,,Small Production Mill,Logs,,,Yuba City,CA,95991 ?,9135,39.112056,-121.608451
+CTL Forest Management,Closed,2016,,Pole Peeler,Logs,Post/Pole,"WF, LP, PP",Camino,CA,95709,9293,38.737682,-120.683656
+Redwood Empire Asti,Operational,,,Sawmill,,,,Cloverdale,CA,95425,9294,38.766782,-122.991567
