@@ -345,7 +345,7 @@ legend.addTo(map);
 // LAYERS DEFINED BELOW. STRUCTURED SO THAT each layer shows only the filtered icons and them merges them together. 
 // duplicates two layers and merges them together
 // https://docs.google.com/spreadsheet/pub?key=0AnyNiqk9X8DmdDJneGxsNTB6cFFQamRMX0VuNjhPQ2c&single=true&gid=1&output=csv
-var plantoverlay = 
+var poweroverlayOperational = 
 omnivore.csv('Data/Powerplant.csv')
 .on('layeradd',function(e) {
   var powermarker = e.layer;
@@ -416,7 +416,7 @@ omnivore.csv('Data/Powerplant.csv')
 });
 
 //should loop this, but could not get it to work. Quicker to brute force.
-var plant2overlay = 
+var poweroverlayProposal = 
 omnivore.csv('Data/Powerplant.csv')
 .on('layeradd',function(e) {
   var powermarker = e.layer;
@@ -484,7 +484,7 @@ omnivore.csv('Data/Powerplant.csv')
 
 //should loop this, but could not get it to work. Quicker to brute force.
 // https://docs.google.com/spreadsheet/pub?key=0AnyNiqk9X8DmdDJneGxsNTB6cFFQamRMX0VuNjhPQ2c&single=true&gid=1&output=csv
-var plant3overlay = 
+var poweroverlayClosed = 
 omnivore.csv('Data/Powerplant.csv')
 .on('layeradd',function(e) {
   var powermarker = e.layer;
@@ -553,7 +553,7 @@ omnivore.csv('Data/Powerplant.csv')
 
 //should loop this, but could not get it to work. Quicker to brute force.
 // https://docs.google.com/spreadsheet/pub?key=0AnyNiqk9X8DmdDJneGxsNTB6cFFQamRMX0VuNjhPQ2c&single=true&gid=0&output=csv
-var woodmark = omnivore.csv('Data/sawmill.csv')
+var woodoverlayOperational = omnivore.csv('Data/sawmill.csv')
 .on('layeradd',function(e) {
   var sawmarker = e.layer;
   var feature = sawmarker.feature;
@@ -645,7 +645,7 @@ var woodmark = omnivore.csv('Data/sawmill.csv')
 
 //should loop this, but could not get it to work. Quicker to brute force.
 // https://docs.google.com/spreadsheet/pub?key=0AnyNiqk9X8DmdDJneGxsNTB6cFFQamRMX0VuNjhPQ2c&single=true&gid=0&output=csv
-var wood2mark = omnivore.csv('Data/sawmill.csv')
+var woodoverlayProposal = omnivore.csv('Data/sawmill.csv')
 .on('layeradd',function(e) {
   var sawmarker = e.layer;
   var feature = sawmarker.feature;
@@ -663,7 +663,7 @@ var wood2mark = omnivore.csv('Data/sawmill.csv')
 
   sawmarker.feature.properties['marker-size'] = 'medium';
 
-  if (sawmarker.feature.properties.Status ==='Proposed')
+  if (sawmarker.feature.properties.Status ==='Proposal')
   {
     sawmarker.feature.properties['color'] = '#1CEBE5';
     sawmarker.setIcon(L.MakiMarkers.icon(sawmarker.feature.properties));
@@ -693,7 +693,7 @@ var wood2mark = omnivore.csv('Data/sawmill.csv')
       sawmarker.setIcon(L.MakiMarkers.icon(sawmarker.feature.properties));
     };
   }
-  else if (sawmarker.feature.properties.Status === 'Pilot')
+  else if (sawmarker.feature.properties.Status === 'Pilot')// not utilized. dead code
   {    
     sawmarker.feature.properties['color'] = '#C100F2';
     sawmarker.setIcon(L.MakiMarkers.icon(sawmarker.feature.properties));
@@ -737,7 +737,7 @@ var wood2mark = omnivore.csv('Data/sawmill.csv')
 
 //should loop this, but could not get it to work. Quicker to brute force.
 // https://docs.google.com/spreadsheet/pub?key=0AnyNiqk9X8DmdDJneGxsNTB6cFFQamRMX0VuNjhPQ2c&single=true&gid=0&output=csv
-var wood3mark = omnivore.csv('Data/sawmill.csv')
+var woodoverlayClosed = omnivore.csv('Data/sawmill.csv')
 .on('layeradd',function(e) {
   var sawmarker = e.layer;
   var feature = sawmarker.feature;
@@ -755,40 +755,7 @@ var wood3mark = omnivore.csv('Data/sawmill.csv')
 
   sawmarker.feature.properties['marker-size'] = 'medium';
 
-  if (sawmarker.feature.properties.Status ==='Open')
-  {
-    sawmarker.setIcon(L.icon({
-      iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmSllLWFk5VjllZm8&amp;export-png',
-      // iconUrl: '/Marker/Custom/MapIcon/filler.png',
-      iconSize: [0,0]
-    }));
-  }
-  else if (sawmarker.feature.properties.Status === 'Developing')
-  {    
-    sawmarker.setIcon(L.icon({
-      iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmSllLWFk5VjllZm8&amp;export-png',
-      // iconUrl: '/Marker/Custom/MapIcon/filler.png',
-      iconSize: [0,0]
-    }));
-  }
-
-  else if (sawmarker.feature.properties.Status === 'Pilot')
-  {    
-    sawmarker.setIcon(L.icon({
-      iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmSllLWFk5VjllZm8&amp;export-png',
-      // iconUrl: '/Marker/Custom/MapIcon/filler.png',
-      iconSize: [0,0]
-    }));
-  }
-  else if (sawmarker.feature.properties.Status === 'Proposed')
-  {    
-    sawmarker.setIcon(L.icon({
-      iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmSllLWFk5VjllZm8&amp;export-png',
-      // iconUrl: '/Marker/Custom/MapIcon/filler.png',
-      iconSize: [0,0]
-    }));
-  } 
-  else if (sawmarker.feature.properties.Status ==='Inactive')
+if (sawmarker.feature.properties.Status ==='Closed')
   {
     sawmarker.feature.properties['color'] = '#F4EA00';
     sawmarker.setIcon(L.MakiMarkers.icon(sawmarker.feature.properties));
@@ -818,7 +785,7 @@ var wood3mark = omnivore.csv('Data/sawmill.csv')
       sawmarker.setIcon(L.MakiMarkers.icon(sawmarker.feature.properties));
     };
   }
-  else
+  else if (sawmarker.feature.properties.Status ==='Idle')
   {    
     sawmarker.feature.properties['color'] = '#c1271f';
     sawmarker.setIcon(L.MakiMarkers.icon(sawmarker.feature.properties));
@@ -847,6 +814,44 @@ var wood3mark = omnivore.csv('Data/sawmill.csv')
       sawmarker.feature.properties['icon'] = 'park';
       sawmarker.setIcon(L.MakiMarkers.icon(sawmarker.feature.properties));
     };
+  };
+  else if (sawmarker.feature.properties.Status ==='Liquidated')
+  {    
+    sawmarker.feature.properties['color'] = '#c1271f';
+    sawmarker.setIcon(L.MakiMarkers.icon(sawmarker.feature.properties));
+    if (sawmarker.feature.properties.MillType ==='Sawmill')
+    {
+      sawmarker.feature.properties['icon'] = 'warehouse';
+      sawmarker.setIcon(L.MakiMarkers.icon(sawmarker.feature.properties));
+    }
+    else if (sawmarker.feature.properties.MillType ==='secondary processing')
+    {
+      sawmarker.feature.properties['icon'] = 'square-stroked';
+      sawmarker.setIcon(L.MakiMarkers.icon(sawmarker.feature.properties));
+    }
+    else if (sawmarker.feature.properties.MillType ==='composite panel')
+    {
+      sawmarker.feature.properties['icon'] = 'cross';
+      sawmarker.setIcon(L.MakiMarkers.icon(sawmarker.feature.properties));
+    }
+    else if (sawmarker.feature.properties.MillType === 'shavings')
+    {
+      sawmarker.feature.properties['icon'] = 'triangle';
+      sawmarker.setIcon(L.MakiMarkers.icon(sawmarker.feature.properties));
+    }
+    else 
+    {
+      sawmarker.feature.properties['icon'] = 'park';
+      sawmarker.setIcon(L.MakiMarkers.icon(sawmarker.feature.properties));
+    };
+  };
+  else 
+  {        
+    sawmarker.setIcon(L.icon({
+      iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmSllLWFk5VjllZm8&amp;export-png',
+      // iconUrl: '/Marker/Custom/MapIcon/filler.png',
+      iconSize: [0,0]
+    }));
   };
 }).on('click',function(e){
   map.panTo(e.layer.getLatLng());
@@ -974,14 +979,15 @@ L.control.groupedLayers(
 // overlay layers
 {
   'Biomass Power Plant': { 
-    '(Operational/Active)': plantoverlay.addTo(map),
-    '(Proposal/Pilot)': plant2overlay,
-    '(Liquidated/Idle)': plant3overlay.addTo(map)
+    '(Operational/Active)': poweroverlayOperational.addTo(map),
+    '(Proposal/Pilot)': poweroverlayProposal,
+    '(Liquidated/Idle)': poweroverlayClosed.addTo(map)
   },
   'Sawmills and Other Facilities': {
-    '(Operational/Active)': woodmark,
-    '(Closed/Idle)': wood3mark,
-    '(Proposal/Pilot)': wood2mark
+    '(Operational/Active)': woodoverlayOperational,
+    '(Closed/Idle)': woodoverlayClosed,
+    '(Proposal/Pilot)': woodoverlayProposal
+
   },
   'Other': {
     'CARB Air Basins': AIRBasinCoverage,
