@@ -186,7 +186,7 @@ SPI Chinese Camp Sawmill,Operational,,Sierra Pacific Industries,Sawmill,Logs,Fen
 Redwood Empire (Cloverdale),Operational,,"Preston Lumber Corporation (Cloverdale Plant), Richardson Lumber",Sawmill,Logs,Lumber,"Redwood, Douglas-fir, Hemlock",Cloverdale,CA,95425,9039,38.820891,-123.018623
 Big Creek Lbr. Co. Sawmill,Operational,,Big Creek Lumber Co,Sawmill,Logs,Lumber,"DF, Redwood",Davenport,CA,95017,9044,37.090154,-122.273326
 El Dorado Northern Corp,Closed,,,Small Production Mill,Logs,Lumber,,El Dorado,CA,95623,9046,38.680212,-120.844795
-Commander Lumber Co.,Unknown,,,Sawmill,Logs,Lumber,,Elk Creek,CA,95939 ?,9047,39.587495,-122.540479
+Commander Lumber Co.,ND,,,Sawmill,Logs,Lumber,,Elk Creek,CA,95939 ?,9047,39.587495,-122.540479
 Trinity River Schmidbauer Lumber Company Sawmill,Operational,,Schmidbauer Lumber Company,Sawmill,Logs,Lumber,"Redwood, Douglas-fir, Hemlock",Eureka,CA,95501,9001,40.79719014,-124.1815646
 Kubich Lumber Co,Operational,,,Small Production Mill,Logs,Lumber,"Incense Cedar, Sugar Pine",Grass Valley,CA,95945,9058,39.238323,-121.089604
 California Wood Shavings,Operational,,California Wood Shavings,Whole Log Shaver,Logs,Shavings,pine,Jamestown,CA,95327,9062,37.83896858,-120.5037001
@@ -210,7 +210,7 @@ Murphy Softwood Plywood Plant,Operational,,,Plywood Layup,"Veneer
 Humboldt Redwood Co. Sawmill,Operational,,"Pacific Lumber Co., Scotia, CA",Sawmill,Logs,Lumber,"Douglas-fir, Redwood",Scotia,CA,95565,9103,40.483615,-124.102748
 SPI Shasta Lake Sawmill,Operational,,Sierra Pacific Industries,Sawmill,Logs,Lumber,,Shasta Lake,CA,96019,9104,40.675837,-122.380149
 SPI Sonora Sawmill,Operational,,"Fibreboard, Louisiana Pacific",Sawmill,Logs,Lumber,"Douglas-fir, Hemlock, Incense Cedar, Ponderosa Pine, Sugar Pine",Sonora,CA,95370,9107,37.96333505,-120.3174788
-Dover Resources,Unknown,,,Pellet Mill,Sawdust / Shavings / Chips,Pellets,,Stockton,CA,,9108,37.956346,-121.362798
+Dover Resources,ND,,,Pellet Mill,Sawdust / Shavings / Chips,Pellets,,Stockton,CA,,9108,37.956346,-121.362798
 Sierra Forest Products Sawmill,Operational,,Sierra Forest Products,Sawmill,Logs,Lumber,"PP, WF, SP, LPP, IC",Terra Bella,CA,93270,9113,35.95409644,-119.0489178
 Masonite ( Ukiah),Closed,,,Sawmill,Logs,,,Ukiah,CA,95482 ?,9118,39.173757,-123.206264
 Agwood Mill & Lbr.,Operational,,Agwood Mill & Lumber Inc,Sawmill,Logs,Lumber,"Douglas-fir, Redwood",Ukiah,CA,95482,9117,39.17958875,-123.2036368
