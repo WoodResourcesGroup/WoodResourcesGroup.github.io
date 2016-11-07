@@ -285,7 +285,7 @@ legend.onAdd = function(map) {
   '<span class="symbol_rectangle" style="padding-left:20px;padding-top:3px;padding-bottom:3px;border:0px solid #000000;background: #c1271f;overflow:hidden;">'+
   '&nbsp;</span>'+
   '&nbsp;'+
-  'Liquidated<p>'+
+  'Liquidated / Closed<p>'+
   '</span>'+
 
   '<p>'+
@@ -755,7 +755,7 @@ var woodoverlayClosed = omnivore.csv('Data/sawmill.csv')
 
   sawmarker.feature.properties['marker-size'] = 'medium';
 
-if (sawmarker.feature.properties.Status ==='Closed')
+if (sawmarker.feature.properties.Status ==='Idle')
   {
     sawmarker.feature.properties['color'] = '#F4EA00';
     sawmarker.setIcon(L.MakiMarkers.icon(sawmarker.feature.properties));
@@ -785,7 +785,7 @@ if (sawmarker.feature.properties.Status ==='Closed')
       sawmarker.setIcon(L.MakiMarkers.icon(sawmarker.feature.properties));
     };
   }
-  else if (sawmarker.feature.properties.Status ==='Idle')
+  else if (sawmarker.feature.properties.Status ==='Closed')
   {    
     sawmarker.feature.properties['color'] = '#c1271f';
     sawmarker.setIcon(L.MakiMarkers.icon(sawmarker.feature.properties));
