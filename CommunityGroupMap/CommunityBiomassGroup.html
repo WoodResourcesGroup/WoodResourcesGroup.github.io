@@ -238,7 +238,7 @@ L.control.scale({
 // duplicates two layers and merges them together
 // https://docs.google.com/spreadsheet/pub?key=0AnyNiqk9X8DmdDJneGxsNTB6cFFQamRMX0VuNjhPQ2c&single=true&gid=1&output=csv
 var Biomasslayer = 
-omnivore.csv('/CommunityBiomassGroup.csv').addTo(map);
+omnivore.csv('/CommunityBiomassGroup.csv').addTo(map)
 .on('layeradd',function(e) {
   var powermarker = e.layer;
   var feature = powermarker.feature;
