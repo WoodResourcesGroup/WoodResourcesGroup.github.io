@@ -214,7 +214,7 @@ Dover Resources,ND,,,Pellet Mill,Sawdust / Shavings / Chips,Pellets,,Stockton,CA
 Sierra Forest Products Sawmill,Operational,,Sierra Forest Products,Sawmill,Logs,Lumber,"PP, WF, SP, LPP, IC",Terra Bella,CA,93270,9113,35.95409644,-119.0489178
 Masonite ( Ukiah),Closed,,,Sawmill,Logs,,,Ukiah,CA,95482 ?,9118,39.173757,-123.206264
 Agwood Mill & Lbr.,Operational,,Agwood Mill & Lumber Inc,Sawmill,Logs,Lumber,"Douglas-fir, Redwood",Ukiah,CA,95482,9117,39.17958875,-123.2036368
-Blue Lake Round Stock,Operational,,,Post/Pole Mill,Logs,Post/Pole,"Douglas-fir, Redwood",Anderson,CA,,9292,40.484703,-122.345292
+Blue Lake Round Stock,Operational,,,Post/Pole Mill,Logs,Post/Pole,Douglas-fir,Anderson,CA,,9292,40.484703,-122.345292
 Mendocino Forest Products Sawmill (Ukiah),Operational,,"Palco, LP",Sawmill,Logs,Lumber,"Douglas-fir, Redwood",Ukiah,CA,95482,9119,39.183738,-123.203868
 Trinity River Lbr Co. Sawmill,Operational,,Trinity River Lumber Co,Sawmill,Logs,Lumber,Douglas-fir,Weaverville,CA,96093,9120,40.72493045,-122.9306377
 Roseburg Forest Products Veneer Mill,Operational,,Roseburg Forest Products,Veneer,Logs,Veneer,,Weed,CA,96094,9121,41.43245271,-122.3794955
@@ -228,4 +228,4 @@ Fruit Growers Supply Co. Sawmill,Operational,,Hi-Ridge,Sawmill,Logs,Lumber,"PP, 
 Timber Products Veneer Mill,Operational,,Timber Products Co,Veneer,Logs,Veneer,"DF, WF Shasta RF, pine and other. No IC.",Yreka,CA,96097,9133,41.737758,-122.593349
 Unity Forest Products,Operational,,,Small Production Mill,Logs,,,Yuba City,CA,95991 ?,9135,39.112056,-121.608451
 CTL Forest Management,Closed,2016,,Pole Peeler,Logs,Post/Pole,"WF, LP, PP",Camino,CA,95709,9293,38.737682,-120.683656
-Redwood Empire Asti,Operational,,,Sawmill,,,,Cloverdale,CA,95425,9294,38.766782,-122.991567
+Redwood Empire Asti,Operational,,,Sawmill,Logs,Fence Boards,Redwood,Asti,CA,95425,9294,38.766782,-122.991567
