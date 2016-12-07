@@ -3,7 +3,7 @@
 Displays database resources as publicly available HTML table and leaflet map.
 
 ##Sources
-Built on a compilation of many openly sourced javascript plugins
+	Built on a compilation of many openly sourced javascript plugins
 	Leaflet
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js" ></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
