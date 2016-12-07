@@ -10,9 +10,7 @@ Built on a compilation of many openly sourced javascript plugins
    	
    	Jquery
    	<script src="https://code.jquery.com/jquery-1.10.1.min.js" ></script>
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
-   <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js" ></script>
-   <!--[if lte IE 8] ><link rel="stylesheet" href="http://leaflet.cloudmade.com/dist/leaflet.ie.css" / ><![endif]-->
+	
 
    <!--  group layer control -->
    <script src="https://cdn.rawgit.com/ismyrnow/Leaflet.groupedlayercontrol/gh-pages/src/leaflet.groupedlayercontrol.js"></script>
@@ -76,6 +74,7 @@ Built on a compilation of many openly sourced javascript plugins
   <link rel="stylesheet" href="dist/easyPrint.css"/> 
   <script src="dist/jQuery.print.js" ></script>
   <script src="dist/leaflet.easyPrint.js" ></script> 
+
   old print screen scripts
   <script src="http://aratcliffe.github.io/Leaflet.print/dist/leaflet.print.js" ></script>
     <link rel="stylesheet" href="http://aratcliffe.github.io/Leaflet.print/dist/leaflet.print.css"/>
@@ -83,9 +82,6 @@ Built on a compilation of many openly sourced javascript plugins
 
 ####
 
- Done in 100% JavaScript.
-
-Check out the working demo: http://derekeder.github.io/csv-to-html-table/
 
 ## Usage
 
