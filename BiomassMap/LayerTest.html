@@ -346,7 +346,7 @@ legend.addTo(map);
 // duplicates two layers and merges them together
 // https://docs.google.com/spreadsheet/pub?key=0AnyNiqk9X8DmdDJneGxsNTB6cFFQamRMX0VuNjhPQ2c&single=true&gid=1&output=csv
 var poweroverlayOperational = 
-omnivore.csv('Data/Power Plant Master List.csv')
+omnivore.csv('Data/Power Plant Master List - Public.csv')
 .on('layeradd',function(e) {
   var powermarker = e.layer;
   var feature = powermarker.feature;
@@ -417,7 +417,7 @@ omnivore.csv('Data/Power Plant Master List.csv')
 
 //should loop this, but could not get it to work. Quicker to brute force.
 var poweroverlayProposal = 
-omnivore.csv('Data/Power Plant Master List.csv')
+omnivore.csv('Data/Power Plant Master List - Public.csv')
 .on('layeradd',function(e) {
   var powermarker = e.layer;
   var feature = powermarker.feature;
@@ -485,7 +485,7 @@ omnivore.csv('Data/Power Plant Master List.csv')
 //should loop this, but could not get it to work. Quicker to brute force.
 // https://docs.google.com/spreadsheet/pub?key=0AnyNiqk9X8DmdDJneGxsNTB6cFFQamRMX0VuNjhPQ2c&single=true&gid=1&output=csv
 var poweroverlayClosed = 
-omnivore.csv('Data/Power Plant Master List.csv')
+omnivore.csv('Data/Power Plant Master List - Public.csv')
 .on('layeradd',function(e) {
   var powermarker = e.layer;
   var feature = powermarker.feature;
