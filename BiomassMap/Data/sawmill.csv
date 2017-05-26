@@ -1,6 +1,5 @@
 Name,Status,YearClosed,Previous_Names,MillType,Feedstock,Products,Species,City,State,Zip,PrimaryKey,latitude,longitude
 Blue Lake Forest Products,Idle,2003,,Sawmill,Logs,Lumber,,McKinleyville,CA,95519 ?,9076,40.899185,-124.01923
-Sound Stud Sawmill,Liquidated,2009,"Sound Stud Sawmill, Anderson, CA",Sawmill,Logs,Lumber,"Douglas-fir, Ponderosa Pine, Hemlock",Anderson,CA,96007,9134,40.484703,-122.345292
 Trinity River Korbel Sawmill,Active Project,2015,"Simpson Timber Co., Korbel, CA, California Redwood Company (Korbel)",Sawmill,Logs,Lumber,"Redwood, Douglas-fir",Korbel,CA,95518,9013,40.87184621,-123.9632726
 SPI Arcata Sawmill,Idle,2016,Sierra Pacific Industries,Sawmill,Logs,Lumber,"Douglas-fir, Ponderosa Pine, Incense Cedar, True fir",Arcata,CA,95521,9017,40.865848,-124.152849
 Rough & Ready Lbr. Co.,Idle,2016,,Sawmill,Logs,Lumber,"PP, DF (no WF or IC)",Cave Junction,OR,97523,9033,42.10528814,-123.6787754
