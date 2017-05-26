@@ -2,7 +2,6 @@ Name,Owner,Status,Cogen,MW_Name,Project_Type,Employees,Previous_Name,City,State,
 Blue Lake Rancheria,Blue Lake Rancheria,Active Project,N,0.8,H2 Gassifier and Ballard Fuel Cell,,,Blue Lake,CA,Humboldt,40.886347,-124.000079,59
 North Fork Community Power,Unknown,Active Project,N/A,2,downdraft gasifier,,,North Fork,CA,Madera,37.231861,-119.494599,60
 Wilseyville BioMAT Project,Unknown,Active Project,N/A,3,Biomass solid fuel,,,West Point,CA,Calaveras,38.37751,-120.523977,61
-Placer County Biomass Power Project,Placer County,Active Project,Y,2,Gasification,,,Cabin Creek,CA,Placer,39.290828,-120.214074,30
 Iberdrola Lakeview Project,Iberdrola Renewables,Active Project,Y,26.8,Biomass solid fuel,,,Lakeview,OR,Lake,42.197586,-120.354345,53
 Red Rock Biofuels,Red Rock Biofuels,Active Project,N/A,17.5,Fischer-Trope Process,,,Lakeview,OR,Lake,42.163105,-120.349209,135
 Central Valley Ag Grinding,Central Valley Ag Grinding,Active Project,Y,1,Gasification,,,Oakdale,CA,Stanislaus,37.718988,-120.895545,58
@@ -27,11 +26,10 @@ Tracy Biomass Power,Thermal Energy Development Partnership,Idle,N,23,Biomass sol
 Air Products Stockton Biomass Power,Air Products,Idle,Y,60,"Co-fire or conversion (from coal, petcoke or TDF)",,,Stockton,CA,San Joaquin,37.912473,-121.261706,1
 West Biofuels Gasifier Pilot,West Biofuels,Idle,N,0.5,Gasification,,,Woodland,CA,Yolo,38.721719,-121.7544,50
 Mesquite Lake Resource Recovery Power,GreenHunter Energy Inc,Idle,N,18.5,Biomass solid fuel,,Formerly Chateau,El Centro,CA,Imperial,32.90381,-115.512373,24
-Rough & Ready Power,Rough & Ready Lumber,Idle,Y,1.5,Biomass solid fuel,,,Cave Junction,OR,Josephine,42.106133,-123.677315,57
 Buena Vista Biomass Power,Buena Vista Biomass,Idle,N,18.5,"Co-fire or conversion (from coal, petcoke or TDF)",,,Ione,CA,Amador,38.27792,-120.913763,4
 Korea East West Fairhaven Power,Korea East-West Power,Operational,N,19.8,Biomass solid fuel,,,Samoa,CA,Humboldt,40.79946,-124.20309,12
 Humboldt Redwood Company Scotia Power,Humboldt Redwood Company,Operational,Y,32.5,Biomass solid fuel,,"Eel River Power, Scotia Power, PALCO",Scotia,CA,Humboldt,40.481337,-124.104634,36
-Ortigalita Power Company,Ortigalita Power Co.,Operational,N,1,Gasification,,,Merced,CA,Merced,37.335114,-120.528724,29
+Ortigalita Power Company,Ortigalita Power Co.,Operational,N,1,Gasification,,Phoenix Energy,Merced,CA,Merced,37.335114,-120.528724,29
 Burney Forest Power,Burney Forest Products,Operational,Y,31,Biomass solid fuel,,,Burney,CA,Shasta,40.879724,-121.720406,5
 Chowchilla Biomass Power,Akeida Capital,Operational,N,12.5,Biomass solid fuel,,,Chowchilla,CA,Madera,37.107146,-120.248871,8
 Collins Pine Biomass Power,Collins Companies,Operational,Y,12,Biomass solid fuel,,,Chester,CA,Plumas,40.302842,-121.244088,9
@@ -41,7 +39,6 @@ Greenleaf Honey Lake Power,Greenleaf Power (Recycled Energy Development),Operati
 Merced Power,Akeida Capital,Operational,N,12.5,Biomass solid fuel,,El Nido,El Nido,CA,Merced,37.186982,-120.490162,23
 Pacific Ultrapower Chinese Station Power,IHI Power Services,Operational,N,22,"Biomass solid fuel - EPI/Zurn Boiler, Turbodyne/Em Turbine Generator Set; GEA ai-cooled condenser",,,Jamestown,CA,Tuolumne,37.874644,-120.477546,28
 Rio Bravo Fresno Biomass Power,IHI Power 50% North American Power Group 50%,Operational,N,25,Biomass solid fuel,,,Fresno,CA,Fresno,36.688823,-119.723405,31
-Rio Bravo Rocklin Biomass Power,IHI Power 50% North American Power Group 50%,Operational,N,25,Biomass solid fuel,,,Rocklin,CA,Placer,38.831829,-121.313601,34
 Roseburg Forest Products Biomass Power,Roseburg,Operational,Y,15,Biomass solid fuel,,,Weed,CA,Siskiyou,41.434612,-122.377895,35
 SPI Burney Biomass Power,SPI,Operational,Y,20,Biomass solid fuel,,,Burney,CA,Shasta,40.876759,-121.701845,40
 SPI Anderson Biomass Power II,SPI,Operational,Y,30.15,Biomass solid fuel,,,Anderson,CA,Shasta,40.47185,-122.324034,42
@@ -60,14 +57,12 @@ Timber Products Veneer (Yreka),Timber Products,Operational,N/A,,Thermal,,,Yreka,
 Columbia Plywood,Columbia Forest Products,Operational,N/A,,Thermal,,,Klamath Falls,OR,Klamath,42.179712,-121.798302,104
 California Wood Shavings Biomass Dryer,American Wood Fiber,Operational,N/A,,Thermal - Wood boiler,,,Jamestown,CA,Tuolumne,37.838344,-120.5064,136
 Collins Pine Biomass (Klamath Falls),Collins Pine Company,Operational,N/A,,Unknown,,,Klamath Falls,OR,Klamath,42.16992,-121.818424,102
-Quincy Project,Unknown,Proposal,N/A,3,Thermal,,,Quincy,CA,Plumas,39.936666,-120.946199,62
-Rio Bravo Jasmin Proposed Conversion,IHI Power 50% North American Power Group 50%,Proposal,Y,35,"Co-fire or conversion (from coal, petcoke or TDF)",,,Bakersfield,CA,Kern,35.741508,-119.050911,32
+Quincy High School Project,Plumas Unified School District,Active Project,N/A,0,Thermal,,,Quincy,CA,Plumas,39.936666,-120.946199,62
 Rio Bravo Poso Proposed Conversion,IHI Power 50% North American Power Group 50%,Proposal,Y,35,"Co-fire or conversion (from coal, petcoke or TDF), CFB",,,Bakersfield,CA,Kern,35.547497,-119.075265,33
-Devils Garden Conservation Camp Proposed Project,CDF?,Proposal,N/A,,Thermal,,,Alturas,CA,Modoc,41.523309,-120.66971,63
+Devils Garden Conservation Camp Proposed Project,Cal Fire,Proposal,N/A,,Thermal,,,Alturas,CA,Modoc,41.523309,-120.66971,63
 Trinity River Conservation Camp Proposed Project,Cal Fire,Proposal,N/A,,Thermal,,,Lewiston,CA,Trinity,40.78939,-122.802506,64
-California Ethanol & Power LLC,CE&P,Proposal,N/A,49.9,Unknown,,,Brawley,CA,Imperial,32.91631,-115.522232,105
 Trinity River Lumber,Trinity River Lumber,Proposal,N/A,5,Unknown,,,Weaverville,CA,Trinity,40.72493,-122.930638,106
-Mariposa BioMAT Project,,Proposal,N/A,,Unknown,,,Mariposa,CA,Mariposa,37.505994,-120.012666,140
+Mariposa BioMAT Project,,Active Project,N/A,,Unknown,,,Mariposa,CA,Mariposa,37.505994,-120.012666,140
 Round Valley BioMAT Project,,Proposal,N/A,,Unknown,,,Covelo,CA,Mendocino,39.80247641,-123.2495589,142
 Branscomb BioMAT Project,,Proposal,N/A,,Unknown,,,Branscomb,CA,Mendocino,39.65483903,-123.6251896,143
 Auberry BioMAT Project,,Proposal,N/A,,Unknown,,,Auberry,CA,Fresno,37.065986,-119.492349,144
