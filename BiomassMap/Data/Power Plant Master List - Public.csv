@@ -11,7 +11,7 @@ Camptonville BioMAT Project,,Active Project,N/A,,Unknown,,,Camptonville,CA,Yuba,
 Mooretown Rancheria BioMAT Project,,Active Project,N/A,,Unknown,,,Oroville,CA,Butte,39.46624093,-121.5218733,141
 Crescent Mill BioMAT Project,,Active Project,N/A,,Unknown,,,Crescent Mills,CA,Plumas,40.09576776,-120.9081135,144
 Big Valley Biomass Power,NexBank,Idle,N,,Biomass solid fuel,,,Bieber,CA,Lassen,41.132744,-121.137368,2
-Renewable Energy Providers Blue Lake Power,Renewable Energy Partners,Idle,N,11,Biomass solid fuel,,,Blue Lake,CA,Humboldt,40.877693,-123.994609,3
+Blue Lake Power,Redwood Coast Power,Operational,N,13,Biomass solid fuel,,Renewable Energy Providers Blue Lake Power,Blue Lake,CA,Humboldt,40.877693,-123.994609,3
 Covanta Burney Mtn. Power,Covanta,Idle,N,11,Biomass solid fuel,,Covanta,Burney,CA,Shasta,40.909703,-121.639961,6
 Covanta Delano Power,Covanta,Idle,N,58,Biomass solid fuel,,Covanta,Delano,CA,Kern,35.719097,-119.234588,11
 Imperial Valley Resource Recovery Power,Imperial Valley Resource Recovery,Idle,N,18,Biomass solid fuel,,,El Centro,CA,Imperial,32.906602,-115.51372,19
@@ -21,7 +21,7 @@ Covanta Mendota Power,Covanta,Idle,N,25,Biomass solid fuel,,Covanta,Mendota,CA,F
 Covanta Mt. Lassen Power,Covanta,Idle,N,12,Biomass solid fuel,,Covanta,Westwood,CA,Lassen,40.296983,-121.018053,26
 Covanta Pacific Oroville Power,Covanta,Idle,N,18,Biomass solid fuel,,Covanta,Oroville,CA,Butte,39.480996,-121.565567,27
 Sierra Biomass Power Corp.,Sierra Forest Products,Idle,Y,9.5,Biomass solid fuel,,Terra Bella,Terra Bella,CA,Tulare,35.953929,-119.046308,38
-SPI Loyalton Biomass Power,SPI,Idle,N,20,Biomass solid fuel,,,Loyalton,CA,Sierra,39.669937,-120.239409,44
+ARP Loyalton Biomass Power,,Idle,N,20,Biomass solid fuel,,SPI Loyalton Biomass Power,Loyalton,CA,Sierra,39.669937,-120.239409,44
 Tracy Biomass Power,Thermal Energy Development Partnership,Idle,N,23,Biomass solid fuel,,,Tracy,CA,San Joaquin,37.719987,-121.488451,48
 Air Products Stockton Biomass Power,Air Products,Idle,Y,60,"Co-fire or conversion (from coal, petcoke or TDF)",,,Stockton,CA,San Joaquin,37.912473,-121.261706,1
 West Biofuels Gasifier Pilot,West Biofuels,Idle,N,0.5,Gasification,,,Woodland,CA,Yolo,38.721719,-121.7544,50
@@ -65,4 +65,5 @@ Trinity River Lumber,Trinity River Lumber,Proposal,N/A,5,Unknown,,,Weaverville,C
 Mariposa BioMAT Project,,Active Project,N/A,,Unknown,,,Mariposa,CA,Mariposa,37.505994,-120.012666,140
 Round Valley BioMAT Project,,Proposal,N/A,,Unknown,,,Covelo,CA,Mendocino,39.80247641,-123.2495589,142
 Branscomb BioMAT Project,,Proposal,N/A,,Unknown,,,Branscomb,CA,Mendocino,39.65483903,-123.6251896,143
-Auberry BioMAT Project,,Proposal,N/A,,Unknown,,,Auberry,CA,Fresno,37.065986,-119.492349,144
+Auberry BioMAT Project,,Proposal,N/A,,Unknown,,,Auberry,CA,Fresno,37.065986,-119.492349,145
+Sierra Energy BioMAT project,,Proposal,N/A,,Unknown,,,Chinese Camp,CA,Tuolumne,37.87842,-120.45625,146
