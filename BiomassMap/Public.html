@@ -428,7 +428,7 @@ omnivore.csv('Data/Power Plant Master List - Public.csv')
 .on('layeradd',function(e) {
   var powermarker = e.layer;
   var feature = powermarker.feature;
-   var powercontent = 
+  var powercontent = 
   '<h1>' + '<font color="2C49BO">' +feature.properties.Name + '</font>'+ '</h1>' + '<hr>' +
   
   '<b>Status: </b>' + feature.properties.Status + '<br>' +
